@@ -1,0 +1,36 @@
+name:           sift-frontend-plugin
+version:        0.0.0
+description:    Please see the README on GitHub at <https://github.com/chrisdone/sift#readme>
+homepage:       https://github.com/chrisdone/sift#readme
+bug-reports:    https://github.com/chrisdone/sift/issues
+author:         Chris Done
+maintainer:     chrisdone@gmail.com
+copyright:      2018 Chris Done
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+extra-source-files:
+    ChangeLog.md
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/chrisdone/sift
+
+library
+  ghc-options: -Wall
+  exposed-modules:
+      Sift.FrontendPlugin
+      Sift.Types
+  other-modules:
+      Paths_sift
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5,
+      ghc,
+      syb,
+      containers,
+      bytestring
+  default-language: Haskell2010
