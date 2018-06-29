@@ -1,0 +1,107 @@
+[{"id": {"package": "base"
+,"module": "GHC.Stack"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stack"
+,"name": "popCallStack"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack"
+,"name": "stk"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Stack"
+,"name": "stk'"}]
+,"src-span": {"file": "libraries/base/GHC/Stack.hs"
+,"start-line": 76
+,"start-col": 1
+,"end-line": 79
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack"
+,"name": "callStack"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack"
+,"name": "popCallStack"}
+,{"package": "base"
+,"module": "GHC.Stack"
+,"name": "$dIP"}]
+,"src-span": {"file": "libraries/base/GHC/Stack.hs"
+,"start-line": 88
+,"start-col": 1
+,"end-line": 88
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack"
+,"name": "withFrozenCallStack"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "freezeCallStack"}
+,{"package": "base"
+,"module": "GHC.Stack"
+,"name": "popCallStack"}
+,{"package": "base"
+,"module": "GHC.Stack"
+,"name": "callStack"}
+,{"package": "base"
+,"module": "GHC.Stack"
+,"name": "do_this"}]
+,"src-span": {"file": "libraries/base/GHC/Stack.hs"
+,"start-line": 97
+,"start-col": 1
+,"end-line": 101
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack"
+,"name": "errorWithStackTrace"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafeDupablePerformIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Stack.CCS"
+,"name": "ccsToStrings"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "=<<"}
+,{"package": "base"
+,"module": "GHC.Stack.CCS"
+,"name": "getCurrentCCS"}
+,{"package": "base"
+,"module": "GHC.Stack"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "null"}
+,{"package": "base"
+,"module": "GHC.Stack"
+,"name": "stack"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "throwIO"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$bErrorCall"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "ErrorCallWithLocation"}
+,{"package": "base"
+,"module": "GHC.Stack.CCS"
+,"name": "renderStack"}]
+,"src-span": {"file": "libraries/base/GHC/Stack.hs"
+,"start-line": 63
+,"start-col": 1
+,"end-line": 67
+,"end-col": 65}}]

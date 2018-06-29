@@ -1,0 +1,152 @@
+[{"id": {"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "$tcArr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "$tc'Arr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "write"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "writeArray#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "n#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "val"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "s0#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "s1#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Arr.hs"
+,"start-line": 31
+,"start-col": 1
+,"end-line": 32
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "read"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "readArray#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "n#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "s0#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "s1#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "val"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Arr.hs"
+,"start-line": 27
+,"start-col": 1
+,"end-line": 28
+,"end-col": 63}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "size"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "sizeofMutableArray#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Arr.hs"
+,"start-line": 24
+,"start-col": 1
+,"end-line": 24
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "new"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "newArray#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "n#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "defval"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "s0#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "s1#"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "Arr"}
+,{"package": "base"
+,"module": "GHC.Event.Arr"
+,"name": "marr#"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Arr.hs"
+,"start-line": 20
+,"start-col": 1
+,"end-line": 21
+,"end-col": 75}}]

@@ -1,0 +1,371 @@
+[{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "getErrorMessage"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "c_getErrorMessage"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "err_code"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "c_msg"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "nullPtr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "Numeric"
+,"name": "showHex"}
+,{"package": "base"
+,"module": "Foreign.C.String"
+,"name": "peekCWString"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "localFree"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "msg"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 132
+,"start-col": 1
+,"end-line": 140
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "errCodeToIOError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "getErrorMessage"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "err_code"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "c_maperrno_func"}
+,{"package": "base"
+,"module": "Data.OldList"
+,"name": "dropWhileEnd"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "isSpace"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "msg"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "errnoToIOError"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "fn_name"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "errno"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "System.IO.Error"
+,"name": "ioeSetErrorString"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "msg'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "ioerror"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 116
+,"start-col": 1
+,"end-line": 127
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "failWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "errCodeToIOError"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "fn_name"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "err_code"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "throwIO"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 111
+,"start-col": 1
+,"end-line": 112
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "failUnlessSuccess"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "act"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "failWith"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "fn_name"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 162
+,"start-col": 1
+,"end-line": 164
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "failUnlessSuccessOr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "act"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "val"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "failWith"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "fn_name"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 167
+,"start-col": 1
+,"end-line": 171
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "throwGetLastError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "getLastError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "failWith"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "where_from"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 106
+,"start-col": 1
+,"end-line": 107
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "failIf"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "act"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "throwGetLastError"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "wh"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 143
+,"start-col": 1
+,"end-line": 145
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "failIfNull"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "failIf"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "nullPtr"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 153
+,"start-col": 1
+,"end-line": 153
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "failIfZero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "failIf"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 156
+,"start-col": 1
+,"end-line": 156
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "failIf_"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "act"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "throwGetLastError"}
+,{"package": "base"
+,"module": "GHC.Windows"
+,"name": "wh"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 148
+,"start-col": 1
+,"end-line": 150
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "failIfFalse_"}
+,"refs": [{"package": "base"
+,"module": "GHC.Windows"
+,"name": "failIf_"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 159
+,"start-col": 1
+,"end-line": 159
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "iNVALID_HANDLE_VALUE"}
+,"refs": [{"package": "base"
+,"module": "Foreign.Ptr"
+,"name": "wordPtrToPtr"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 102
+,"start-col": 1
+,"end-line": 102
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Windows"
+,"name": "iNFINITE"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Windows.hs"
+,"start-line": 99
+,"start-col": 1
+,"end-line": 99
+,"end-col": 22}}]

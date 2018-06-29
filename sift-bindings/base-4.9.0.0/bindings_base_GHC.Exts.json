@@ -1,0 +1,658 @@
+[{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$tcIsList"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$tc'C:IsList"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$tcSpecConstrAnnotation"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$tc'NoSpecConstr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$tc'ForceSpecConstr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "traceEvent"}
+,"refs": [{"package": "base"
+,"module": "Debug.Trace"
+,"name": "traceEventIO"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 132
+,"start-col": 1
+,"end-line": 132
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "groupByFB"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "groupByFBCore"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "xs0"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "ys"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "zs"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "span"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "eq"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "xs"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 122
+,"start-col": 1
+,"end-line": 125
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "sortWith"}
+,"refs": [{"package": "base"
+,"module": "Data.OldList"
+,"name": "sortBy"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 112
+,"start-col": 1
+,"end-line": 112
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "groupWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "build"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "groupByFB"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "sortWith"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "xs"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 119
+,"start-col": 1
+,"end-line": 119
+,"end-col": 84}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "the"}
+,"refs": [{"package": "base"
+,"module": "GHC.List"
+,"name": "all"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 104
+,"start-col": 1
+,"end-line": 107
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "maxTupleSize"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 99
+,"start-col": 1
+,"end-line": 99
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cBE1liDPdgevEx1p7hMBJH0"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkConstr"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$t3jIpeIDQS9202h03JKDkF9"}
+,{"package": "base"
+,"module": "Data.Data"
+,"name": "Prefix"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 27
+,"end-line": 150
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cHBXth17LQQtIZaTasiCHFb"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkConstr"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$t3jIpeIDQS9202h03JKDkF9"}
+,{"package": "base"
+,"module": "Data.Data"
+,"name": "Prefix"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 27
+,"end-line": 150
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$t3jIpeIDQS9202h03JKDkF9"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkDataType"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cHBXth17LQQtIZaTasiCHFb"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cBE1liDPdgevEx1p7hMBJH0"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 27
+,"end-line": 150
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "fromListN"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "fromList"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 178
+,"start-col": 3
+,"end-line": 178
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$dData"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "C:Data"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cp1Data"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgfoldl"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgunfold"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$ctoConstr"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cdataTypeOf"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cdataCast1"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cdataCast2"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgmapT"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgmapQl"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgmapQr"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgmapQ"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgmapQi"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgmapM"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgmapMp"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cgmapMo"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 27
+,"end-line": 150
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gfoldl"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "z"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "NoSpecConstr"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "z"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "ForceSpecConstr"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 27
+,"end-line": 150
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gunfold"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "constrIndex"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "z"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "NoSpecConstr"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "ForceSpecConstr"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 27
+,"end-line": 150
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "toConstr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cHBXth17LQQtIZaTasiCHFb"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cBE1liDPdgevEx1p7hMBJH0"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 27
+,"end-line": 150
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "dataTypeOf"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$t3jIpeIDQS9202h03JKDkF9"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 27
+,"end-line": 150
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "dataCast1"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmdataCast1"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "dataCast2"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmdataCast2"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gmapT"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapT"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gmapQl"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQl"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gmapQr"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQr"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gmapQ"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQ"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gmapQi"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQi"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gmapM"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapM"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gmapMp"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapMp"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "gmapMo"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapMo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 33
+,"end-line": 150
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 33
+,"end-line": 150
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 150
+,"start-col": 33
+,"end-line": 150
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$dIsList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "C:IsList"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cfromList"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cfromListN"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$ctoList"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 199
+,"start-col": 10
+,"end-line": 199
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "fromList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "fromCallSiteList"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 201
+,"start-col": 3
+,"end-line": 201
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "fromListN"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$dmfromListN"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "toList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "getCallStack"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 202
+,"start-col": 3
+,"end-line": 202
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$dIsList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "C:IsList"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cfromList"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cfromListN"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$ctoList"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 190
+,"start-col": 10
+,"end-line": 190
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "fromList"}
+,"refs": [{"package": "base"
+,"module": "Data.Version"
+,"name": "makeVersion"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 192
+,"start-col": 3
+,"end-line": 192
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "fromListN"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$dmfromListN"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "toList"}
+,"refs": [{"package": "base"
+,"module": "Data.Version"
+,"name": "versionBranch"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 193
+,"start-col": 3
+,"end-line": 193
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "$dIsList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "C:IsList"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cfromList"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$cfromListN"}
+,{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$ctoList"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 184
+,"start-col": 10
+,"end-line": 184
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "fromList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 186
+,"start-col": 3
+,"end-line": 186
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "fromListN"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exts"
+,"name": "$dmfromListN"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exts"
+,"name": "toList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/GHC/Exts.hs"
+,"start-line": 187
+,"start-col": 3
+,"end-line": 187
+,"end-col": 14}}]

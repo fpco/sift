@@ -1,0 +1,2787 @@
+[{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$tcNatural"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$tc'NatS#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$tc'NatJ#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "naturalType"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkIntType"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 594
+,"start-col": 1
+,"end-line": 594
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "naturalToWordMaybe"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 581
+,"start-col": 1
+,"end-line": 582
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "wordToNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 570
+,"start-col": 1
+,"end-line": 570
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "naturalToInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "bigNatToInt"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 422
+,"start-col": 1
+,"end-line": 423
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "naturalToWord"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "bigNatToWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 418
+,"start-col": 1
+,"end-line": 419
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "intToNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "Underflow"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 414
+,"start-col": 1
+,"end-line": 415
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "naturalToBigNat"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "wordToBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 408
+,"start-col": 1
+,"end-line": 409
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "sizeofBigNat#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "bigNatToWord"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "isNullBigNat#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "Underflow"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$WNatJ#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 402
+,"start-col": 1
+,"end-line": 405
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "powModNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "DivideByZero"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "powModWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "powModBigNatWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "naturalToBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "powModBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 610
+,"start-col": 1
+,"end-line": 619
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "minusNaturalMaybe"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "subWordC#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "minusBigNatWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "isNullBigNat#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "res"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "minusBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 385
+,"start-col": 1
+,"end-line": 397
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "minusNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "subWordC#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "Underflow"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "minusBigNatWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "minusBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 371
+,"start-col": 1
+,"end-line": 379
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "timesNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "timesWord2#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "xy"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$WNatJ#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "wordToBigNat2"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "timesBigNatWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "timesBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 357
+,"start-col": 1
+,"end-line": 367
+,"end-col": 63}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "plusNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusWord2#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$WNatJ#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "wordToBigNat2"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "l"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "plusBigNatWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "plusBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 345
+,"start-col": 1
+,"end-line": 353
+,"end-col": 61}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumNegDeltaToNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "lim"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "ndelta"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 243
+,"start-col": 1
+,"end-line": 247
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumDeltaToNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "delta"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 237
+,"start-col": 1
+,"end-line": 240
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumDeltaNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumDeltaNatural"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 234
+,"start-col": 1
+,"end-line": 234
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gcdNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "gcdBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "gcdBigNatWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "gcdWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 190
+,"start-col": 1
+,"end-line": 197
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "lcmNatural"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "gcdNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 201
+,"start-col": 1
+,"end-line": 205
+,"end-col": 59}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "isValidNatural"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "isValidBigNat#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "sizeofBigNat#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 100
+,"start-col": 1
+,"end-line": 102
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$con2tag_3DHiFN2n5Dd8G0ozLJOFpR"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 90
+,"start-col": 24
+,"end-line": 90
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqWord#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 90
+,"start-col": 24
+,"end-line": 90
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 90
+,"start-col": 24
+,"end-line": 90
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 90
+,"start-col": 27
+,"end-line": 90
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltWord#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqWord#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 90
+,"start-col": 27
+,"end-line": 90
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltWord#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 90
+,"start-col": 27
+,"end-line": 90
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "leWord#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 90
+,"start-col": 27
+,"end-line": 90
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtWord#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 90
+,"start-col": 27
+,"end-line": 90
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "geWord#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 90
+,"start-col": 27
+,"end-line": 90
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dData"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "C:Data"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cp1Data"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgfoldl"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgunfold"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$ctoConstr"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cdataTypeOf"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cdataCast1"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cdataCast2"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgmapT"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgmapQl"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgmapQr"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgmapQ"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgmapQi"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgmapM"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgmapMp"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cgmapMo"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 596
+,"start-col": 10
+,"end-line": 596
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gfoldl"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgfoldl"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gunfold"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "constrRep"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "z"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 598
+,"start-col": 3
+,"end-line": 601
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "toConstr"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkIntegralConstr"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "naturalType"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 597
+,"start-col": 3
+,"end-line": 597
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "dataTypeOf"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "naturalType"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 602
+,"start-col": 3
+,"end-line": 602
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "dataCast1"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmdataCast1"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "dataCast2"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmdataCast2"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gmapT"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapT"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gmapQl"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQl"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gmapQr"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQr"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gmapQ"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQ"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gmapQi"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQi"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gmapM"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapM"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gmapMp"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapMp"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "gmapMo"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapMo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "C:Bits"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cp1Bits"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c.&."}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c.|."}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cxor"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$ccomplement"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cshift"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$crotate"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$czeroBits"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cbit"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$csetBit"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cclearBit"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$ccomplementBit"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$ctestBit"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cbitSizeMaybe"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cbitSize"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cisSigned"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cshiftL"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cunsafeShiftL"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cshiftR"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cunsafeShiftR"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$crotateL"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$crotateR"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cpopCount"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 291
+,"start-col": 10
+,"end-line": 291
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": ".&."}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "wordToNatural"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".&."}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "bigNatToWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "andBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 292
+,"start-col": 5
+,"end-line": 295
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": ".|."}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "wordToNatural"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$WNatJ#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "orBigNat"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "wordToBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 297
+,"start-col": 5
+,"end-line": 300
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "xor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "wordToNatural"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "xor"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$WNatJ#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "xorBigNat"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "wordToBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 302
+,"start-col": 5
+,"end-line": 305
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "complement"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 307
+,"start-col": 5
+,"end-line": 307
+,"end-col": 90}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "shift"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmshift"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "rotate"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmrotate"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "zeroBits"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 339
+,"start-col": 5
+,"end-line": 339
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "bit"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "finiteBitSize"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "wordToNatural"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "bit"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$WNatJ#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "bitBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 313
+,"start-col": 5
+,"end-line": 314
+,"end-col": 71}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "setBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmsetBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "clearBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmclearBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "complementBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmcomplementBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "testBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "testBit"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "testBitBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 316
+,"start-col": 5
+,"end-line": 317
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "bitSizeMaybe"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 309
+,"start-col": 5
+,"end-line": 309
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "bitSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 310
+,"start-col": 5
+,"end-line": 310
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "isSigned"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 311
+,"start-col": 5
+,"end-line": 311
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "shiftL"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "bit"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "shiftLBigNat"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "wordToBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 321
+,"start-col": 5
+,"end-line": 327
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "unsafeShiftL"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmunsafeShiftL"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "shiftR"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "wordToNatural"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "shiftR"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "shiftRBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 329
+,"start-col": 5
+,"end-line": 331
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "unsafeShiftR"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmunsafeShiftR"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "rotateL"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "shiftL"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 333
+,"start-col": 5
+,"end-line": 333
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "rotateR"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "shiftR"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 334
+,"start-col": 5
+,"end-line": 334
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "popCount"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "popCount"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "popCountBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 336
+,"start-col": 5
+,"end-line": 337
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dIx"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "C:Ix"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cp1Ix"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$crange"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cindex"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cunsafeIndex"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cinRange"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$crangeSize"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cunsafeRangeSize"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 283
+,"start-col": 10
+,"end-line": 283
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "range"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 284
+,"start-col": 5
+,"end-line": 284
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "index"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "inRange"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Arr"
+,"name": "unsafeIndex"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Arr"
+,"name": "indexError"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 287
+,"start-col": 5
+,"end-line": 288
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "unsafeIndex"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 286
+,"start-col": 5
+,"end-line": 286
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "inRange"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 285
+,"start-col": 5
+,"end-line": 285
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "rangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmrangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "unsafeRangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmunsafeRangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dIntegral"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Integral"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cp1Integral"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cp2Integral"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cquot"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$crem"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cdiv"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cmod"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cquotRem"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cdivMod"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$ctoInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 251
+,"start-col": 10
+,"end-line": 251
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "quot"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "DivideByZero"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "wordToNatural"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "quotBigNatWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "quotBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 269
+,"start-col": 5
+,"end-line": 274
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "rem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "DivideByZero"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "wordToNatural"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "rem"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "remBigNatWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "remBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 276
+,"start-col": 5
+,"end-line": 281
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "div"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 256
+,"start-col": 5
+,"end-line": 256
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "mod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "rem"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 257
+,"start-col": 5
+,"end-line": 257
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "quotRem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "DivideByZero"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "wordToNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "r"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "quotRemBigNatWord"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "r"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "quotRemBigNat"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 259
+,"start-col": 5
+,"end-line": 267
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "divMod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 255
+,"start-col": 5
+,"end-line": 255
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "toInteger"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "wordToInteger"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "$WJp#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 252
+,"start-col": 5
+,"end-line": 253
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 209
+,"start-col": 10
+,"end-line": 209
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "plusNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 210
+,"start-col": 5
+,"end-line": 210
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "minusNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 211
+,"start-col": 5
+,"end-line": 211
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "intToNatural"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 213
+,"start-col": 5
+,"end-line": 213
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "fromEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 215
+,"start-col": 5
+,"end-line": 218
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumDeltaNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 220
+,"start-col": 5
+,"end-line": 220
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumDeltaNatural"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumNegDeltaToNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 221
+,"start-col": 5
+,"end-line": 223
+,"end-col": 66}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumDeltaToNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "lim"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 225
+,"start-col": 5
+,"end-line": 225
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumDeltaToNatural"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "enumNegDeltaToNatural"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 226
+,"start-col": 5
+,"end-line": 228
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 178
+,"start-col": 10
+,"end-line": 178
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "toRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "toRational"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "$WJp#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 179
+,"start-col": 5
+,"end-line": 180
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dNum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "C:Num"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c+"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c-"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$c*"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cnegate"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cabs"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$csignum"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cfromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 161
+,"start-col": 10
+,"end-line": 161
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "+"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "plusNatural"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 166
+,"start-col": 5
+,"end-line": 166
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "-"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "minusNatural"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 168
+,"start-col": 5
+,"end-line": 168
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "timesNatural"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 167
+,"start-col": 5
+,"end-line": 167
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "negate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "Underflow"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 175
+,"start-col": 5
+,"end-line": 176
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "abs"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 170
+,"start-col": 5
+,"end-line": 170
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "signum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 172
+,"start-col": 5
+,"end-line": 173
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "fromInteger"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "i#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "NatS#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bigNatToNatural"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "Underflow"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 162
+,"start-col": 5
+,"end-line": 164
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 157
+,"start-col": 10
+,"end-line": 157
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "filter"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 158
+,"start-col": 5
+,"end-line": 159
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadListPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 153
+,"start-col": 10
+,"end-line": 153
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "p"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "w#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "p"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "$WJp#"}
+,{"package": "base"
+,"module": "GHC.Natural"
+,"name": "bn"}]
+,"src-span": {"file": "libraries/base/GHC/Natural.hs"
+,"start-line": 154
+,"start-col": 5
+,"end-line": 155
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Natural"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

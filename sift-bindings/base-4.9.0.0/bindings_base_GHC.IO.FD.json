@@ -1,0 +1,2147 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$tcFD"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$tc'FD"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "throwErrnoIfMinus1RetryOnBlock"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "res"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "getErrno"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "err"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "eINTR"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "throwErrnoIfMinus1RetryOnBlock"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "loc"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "on_block"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "eWOULDBLOCK"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "eAGAIN"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrno"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 648
+,"start-col": 1
+,"end-line": 659
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isNonBlocking"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdIsNonBlocking"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 562
+,"start-col": 1
+,"end-line": 562
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "writeRawBufferPtrNoBlock"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isNonBlocking"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unsafe_write"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unsafe_fdReady"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "write"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "throwErrnoIfMinus1RetryOnBlock"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "loc"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "call"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "do_write"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_write"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "plusPtr"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "off"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "len"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_safe_write"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "threaded"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "safe_write"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 547
+,"start-col": 1
+,"end-line": 559
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "writeRawBufferPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isNonBlocking"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unsafe_write"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unsafe_fdReady"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "write"}
+,{"package": "base"
+,"module": "GHC.Conc.IO"
+,"name": "threadWaitWrite"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1RetryMayBlock"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "loc"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "call"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "do_write"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_write"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "plusPtr"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "off"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "len"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_safe_write"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "threaded"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "safe_write"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 532
+,"start-col": 1
+,"end-line": 544
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "readRawBufferPtrNoBlock"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isNonBlocking"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unsafe_read"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unsafe_fdReady"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "safe_read"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "throwErrnoIfMinus1RetryOnBlock"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "loc"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "call"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "do_read"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_read"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "plusPtr"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "off"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "len"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_safe_read"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 516
+,"start-col": 1
+,"end-line": 529
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "readRawBufferPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isNonBlocking"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unsafe_read"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "loc"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unsafe_fdReady"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "read"}
+,{"package": "base"
+,"module": "GHC.Conc.IO"
+,"name": "threadWaitRead"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1RetryMayBlock"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "call"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "do_read"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_read"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "plusPtr"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "off"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "len"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_safe_read"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "threaded"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "safe_read"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 499
+,"start-col": 1
+,"end-line": 512
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdWriteNonBlocking"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "writeRawBufferPtrNoBlock"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ptr"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "bytes"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "res"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 454
+,"start-col": 1
+,"end-line": 457
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdWrite"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "writeRawBufferPtr"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ptr"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "bytes"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "res"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "res'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdWrite"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "plusPtr"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 445
+,"start-col": 1
+,"end-line": 450
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdReadNonBlocking"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "readRawBufferPtrNoBlock"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ptr"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "bytes"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 436
+,"start-col": 1
+,"end-line": 441
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "readRawBufferPtr"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ptr"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "bytes"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 431
+,"start-col": 1
+,"end-line": 433
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setRaw"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "setCooked"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "raw"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 425
+,"start-col": 1
+,"end-line": 425
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "getEcho"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "getEcho"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 422
+,"start-col": 1
+,"end-line": 422
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setEcho"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "setEcho"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "on"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 419
+,"start-col": 1
+,"end-line": 419
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isTerminal"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_isatty"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Foreign.Marshal.Utils"
+,"name": "toBool"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 410
+,"start-col": 1
+,"end-line": 415
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ready"}
+,"refs": [{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1Retry"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdReady"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "write"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "msecs"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 392
+,"start-col": 1
+,"end-line": 401
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setNonBlockingMode"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "setNonBlockingFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "set"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 383
+,"start-col": 1
+,"end-line": 388
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dup2"}
+,"refs": [{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_dup2"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdto"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 376
+,"start-col": 1
+,"end-line": 380
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dup"}
+,"refs": [{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_dup"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "newfd"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 371
+,"start-col": 1
+,"end-line": 373
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "devType"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "fdStat"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ty"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 368
+,"start-col": 1
+,"end-line": 368
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setSize"}
+,"refs": [{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIf_"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_ftruncate"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "size"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 363
+,"start-col": 1
+,"end-line": 365
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "getSize"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "fdFileSize"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 360
+,"start-col": 1
+,"end-line": 360
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "tell"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1Retry"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_lseek"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "sEEK_CUR"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 354
+,"start-col": 1
+,"end-line": 357
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "seek"}
+,"refs": [{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1Retry_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_lseek"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "off"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "seektype"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "mode"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "sEEK_SET"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "sEEK_CUR"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "sEEK_END"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 343
+,"start-col": 1
+,"end-line": 351
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isSeekable"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "devType"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "t"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Device"
+,"name": "RegularFile"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.IO.Device"
+,"name": "RawDevice"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 338
+,"start-col": 1
+,"end-line": 340
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "release"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unlockFile"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 329
+,"start-col": 1
+,"end-line": 330
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "close"}
+,"refs": [{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1Retry_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_close"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "realFd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "release"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Conc.IO"
+,"name": "closeFdWith"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "closer"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 311
+,"start-col": 1
+,"end-line": 326
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "stdFD"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$WFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 291
+,"start-col": 1
+,"end-line": 300
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "stdin"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "stdFD"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 303
+,"start-col": 1
+,"end-line": 303
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "stdout"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "stdFD"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 304
+,"start-col": 1
+,"end-line": 304
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "stderr"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "stdFD"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 305
+,"start-col": 1
+,"end-line": 305
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "getUniqueFileInfo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dev"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ino"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 273
+,"start-col": 1
+,"end-line": 273
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "mkFD"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "is_socket"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "is_nonblock"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "mb_stat"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "fdStat"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "stat"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "iomode"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd_type"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "ioException"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "IOError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "InappropriateType"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "getUniqueFileInfo"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dev"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ino"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "lockFile"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unique_dev"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "unique_ino"}
+,{"package": "base"
+,"module": "Foreign.Marshal.Utils"
+,"name": "fromBool"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "write"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "ResourceBusy"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$WFD"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 228
+,"start-col": 1
+,"end-line": 269
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "nonblock_flags"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "o_NONBLOCK"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 209
+,"start-col": 1
+,"end-line": 209
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "std_flags"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "o_NOCTTY"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 203
+,"start-col": 1
+,"end-line": 203
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "output_flags"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "std_flags"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "o_CREAT"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 204
+,"start-col": 1
+,"end-line": 204
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "write_flags"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "output_flags"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "o_WRONLY"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 206
+,"start-col": 1
+,"end-line": 206
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "append_flags"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "write_flags"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "o_APPEND"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 208
+,"start-col": 1
+,"end-line": 208
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "rw_flags"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "output_flags"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "o_RDWR"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 207
+,"start-col": 1
+,"end-line": 207
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "read_flags"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "std_flags"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "o_RDONLY"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 205
+,"start-col": 1
+,"end-line": 205
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "openFile"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "withFilePath"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "filepath"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "iomode"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "read_flags"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "write_flags"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "rw_flags"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "append_flags"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "oflags1"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "binary_flags"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "non_blocking"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "oflags2"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "nonblock_flags"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1Retry"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_open"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "oflags"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_safe_open"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "mkFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchAny"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_close"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "throwIO"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "WriteMode"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd_type"}
+,{"package": "base"
+,"module": "GHC.IO.Device"
+,"name": "RegularFile"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setSize"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fD"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 156
+,"start-col": 1
+,"end-line": 199
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dEFAULT_FD_BUFFER_SIZE"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 121
+,"start-col": 1
+,"end-line": 121
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "c_DEBUG_DUMP"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 67
+,"start-col": 1
+,"end-line": 67
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "readBuf'"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "c_DEBUG_DUMP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "puts"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "summaryBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.IO.BufferedIO"
+,"name": "readBuf"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 131
+,"start-col": 1
+,"end-line": 137
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "writeBuf'"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "c_DEBUG_DUMP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "puts"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "summaryBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.IO.BufferedIO"
+,"name": "writeBuf"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 140
+,"start-col": 1
+,"end-line": 143
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 73
+,"start-col": 3
+,"end-line": 73
+,"end-col": 7}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdIsNonBlocking"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdIsNonBlocking"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 82
+,"start-col": 3
+,"end-line": 82
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$dBufferedIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.BufferedIO"
+,"name": "C:BufferedIO"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cnewBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cfillReadBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cfillReadBuffer0"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cemptyWriteBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cflushWriteBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cflushWriteBuffer0"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 123
+,"start-col": 10
+,"end-line": 123
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "newBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "newByteBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dEFAULT_FD_BUFFER_SIZE"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "state"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 124
+,"start-col": 3
+,"end-line": 124
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fillReadBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "readBuf'"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 125
+,"start-col": 3
+,"end-line": 125
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fillReadBuffer0"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.BufferedIO"
+,"name": "readBufNonBlocking"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 126
+,"start-col": 3
+,"end-line": 126
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "emptyWriteBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.BufferedIO"
+,"name": "$dmemptyWriteBuffer"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "flushWriteBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "writeBuf'"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 127
+,"start-col": 3
+,"end-line": 127
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "flushWriteBuffer0"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.BufferedIO"
+,"name": "writeBufNonBlocking"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "buf"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 128
+,"start-col": 3
+,"end-line": 128
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$dIODevice"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Device"
+,"name": "C:IODevice"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cready"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cclose"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cisTerminal"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cisSeekable"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cseek"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$ctell"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cgetSize"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$csetSize"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$csetEcho"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cgetEcho"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$csetRaw"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cdevType"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cdup"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cdup2"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 100
+,"start-col": 10
+,"end-line": 100
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ready"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "ready"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 101
+,"start-col": 3
+,"end-line": 101
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "close"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "close"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 102
+,"start-col": 3
+,"end-line": 102
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isTerminal"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isTerminal"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 103
+,"start-col": 3
+,"end-line": 103
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isSeekable"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "isSeekable"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 104
+,"start-col": 3
+,"end-line": 104
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "seek"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "seek"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 105
+,"start-col": 3
+,"end-line": 105
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "tell"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "tell"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 106
+,"start-col": 3
+,"end-line": 106
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "getSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "getSize"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 107
+,"start-col": 3
+,"end-line": 107
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setSize"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 108
+,"start-col": 3
+,"end-line": 108
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setEcho"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setEcho"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 109
+,"start-col": 3
+,"end-line": 109
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "getEcho"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "getEcho"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 110
+,"start-col": 3
+,"end-line": 110
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setRaw"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "setRaw"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 111
+,"start-col": 3
+,"end-line": 111
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "devType"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "devType"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 112
+,"start-col": 3
+,"end-line": 112
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dup"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dup"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 113
+,"start-col": 3
+,"end-line": 113
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dup2"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "dup2"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 114
+,"start-col": 3
+,"end-line": 114
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$dRawIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Device"
+,"name": "C:RawIO"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cread"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$creadNonBlocking"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cwrite"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cwriteNonBlocking"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 94
+,"start-col": 10
+,"end-line": 94
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "read"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdRead"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 95
+,"start-col": 3
+,"end-line": 95
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "readNonBlocking"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdReadNonBlocking"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 96
+,"start-col": 3
+,"end-line": 96
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "write"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdWrite"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 97
+,"start-col": 3
+,"end-line": 97
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "writeNonBlocking"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdWriteNonBlocking"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 98
+,"start-col": 3
+,"end-line": 98
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 91
+,"start-col": 10
+,"end-line": 91
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fdFD"}
+,{"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "fd"}]
+,"src-span": {"file": "libraries/base/GHC/IO/FD.hs"
+,"start-line": 92
+,"start-col": 3
+,"end-line": 92
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.FD"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

@@ -1,0 +1,3683 @@
+[{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tcOpaque"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tc'O"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tcMonadPlus"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tc'C:MonadPlus"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tcMonad"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tc'C:Monad"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tcAlternative"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tc'C:Alternative"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tcApplicative"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tc'C:Applicative"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tcFunctor"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tc'C:Functor"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tcMonoid"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tc'C:Monoid"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tcMaybe"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tc'Nothing"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$tc'Just"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "quotRemInt"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotRemInt#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1152
+,"start-col": 1
+,"end-line": 1154
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "modInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "modInt#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1149
+,"start-col": 1
+,"end-line": 1149
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "divInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "divInt#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1148
+,"start-col": 1
+,"end-line": 1148
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "remInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "remInt#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1147
+,"start-col": 1
+,"end-line": 1147
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "quotInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotInt#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1146
+,"start-col": 1
+,"end-line": 1146
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "getTag"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "dataToTag#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1133
+,"start-col": 1
+,"end-line": 1133
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "unIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1116
+,"start-col": 1
+,"end-line": 1116
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "thenIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "unIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "new_s"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1113
+,"start-col": 1
+,"end-line": 1113
+,"end-col": 73}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "bindIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "unIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "new_s"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1110
+,"start-col": 1
+,"end-line": 1110
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "returnIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1107
+,"start-col": 1
+,"end-line": 1107
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$!"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "vx"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1064
+,"start-col": 1
+,"end-line": 1064
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1057
+,"start-col": 1
+,"end-line": 1057
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "flip"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1044
+,"start-col": 1
+,"end-line": 1044
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1040
+,"start-col": 1
+,"end-line": 1040
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1033
+,"start-col": 1
+,"end-line": 1033
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "asTypeOf"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1077
+,"start-col": 1
+,"end-line": 1077
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "breakpointCond"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1022
+,"start-col": 1
+,"end-line": 1022
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "breakpoint"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1019
+,"start-col": 1
+,"end-line": 1019
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "assert"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1016
+,"start-col": 1
+,"end-line": 1016
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 995
+,"start-col": 1
+,"end-line": 995
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "maxInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 986
+,"start-col": 1
+,"end-line": 986
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "minInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 985
+,"start-col": 1
+,"end-line": 985
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "eqString"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "cs1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "eqString"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "cs2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 962
+,"start-col": 1
+,"end-line": 964
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "ord"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ord#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c#"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 957
+,"start-col": 1
+,"end-line": 957
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "unsafeChr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "C#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 953
+,"start-col": 1
+,"end-line": 953
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 941
+,"start-col": 1
+,"end-line": 941
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "until"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1068
+,"start-col": 1
+,"end-line": 1071
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "divModInt#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotRemInt#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1161
+,"start-col": 1
+,"end-line": 1169
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "divModInt"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "divModInt#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1157
+,"start-col": 1
+,"end-line": 1158
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "shiftL#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftL#"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1182
+,"start-col": 1
+,"end-line": 1183
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "shiftRL#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftRL#"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1190
+,"start-col": 1
+,"end-line": 1191
+,"end-col": 79}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftL#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftL#"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1196
+,"start-col": 1
+,"end-line": 1197
+,"end-col": 79}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRA#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftRA#"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1203
+,"start-col": 1
+,"end-line": 1206
+,"end-col": 80}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRL#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftRL#"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1212
+,"start-col": 1
+,"end-line": 1213
+,"end-col": 80}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "ys"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "ys"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 927
+,"start-col": 1
+,"end-line": 928
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mapFB"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "ys"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 879
+,"start-col": 1
+,"end-line": 879
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "xs"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 873
+,"start-col": 1
+,"end-line": 874
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "augment"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "g"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "xs"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 820
+,"start-col": 1
+,"end-line": 820
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "build"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "g"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 807
+,"start-col": 1
+,"end-line": 807
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "foldr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "z"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "ys"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 784
+,"start-col": 1
+,"end-line": 787
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "ap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x2"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 629
+,"start-col": 1
+,"end-line": 629
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM5"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m3"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m4"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m5"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x3"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x4"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x5"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 599
+,"start-col": 1
+,"end-line": 599
+,"end-col": 109}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM4"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m3"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m4"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x3"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x4"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 594
+,"start-col": 1
+,"end-line": 594
+,"end-col": 96}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM3"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m3"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x3"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 589
+,"start-col": 1
+,"end-line": 589
+,"end-col": 83}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM2"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x2"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 584
+,"start-col": 1
+,"end-line": 584
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x1"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 575
+,"start-col": 1
+,"end-line": 575
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mapM"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "foldr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "as"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "xs"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 552
+,"start-col": 1
+,"end-line": 554
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "sequence"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mapM"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 546
+,"start-col": 1
+,"end-line": 546
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 540
+,"start-col": 1
+,"end-line": 540
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "=<<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 528
+,"start-col": 1
+,"end-line": 528
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "join"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 446
+,"start-col": 1
+,"end-line": 446
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "liftA3"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 428
+,"start-col": 1
+,"end-line": 428
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "liftA2"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 424
+,"start-col": 1
+,"end-line": 424
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "liftA"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 418
+,"start-col": 1
+,"end-line": 418
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<**>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftA2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "flip"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 413
+,"start-col": 1
+,"end-line": 413
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$con2tag_AtRlvpONj7BGNMNUQouqps"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "foldr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 238
+,"start-col": 9
+,"end-line": 238
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 348
+,"start-col": 5
+,"end-line": 348
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a2"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 403
+,"start-col": 5
+,"end-line": 403
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftA2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 409
+,"start-col": 5
+,"end-line": 409
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "some_v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "some_v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<|>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "many_v"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 694
+,"start-col": 5
+,"end-line": 697
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "many_v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "some_v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<|>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "many_v"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 701
+,"start-col": 5
+,"end-line": 704
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "k"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 485
+,"start-col": 5
+,"end-line": 485
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 490
+,"start-col": 5
+,"end-line": 490
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 501
+,"start-col": 5
+,"end-line": 501
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mzero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "empty"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 723
+,"start-col": 4
+,"end-line": 723
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "<|>"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 727
+,"start-col": 4
+,"end-line": 727
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 205
+,"start-col": 13
+,"end-line": 205
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 205
+,"start-col": 13
+,"end-line": 205
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 205
+,"start-col": 13
+,"end-line": 205
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 205
+,"start-col": 17
+,"end-line": 205
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 205
+,"start-col": 17
+,"end-line": 205
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 205
+,"start-col": 17
+,"end-line": 205
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 205
+,"start-col": 17
+,"end-line": 205
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 205
+,"start-col": 17
+,"end-line": 205
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 205
+,"start-col": 17
+,"end-line": 205
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonadPlus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp2MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmzero"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmplus"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1104
+,"start-col": 10
+,"end-line": 1104
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mzero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmzero"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmplus"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Alternative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<|>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$csome"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmany"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1100
+,"start-col": 10
+,"end-line": 1100
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "empty"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "failIO"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1101
+,"start-col": 5
+,"end-line": 1101
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mplusIO"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1102
+,"start-col": 5
+,"end-line": 1102
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1093
+,"start-col": 11
+,"end-line": 1093
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "bindIO"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1097
+,"start-col": 5
+,"end-line": 1097
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1096
+,"start-col": 5
+,"end-line": 1096
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmreturn"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "failIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1098
+,"start-col": 5
+,"end-line": 1098
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1086
+,"start-col": 10
+,"end-line": 1086
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "returnIO"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1089
+,"start-col": 5
+,"end-line": 1089
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "ap"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1091
+,"start-col": 5
+,"end-line": 1091
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "k"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1090
+,"start-col": 5
+,"end-line": 1090
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1083
+,"start-col": 11
+,"end-line": 1083
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 1084
+,"start-col": 4
+,"end-line": 1084
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonadPlus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp2MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmzero"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmplus"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 760
+,"start-col": 10
+,"end-line": 760
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mzero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmzero"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmplus"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Alternative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<|>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$csome"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmany"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 756
+,"start-col": 10
+,"end-line": 756
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "empty"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 757
+,"start-col": 5
+,"end-line": 757
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 758
+,"start-col": 5
+,"end-line": 758
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 748
+,"start-col": 10
+,"end-line": 748
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 750
+,"start-col": 5
+,"end-line": 750
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 752
+,"start-col": 5
+,"end-line": 752
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmreturn"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 754
+,"start-col": 5
+,"end-line": 754
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 739
+,"start-col": 10
+,"end-line": 739
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 741
+,"start-col": 5
+,"end-line": 741
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fs"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 743
+,"start-col": 5
+,"end-line": 743
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "ys"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 745
+,"start-col": 5
+,"end-line": 745
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 734
+,"start-col": 10
+,"end-line": 734
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 736
+,"start-col": 5
+,"end-line": 736
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonadPlus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp2MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmzero"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmplus"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 729
+,"start-col": 10
+,"end-line": 729
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mzero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmzero"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmplus"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Alternative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<|>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$csome"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmany"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 707
+,"start-col": 10
+,"end-line": 707
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "empty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 708
+,"start-col": 5
+,"end-line": 708
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "l"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 709
+,"start-col": 5
+,"end-line": 710
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 665
+,"start-col": 11
+,"end-line": 665
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 666
+,"start-col": 5
+,"end-line": 667
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 669
+,"start-col": 5
+,"end-line": 669
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmreturn"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 671
+,"start-col": 5
+,"end-line": 671
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 656
+,"start-col": 10
+,"end-line": 656
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 657
+,"start-col": 5
+,"end-line": 657
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 659
+,"start-col": 5
+,"end-line": 660
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 662
+,"start-col": 5
+,"end-line": 663
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 652
+,"start-col": 11
+,"end-line": 652
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 653
+,"start-col": 5
+,"end-line": 654
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 648
+,"start-col": 10
+,"end-line": 648
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 649
+,"start-col": 5
+,"end-line": 649
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 645
+,"start-col": 10
+,"end-line": 645
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 646
+,"start-col": 5
+,"end-line": 646
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm>>"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmreturn"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmfail"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 641
+,"start-col": 10
+,"end-line": 641
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 642
+,"start-col": 5
+,"end-line": 642
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 643
+,"start-col": 5
+,"end-line": 643
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 638
+,"start-col": 10
+,"end-line": 638
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 639
+,"start-col": 5
+,"end-line": 639
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 327
+,"start-col": 10
+,"end-line": 327
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 328
+,"start-col": 5
+,"end-line": 328
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftA2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 329
+,"start-col": 5
+,"end-line": 329
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 324
+,"start-col": 10
+,"end-line": 324
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "u"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 325
+,"start-col": 5
+,"end-line": 325
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm>>"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmreturn"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmfail"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 320
+,"start-col": 10
+,"end-line": 320
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 321
+,"start-col": 5
+,"end-line": 321
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "u"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 322
+,"start-col": 5
+,"end-line": 322
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 314
+,"start-col": 10
+,"end-line": 314
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 315
+,"start-col": 3
+,"end-line": 315
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "m2"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 316
+,"start-col": 3
+,"end-line": 318
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 302
+,"start-col": 10
+,"end-line": 302
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 303
+,"start-col": 9
+,"end-line": 303
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 304
+,"start-col": 9
+,"end-line": 306
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 294
+,"start-col": 10
+,"end-line": 295
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 296
+,"start-col": 9
+,"end-line": 296
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "d1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "d2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "e1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "e2"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 297
+,"start-col": 9
+,"end-line": 299
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 288
+,"start-col": 10
+,"end-line": 288
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 289
+,"start-col": 9
+,"end-line": 289
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "d1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "d2"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 290
+,"start-col": 9
+,"end-line": 292
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 283
+,"start-col": 10
+,"end-line": 283
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 284
+,"start-col": 9
+,"end-line": 284
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "c2"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 285
+,"start-col": 9
+,"end-line": 286
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 278
+,"start-col": 10
+,"end-line": 278
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 279
+,"start-col": 9
+,"end-line": 279
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "b2"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 280
+,"start-col": 9
+,"end-line": 281
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 272
+,"start-col": 10
+,"end-line": 272
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 274
+,"start-col": 9
+,"end-line": 274
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 275
+,"start-col": 9
+,"end-line": 275
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 276
+,"start-col": 9
+,"end-line": 276
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 268
+,"start-col": 10
+,"end-line": 268
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 269
+,"start-col": 9
+,"end-line": 269
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 270
+,"start-col": 9
+,"end-line": 270
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 240
+,"start-col": 10
+,"end-line": 240
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 242
+,"start-col": 9
+,"end-line": 242
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 244
+,"start-col": 9
+,"end-line": 244
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Base"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "xss"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Base.hs"
+,"start-line": 246
+,"start-col": 9
+,"end-line": 246
+,"end-col": 47}}]

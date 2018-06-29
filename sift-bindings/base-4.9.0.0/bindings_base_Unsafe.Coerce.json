@@ -1,0 +1,37 @@
+[{"id": {"package": "base"
+,"module": "Unsafe.Coerce"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Unsafe.Coerce"
+,"name": "local_id"}
+,"refs": [{"package": "base"
+,"module": "Unsafe.Coerce"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/Unsafe/Coerce.hs"
+,"start-line": 38
+,"start-col": 1
+,"end-line": 38
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "Unsafe.Coerce"
+,"name": "unsafeCoerce"}
+,"refs": [{"package": "base"
+,"module": "Unsafe.Coerce"
+,"name": "local_id"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "unsafeCoerce#"}
+,{"package": "base"
+,"module": "Unsafe.Coerce"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/Unsafe/Coerce.hs"
+,"start-line": 59
+,"start-col": 1
+,"end-line": 59
+,"end-col": 44}}]

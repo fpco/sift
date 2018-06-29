@@ -1,0 +1,782 @@
+[{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$tcControl"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$tc'W"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$tcControlMessage"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$tc'CMsgWakeup"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$tc'CMsgDie"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$tc'CMsgSignal"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "sendWakeup"}
+,"refs": [{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "c_eventfd_write"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlEventFd"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 175
+,"start-col": 1
+,"end-line": 177
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "io_MANAGER_DIE"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 135
+,"start-col": 1
+,"end-line": 135
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "io_MANAGER_WAKEUP"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 134
+,"start-col": 1
+,"end-line": 134
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "sendMessage"}
+,"refs": [{"package": "base"
+,"module": "Foreign.Marshal.Alloc"
+,"name": "alloca"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "msg"}
+,{"package": "base"
+,"module": "Foreign.Storable"
+,"name": "poke"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "io_MANAGER_WAKEUP"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "io_MANAGER_DIE"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_write"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 194
+,"start-col": 1
+,"end-line": 199
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "sendDie"}
+,"refs": [{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "sendMessage"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlWriteFd"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "CMsgDie"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 190
+,"start-col": 1
+,"end-line": 191
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "closeControl"}
+,"refs": [{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_close"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlReadFd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "w"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlWriteFd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "didRegisterWakeupFd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "c_setIOManagerWakeupFd"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlEventFd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 121
+,"start-col": 1
+,"end-line": 131
+,"end-col": 12}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "newControl"}
+,"refs": [{"package": "base"
+,"module": "Foreign.Marshal.Array"
+,"name": "allocaArray"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_pipe"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "fds"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "Foreign.Storable"
+,"name": "peekElemOff"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "setNonBlockingFD"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "wr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "setCloseOnExec"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "rd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "createPipe"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "c_eventfd"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "ev"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "shouldRegister"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "c_setIOManagerWakeupFd"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$WW"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "ctrl_rd"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "ctrl_wr"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 83
+,"start-col": 1
+,"end-line": 113
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "wakeupReadFd"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlEventFd"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 76
+,"start-col": 1
+,"end-line": 76
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "readControlMessage"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "fd"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "wakeupReadFd"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "ctrl"}
+,{"package": "base"
+,"module": "Foreign.Marshal.Alloc"
+,"name": "allocaBytes"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "wakeupBufferSize"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrnoIfMinus1_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "System.Posix.Internals"
+,"name": "c_read"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "CMsgWakeup"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "Foreign.Marshal.Alloc"
+,"name": "alloca"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "Foreign.Storable"
+,"name": "peek"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "io_MANAGER_WAKEUP"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "io_MANAGER_DIE"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "CMsgDie"}
+,{"package": "base"
+,"module": "GHC.ForeignPtr"
+,"name": "mallocForeignPtrBytes"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "sizeof_siginfo_t"}
+,{"package": "base"
+,"module": "Foreign.ForeignPtr.Imp"
+,"name": "withForeignPtr"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "fp"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castPtr"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "p_siginfo"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$WCMsgSignal"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "s'"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 141
+,"start-col": 1
+,"end-line": 168
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlReadFd"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlReadFd"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 63
+,"start-col": 7
+,"end-line": 63
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlWriteFd"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlWriteFd"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 64
+,"start-col": 7
+,"end-line": 64
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlEventFd"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlEventFd"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 66
+,"start-col": 7
+,"end-line": 66
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "didRegisterWakeupFd"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "didRegisterWakeupFd"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 71
+,"start-col": 7
+,"end-line": 71
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 59
+,"start-col": 15
+,"end-line": 59
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 59
+,"start-col": 15
+,"end-line": 59
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 59
+,"start-col": 15
+,"end-line": 59
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 59
+,"start-col": 19
+,"end-line": 59
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showSpace"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "b2"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 59
+,"start-col": 19
+,"end-line": 59
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 59
+,"start-col": 19
+,"end-line": 59
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 72
+,"start-col": 17
+,"end-line": 72
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "b2"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "b3"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "b4"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 72
+,"start-col": 17
+,"end-line": 72
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Control.hs"
+,"start-line": 72
+,"start-col": 17
+,"end-line": 72
+,"end-col": 21}}]

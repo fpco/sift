@@ -1,0 +1,4086 @@
+[{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$tcEnum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$tc'C:Enum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$tcBounded"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$tc'C:Bounded"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "dn_list"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 889
+,"start-col": 1
+,"end-line": 892
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "up_list"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 884
+,"start-col": 1
+,"end-line": 887
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "dn_fb"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 878
+,"start-col": 1
+,"end-line": 881
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "up_fb"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 873
+,"start-col": 1
+,"end-line": 876
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaToInteger1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 867
+,"start-col": 1
+,"end-line": 870
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaToInteger"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "up_list"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "dn_list"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 860
+,"start-col": 1
+,"end-line": 862
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaToInteger1FB"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 853
+,"start-col": 1
+,"end-line": 856
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaToIntegerFB"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "up_fb"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "dn_fb"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 845
+,"start-col": 1
+,"end-line": 847
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaInteger"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 836
+,"start-col": 1
+,"end-line": 836
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaIntegerFB"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 831
+,"start-col": 1
+,"end-line": 832
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordDnFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "minusWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y'"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 771
+,"start-col": 1
+,"end-line": 782
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordDn"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "minusWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 756
+,"start-col": 1
+,"end-line": 767
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordUpFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "minusWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y'"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 741
+,"start-col": 1
+,"end-line": 752
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordUp"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "minusWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 726
+,"start-col": 1
+,"end-line": 737
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "geWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordUpFB"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordDnFB"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 720
+,"start-col": 1
+,"end-line": 722
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWord"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "geWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordUp"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordDn"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 714
+,"start-col": 1
+,"end-line": 716
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdWord"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "geWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordUp"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWordDn"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 707
+,"start-col": 1
+,"end-line": 709
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftWordFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusWord#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 682
+,"start-col": 1
+,"end-line": 687
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftWord"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusWord#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 673
+,"start-col": 1
+,"end-line": 678
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxIntWord"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "maxInt"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 655
+,"start-col": 1
+,"end-line": 655
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntDnFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y'"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 594
+,"start-col": 1
+,"end-line": 605
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntDn"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 579
+,"start-col": 1
+,"end-line": 590
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntUpFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y'"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 564
+,"start-col": 1
+,"end-line": 575
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntUp"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 549
+,"start-col": 1
+,"end-line": 560
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntUpFB"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntDnFB"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 543
+,"start-col": 1
+,"end-line": 545
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntUp"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntDn"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 537
+,"start-col": 1
+,"end-line": 539
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "maxInt"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntUp"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "minInt"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtIntDn"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 530
+,"start-col": 1
+,"end-line": 532
+,"end-col": 66}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftIntFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 505
+,"start-col": 1
+,"end-line": 510
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftInt"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 496
+,"start-col": 1
+,"end-line": 501
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn_char_list"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "C#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 428
+,"start-col": 1
+,"end-line": 432
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up_char_list"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "C#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 421
+,"start-col": 1
+,"end-line": 425
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn_char_fb"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "C#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 414
+,"start-col": 1
+,"end-line": 418
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up_char_fb"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "C#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 407
+,"start-col": 1
+,"end-line": 411
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtChar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up_char_list"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn_char_list"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 400
+,"start-col": 1
+,"end-line": 404
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtCharFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up_char_fb"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn_char_fb"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 392
+,"start-col": 1
+,"end-line": 396
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdChar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up_char_list"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn_char_list"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 384
+,"start-col": 1
+,"end-line": 388
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdCharFB"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "delta"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_up_char_fb"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go_dn_char_fb"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 376
+,"start-col": 1
+,"end-line": 380
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftChar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "C#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftChar"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 369
+,"start-col": 1
+,"end-line": 370
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftCharFB"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "C#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "go"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 362
+,"start-col": 1
+,"end-line": 365
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "predError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "inst_ty"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 146
+,"start-col": 1
+,"end-line": 147
+,"end-col": 94}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "succError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "inst_ty"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 141
+,"start-col": 1
+,"end-line": 142
+,"end-col": 94}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnumError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "inst_ty"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 133
+,"start-col": 1
+,"end-line": 137
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnumError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "inst_ty"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "bnds"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 125
+,"start-col": 1
+,"end-line": 129
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "i_n2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "i_n1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "asTypeOf"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n2"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 112
+,"start-col": 1
+,"end-line": 117
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "asTypeOf"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 109
+,"start-col": 1
+,"end-line": 109
+,"end-col": 80}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 100
+,"start-col": 5
+,"end-line": 100
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "subtract"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 101
+,"start-col": 5
+,"end-line": 101
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFrom"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 102
+,"start-col": 5
+,"end-line": 102
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThen"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 103
+,"start-col": 5
+,"end-line": 103
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 104
+,"start-col": 5
+,"end-line": 104
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 105
+,"start-col": 5
+,"end-line": 105
+,"end-col": 81}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 788
+,"start-col": 11
+,"end-line": 788
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 789
+,"start-col": 5
+,"end-line": 789
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 790
+,"start-col": 5
+,"end-line": 790
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "smallInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 791
+,"start-col": 5
+,"end-line": 791
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "integerToInt"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 792
+,"start-col": 5
+,"end-line": 792
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 798
+,"start-col": 5
+,"end-line": 798
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 799
+,"start-col": 5
+,"end-line": 799
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaToInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 800
+,"start-col": 5
+,"end-line": 800
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumDeltaToInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "lim"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 801
+,"start-col": 5
+,"end-line": 801
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 625
+,"start-col": 10
+,"end-line": 625
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "succError"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 626
+,"start-col": 5
+,"end-line": 628
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "predError"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 629
+,"start-col": 5
+,"end-line": 631
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "i#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnumError"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 632
+,"start-col": 5
+,"end-line": 634
+,"end-col": 80}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxIntWord"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnumError"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 635
+,"start-col": 5
+,"end-line": 637
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftWord"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxWord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 640
+,"start-col": 5
+,"end-line": 641
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdWord"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 648
+,"start-col": 5
+,"end-line": 648
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftWord"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 645
+,"start-col": 5
+,"end-line": 645
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtWord"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 651
+,"start-col": 5
+,"end-line": 651
+,"end-col": 61}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 612
+,"start-col": 10
+,"end-line": 612
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 613
+,"start-col": 5
+,"end-line": 613
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 620
+,"start-col": 5
+,"end-line": 620
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 450
+,"start-col": 11
+,"end-line": 450
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 451
+,"start-col": 5
+,"end-line": 453
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 454
+,"start-col": 5
+,"end-line": 456
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 458
+,"start-col": 5
+,"end-line": 458
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 459
+,"start-col": 5
+,"end-line": 459
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftInt"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxInt#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "maxInt"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 462
+,"start-col": 5
+,"end-line": 463
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdInt"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 470
+,"start-col": 5
+,"end-line": 470
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftInt"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 467
+,"start-col": 5
+,"end-line": 467
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtInt"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 473
+,"start-col": 5
+,"end-line": 473
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 446
+,"start-col": 11
+,"end-line": 446
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "minInt"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 447
+,"start-col": 5
+,"end-line": 447
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "maxInt"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 448
+,"start-col": 5
+,"end-line": 448
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 323
+,"start-col": 11
+,"end-line": 323
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "succ"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "/=#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "C#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 324
+,"start-col": 5
+,"end-line": 326
+,"end-col": 97}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "pred"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "c#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "/=#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "C#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 327
+,"start-col": 5
+,"end-line": 329
+,"end-col": 100}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Char"
+,"name": "chr"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 331
+,"start-col": 5
+,"end-line": 331
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "ord"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 332
+,"start-col": 5
+,"end-line": 332
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftChar"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 335
+,"start-col": 5
+,"end-line": 335
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdChar"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 342
+,"start-col": 5
+,"end-line": 342
+,"end-col": 63}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "eftChar"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 339
+,"start-col": 5
+,"end-line": 339
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "efdtChar"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ord#"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x1"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 345
+,"start-col": 5
+,"end-line": 345
+,"end-col": 82}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 319
+,"start-col": 11
+,"end-line": 319
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 320
+,"start-col": 5
+,"end-line": 320
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 321
+,"start-col": 5
+,"end-line": 321
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 293
+,"start-col": 10
+,"end-line": 293
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "succ"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 294
+,"start-col": 3
+,"end-line": 296
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "pred"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 298
+,"start-col": 3
+,"end-line": 300
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 302
+,"start-col": 3
+,"end-line": 305
+,"end-col": 81}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 307
+,"start-col": 3
+,"end-line": 309
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFrom"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 312
+,"start-col": 3
+,"end-line": 312
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFromThen"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 313
+,"start-col": 3
+,"end-line": 313
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromThenTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 289
+,"start-col": 10
+,"end-line": 289
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 290
+,"start-col": 3
+,"end-line": 290
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 291
+,"start-col": 3
+,"end-line": 291
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 267
+,"start-col": 10
+,"end-line": 267
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "succ"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 268
+,"start-col": 3
+,"end-line": 269
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "pred"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 271
+,"start-col": 3
+,"end-line": 272
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 274
+,"start-col": 3
+,"end-line": 276
+,"end-col": 89}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 278
+,"start-col": 3
+,"end-line": 279
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFrom"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 282
+,"start-col": 3
+,"end-line": 282
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFromThen"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 283
+,"start-col": 3
+,"end-line": 283
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromThenTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 263
+,"start-col": 10
+,"end-line": 263
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 264
+,"start-col": 3
+,"end-line": 264
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 265
+,"start-col": 3
+,"end-line": 265
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 251
+,"start-col": 10
+,"end-line": 253
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 254
+,"start-col": 4
+,"end-line": 255
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 256
+,"start-col": 4
+,"end-line": 257
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 243
+,"start-col": 10
+,"end-line": 245
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 246
+,"start-col": 4
+,"end-line": 247
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 248
+,"start-col": 4
+,"end-line": 249
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 235
+,"start-col": 10
+,"end-line": 237
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 238
+,"start-col": 4
+,"end-line": 239
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 240
+,"start-col": 4
+,"end-line": 241
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 227
+,"start-col": 10
+,"end-line": 229
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 230
+,"start-col": 4
+,"end-line": 231
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 232
+,"start-col": 4
+,"end-line": 233
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 219
+,"start-col": 10
+,"end-line": 221
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 222
+,"start-col": 4
+,"end-line": 223
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 224
+,"start-col": 4
+,"end-line": 225
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 211
+,"start-col": 10
+,"end-line": 213
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 214
+,"start-col": 4
+,"end-line": 215
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 216
+,"start-col": 4
+,"end-line": 217
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 203
+,"start-col": 10
+,"end-line": 205
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 206
+,"start-col": 4
+,"end-line": 207
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 208
+,"start-col": 4
+,"end-line": 209
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 197
+,"start-col": 10
+,"end-line": 199
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 200
+,"start-col": 4
+,"end-line": 200
+,"end-col": 95}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 201
+,"start-col": 4
+,"end-line": 201
+,"end-col": 95}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 192
+,"start-col": 10
+,"end-line": 193
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 194
+,"start-col": 4
+,"end-line": 194
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 195
+,"start-col": 4
+,"end-line": 195
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 187
+,"start-col": 10
+,"end-line": 188
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 189
+,"start-col": 4
+,"end-line": 189
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 190
+,"start-col": 4
+,"end-line": 190
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 183
+,"start-col": 10
+,"end-line": 183
+,"end-col": 88}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 184
+,"start-col": 4
+,"end-line": 184
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 185
+,"start-col": 4
+,"end-line": 185
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 179
+,"start-col": 10
+,"end-line": 179
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 180
+,"start-col": 4
+,"end-line": 180
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 181
+,"start-col": 4
+,"end-line": 181
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 175
+,"start-col": 10
+,"end-line": 175
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 176
+,"start-col": 4
+,"end-line": 176
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 177
+,"start-col": 4
+,"end-line": 177
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 171
+,"start-col": 10
+,"end-line": 171
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 172
+,"start-col": 4
+,"end-line": 172
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 173
+,"start-col": 4
+,"end-line": 173
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 157
+,"start-col": 10
+,"end-line": 157
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 158
+,"start-col": 5
+,"end-line": 158
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 159
+,"start-col": 5
+,"end-line": 159
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 161
+,"start-col": 5
+,"end-line": 162
+,"end-col": 89}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "fromEnum"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 164
+,"start-col": 5
+,"end-line": 164
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFrom"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 165
+,"start-col": 5
+,"end-line": 165
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThen"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "many"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "many"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 166
+,"start-col": 5
+,"end-line": 166
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 167
+,"start-col": 5
+,"end-line": 167
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "many"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "many"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 168
+,"start-col": 5
+,"end-line": 168
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 153
+,"start-col": 10
+,"end-line": 153
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 154
+,"start-col": 5
+,"end-line": 154
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Enum.hs"
+,"start-line": 155
+,"start-col": 5
+,"end-line": 155
+,"end-col": 18}}]

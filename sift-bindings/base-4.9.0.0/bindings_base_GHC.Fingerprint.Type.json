@@ -1,0 +1,403 @@
+[{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$tcFingerprint"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$tc'Fingerprint"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 25
+,"start-col": 13
+,"end-line": 25
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b2"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 25
+,"start-col": 13
+,"end-line": 25
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 25
+,"start-col": 13
+,"end-line": 25
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 25
+,"start-col": 17
+,"end-line": 25
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 25
+,"start-col": 17
+,"end-line": 25
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 25
+,"start-col": 17
+,"end-line": 25
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 25
+,"start-col": 17
+,"end-line": 25
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 25
+,"start-col": 17
+,"end-line": 25
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 25
+,"start-col": 17
+,"end-line": 25
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 27
+,"start-col": 10
+,"end-line": 27
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "hex16"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "w1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "w2"}
+,{"package": "base"
+,"module": "Numeric"
+,"name": "showHex"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "replicate"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "length"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "hex"}]
+,"src-span": {"file": "libraries/base/GHC/Fingerprint/Type.hs"
+,"start-line": 28
+,"start-col": 3
+,"end-line": 33
+,"end-col": 59}}
+,{"id": {"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

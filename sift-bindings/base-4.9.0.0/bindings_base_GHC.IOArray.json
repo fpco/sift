@@ -1,0 +1,208 @@
+[{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "$tcIOArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "$tc'IOArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "boundsIOArray"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "boundsSTArray"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "marr"}]
+,"src-span": {"file": "libraries/base/GHC/IOArray.hs"
+,"start-line": 75
+,"start-col": 1
+,"end-line": 75
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "writeIOArray"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "stToIO"}
+,{"package": "base"
+,"module": "GHC.Arr"
+,"name": "writeSTArray"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "marr"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/IOArray.hs"
+,"start-line": 71
+,"start-col": 1
+,"end-line": 71
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "readIOArray"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "stToIO"}
+,{"package": "base"
+,"module": "GHC.Arr"
+,"name": "readSTArray"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "marr"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/IOArray.hs"
+,"start-line": 67
+,"start-col": 1
+,"end-line": 67
+,"end-col": 59}}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "unsafeWriteIOArray"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "stToIO"}
+,{"package": "base"
+,"module": "GHC.Arr"
+,"name": "unsafeWriteSTArray"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "marr"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/IOArray.hs"
+,"start-line": 63
+,"start-col": 1
+,"end-line": 63
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "unsafeReadIOArray"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "stToIO"}
+,{"package": "base"
+,"module": "GHC.Arr"
+,"name": "unsafeReadSTArray"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "marr"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/IOArray.hs"
+,"start-line": 58
+,"start-col": 1
+,"end-line": 58
+,"end-col": 71}}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "newIOArray"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "stToIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Arr"
+,"name": "newSTArray"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "lu"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "initial"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "IOArray"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "marr"}]
+,"src-span": {"file": "libraries/base/GHC/IOArray.hs"
+,"start-line": 53
+,"start-col": 1
+,"end-line": 53
+,"end-col": 92}}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/IOArray.hs"
+,"start-line": 47
+,"start-col": 10
+,"end-line": 47
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IOArray"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/IOArray.hs"
+,"start-line": 48
+,"start-col": 3
+,"end-line": 48
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.IOArray"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm/="}]}]

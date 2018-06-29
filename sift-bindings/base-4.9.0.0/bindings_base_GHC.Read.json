@@ -1,0 +1,3488 @@
+[{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$tcRead"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$tc'C:Read"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "convertFrac"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRange"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "undefined"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "numberToRangedRational"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "resRange"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "rat"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "pfail"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 492
+,"start-col": 1
+,"end-line": 498
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "convertInt"}
+,"refs": [{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "numberToInteger"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "i"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "pfail"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 487
+,"start-col": 1
+,"end-line": 489
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "skipSpacesThenP"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "look"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "skip"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "isSpace"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "get"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "skip"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 285
+,"start-col": 1
+,"end-line": 290
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "expectCharP"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "get"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "q"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "pfail"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 266
+,"start-col": 1
+,"end-line": 270
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "paren'"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectCharP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "reset"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "skipSpacesThenP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 306
+,"start-col": 1
+,"end-line": 307
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "paren"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "skipSpacesThenP"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "paren'"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "p"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 295
+,"start-col": 1
+,"end-line": 295
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "optional"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "p"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "+++"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "mandatory"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "paren"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "optional"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 313
+,"start-col": 1
+,"end-line": 316
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "paren"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "p"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 559
+,"start-col": 1
+,"end-line": 559
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "lift"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "expect"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "lexeme"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 263
+,"start-col": 1
+,"end-line": 263
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Punc"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 562
+,"start-col": 1
+,"end-line": 562
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 566
+,"start-col": 1
+,"end-line": 569
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 572
+,"start-col": 1
+,"end-line": 575
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup8"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "h"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 580
+,"start-col": 1
+,"end-line": 583
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "lexP"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "lift"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "lex"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 260
+,"start-col": 1
+,"end-line": 260
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "list"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Punc"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "listRest"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "+++"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "listNext"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "lexP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "started"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "listNext"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "pfail"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "reset"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readx"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "listRest"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "xs"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 321
+,"start-col": 1
+,"end-line": 337
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "choose"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "foldr"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "+++"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "try_one"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "pfail"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "sps"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "lexP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "token"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s'"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 345
+,"start-col": 1
+,"end-line": 351
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readNumber"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "lexP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "convert"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 474
+,"start-col": 1
+,"end-line": 483
+,"end-col": 4}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "lexDigits"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadP"
+,"name": "readP_to_S"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadP"
+,"name": "munch1"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "isDigit"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 253
+,"start-col": 1
+,"end-line": 253
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readLitChar"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadP"
+,"name": "readP_to_S"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "lexChar"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 249
+,"start-col": 1
+,"end-line": 249
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "lexLitChar"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadP"
+,"name": "readP_to_S"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadP"
+,"name": "gather"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "lexChar"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "removeNulls"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "removeNulls"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "first"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "rest"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 231
+,"start-col": 1
+,"end-line": 238
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "lex"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadP"
+,"name": "readP_to_S"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "hsLex"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 223
+,"start-col": 1
+,"end-line": 223
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "list"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 202
+,"start-col": 1
+,"end-line": 202
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "readPrec_to_S"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 197
+,"start-col": 1
+,"end-line": 197
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readParen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "mandatory"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "optional"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "mandatory"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "lex"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "optional"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "t"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "u"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 78
+,"start-col": 1
+,"end-line": 84
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "readPrec_to_S"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 188
+,"start-col": 3
+,"end-line": 188
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "readPrec_to_S"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "list"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 189
+,"start-col": 3
+,"end-line": 189
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "readS_to_Prec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 190
+,"start-col": 3
+,"end-line": 190
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "readS_to_Prec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 191
+,"start-col": 3
+,"end-line": 191
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 357
+,"start-col": 1
+,"end-line": 357
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 357
+,"start-col": 1
+,"end-line": 357
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "choose"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "UppercaseLetter"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "LowercaseLetter"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "TitlecaseLetter"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "ModifierLetter"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "OtherLetter"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "NonSpacingMark"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "SpacingCombiningMark"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "EnclosingMark"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "DecimalNumber"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "LetterNumber"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "OtherNumber"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "ConnectorPunctuation"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "DashPunctuation"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "OpenPunctuation"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "ClosePunctuation"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "InitialQuote"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "FinalQuote"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "OtherPunctuation"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "MathSymbol"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "CurrencySymbol"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "ModifierSymbol"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "OtherSymbol"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "Space"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "LineSeparator"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "ParagraphSeparator"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "Control"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "Format"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "Surrogate"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "PrivateUse"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "NotAssigned"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 357
+,"start-col": 1
+,"end-line": 357
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 357
+,"start-col": 1
+,"end-line": 357
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 685
+,"start-col": 10
+,"end-line": 687
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 694
+,"start-col": 3
+,"end-line": 694
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup8"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "j"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "o"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 688
+,"start-col": 3
+,"end-line": 692
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 693
+,"start-col": 3
+,"end-line": 693
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 675
+,"start-col": 10
+,"end-line": 677
+,"end-col": 59}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 683
+,"start-col": 3
+,"end-line": 683
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup8"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "j"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 678
+,"start-col": 3
+,"end-line": 681
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 682
+,"start-col": 3
+,"end-line": 682
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 665
+,"start-col": 10
+,"end-line": 667
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 673
+,"start-col": 3
+,"end-line": 673
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup8"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "j"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 668
+,"start-col": 3
+,"end-line": 671
+,"end-col": 66}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 672
+,"start-col": 3
+,"end-line": 672
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 656
+,"start-col": 10
+,"end-line": 658
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 663
+,"start-col": 3
+,"end-line": 663
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup8"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "j"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "l"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 659
+,"start-col": 3
+,"end-line": 661
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 662
+,"start-col": 3
+,"end-line": 662
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 646
+,"start-col": 10
+,"end-line": 648
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 654
+,"start-col": 3
+,"end-line": 654
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup8"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "j"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "k"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 649
+,"start-col": 3
+,"end-line": 652
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 653
+,"start-col": 3
+,"end-line": 653
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 637
+,"start-col": 10
+,"end-line": 639
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 644
+,"start-col": 3
+,"end-line": 644
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup8"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "j"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 640
+,"start-col": 3
+,"end-line": 642
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 643
+,"start-col": 3
+,"end-line": 643
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 628
+,"start-col": 10
+,"end-line": 630
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 635
+,"start-col": 3
+,"end-line": 635
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup8"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 631
+,"start-col": 3
+,"end-line": 633
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 634
+,"start-col": 3
+,"end-line": 634
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 622
+,"start-col": 10
+,"end-line": 623
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 626
+,"start-col": 3
+,"end-line": 626
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup8"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 624
+,"start-col": 3
+,"end-line": 624
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 625
+,"start-col": 3
+,"end-line": 625
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 613
+,"start-col": 10
+,"end-line": 614
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 620
+,"start-col": 3
+,"end-line": 620
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 615
+,"start-col": 3
+,"end-line": 618
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 619
+,"start-col": 3
+,"end-line": 619
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 605
+,"start-col": 10
+,"end-line": 606
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 611
+,"start-col": 3
+,"end-line": 611
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 607
+,"start-col": 3
+,"end-line": 609
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 610
+,"start-col": 3
+,"end-line": 610
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 598
+,"start-col": 10
+,"end-line": 598
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 603
+,"start-col": 3
+,"end-line": 603
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 599
+,"start-col": 3
+,"end-line": 601
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 602
+,"start-col": 3
+,"end-line": 602
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 593
+,"start-col": 10
+,"end-line": 593
+,"end-col": 63}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 596
+,"start-col": 3
+,"end-line": 596
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup4"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 594
+,"start-col": 3
+,"end-line": 594
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 595
+,"start-col": 3
+,"end-line": 595
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 586
+,"start-col": 10
+,"end-line": 586
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 591
+,"start-col": 3
+,"end-line": 591
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_comma"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 587
+,"start-col": 3
+,"end-line": 589
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 590
+,"start-col": 3
+,"end-line": 590
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 553
+,"start-col": 10
+,"end-line": 553
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 556
+,"start-col": 3
+,"end-line": 556
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "wrap_tup"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "read_tup2"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 554
+,"start-col": 3
+,"end-line": 554
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 555
+,"start-col": 3
+,"end-line": 555
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 542
+,"start-col": 10
+,"end-line": 542
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 551
+,"start-col": 3
+,"end-line": 551
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "paren"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 543
+,"start-col": 3
+,"end-line": 548
+,"end-col": 6}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 550
+,"start-col": 3
+,"end-line": 550
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 523
+,"start-col": 10
+,"end-line": 523
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 535
+,"start-col": 3
+,"end-line": 535
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "prec"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioPrec"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "step"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Symbol"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "%"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 524
+,"start-col": 3
+,"end-line": 532
+,"end-col": 6}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 534
+,"start-col": 3
+,"end-line": 534
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 518
+,"start-col": 10
+,"end-line": 518
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 521
+,"start-col": 3
+,"end-line": 521
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readNumber"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "convertFrac"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 519
+,"start-col": 3
+,"end-line": 519
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 520
+,"start-col": 3
+,"end-line": 520
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 513
+,"start-col": 10
+,"end-line": 513
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 516
+,"start-col": 3
+,"end-line": 516
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readNumber"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "convertFrac"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 514
+,"start-col": 3
+,"end-line": 514
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 515
+,"start-col": 3
+,"end-line": 515
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 508
+,"start-col": 10
+,"end-line": 508
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 511
+,"start-col": 3
+,"end-line": 511
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readNumber"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "convertInt"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 509
+,"start-col": 3
+,"end-line": 509
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 510
+,"start-col": 3
+,"end-line": 510
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 505
+,"start-col": 10
+,"end-line": 505
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 506
+,"start-col": 5
+,"end-line": 506
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadListPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 500
+,"start-col": 10
+,"end-line": 500
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 503
+,"start-col": 3
+,"end-line": 503
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readNumber"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "convertInt"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 501
+,"start-col": 3
+,"end-line": 501
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 502
+,"start-col": 3
+,"end-line": 502
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 463
+,"start-col": 10
+,"end-line": 463
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 466
+,"start-col": 3
+,"end-line": 466
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "lexP"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 464
+,"start-col": 3
+,"end-line": 464
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 465
+,"start-col": 3
+,"end-line": 465
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 453
+,"start-col": 11
+,"end-line": 453
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 461
+,"start-col": 5
+,"end-line": 461
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "prec"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "appPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Ident"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "step"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Arr"
+,"name": "array"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "theBounds"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "vals"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 454
+,"start-col": 5
+,"end-line": 458
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 460
+,"start-col": 5
+,"end-line": 460
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 445
+,"start-col": 10
+,"end-line": 445
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 451
+,"start-col": 3
+,"end-line": 451
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 449
+,"start-col": 3
+,"end-line": 449
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 450
+,"start-col": 3
+,"end-line": 450
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 430
+,"start-col": 10
+,"end-line": 430
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 443
+,"start-col": 3
+,"end-line": 443
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Ident"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "+++"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "prec"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "appPrec"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "step"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 431
+,"start-col": 3
+,"end-line": 440
+,"end-col": 6}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 442
+,"start-col": 3
+,"end-line": 442
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 389
+,"start-col": 10
+,"end-line": 389
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 401
+,"start-col": 3
+,"end-line": 401
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "lexP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "pfail"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 390
+,"start-col": 3
+,"end-line": 398
+,"end-col": 6}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 400
+,"start-col": 3
+,"end-line": 400
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 376
+,"start-col": 10
+,"end-line": 376
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 387
+,"start-col": 3
+,"end-line": 387
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "lexP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "pfail"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 377
+,"start-col": 3
+,"end-line": 384
+,"end-col": 6}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 386
+,"start-col": 3
+,"end-line": 386
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 359
+,"start-col": 10
+,"end-line": 359
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 374
+,"start-col": 3
+,"end-line": 374
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "lexP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 360
+,"start-col": 3
+,"end-line": 364
+,"end-col": 6}}
+,{"id": {"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "lexP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "s"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "+++"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Read.hs"
+,"start-line": 366
+,"start-col": 3
+,"end-line": 372
+,"end-col": 6}}]

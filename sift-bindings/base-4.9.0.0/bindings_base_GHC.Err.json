@@ -1,0 +1,71 @@
+[{"id": {"package": "base"
+,"module": "GHC.Err"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Err"
+,"name": "error"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raise#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "errorCallWithCallStackException"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "$dIP"}]
+,"src-span": {"file": "libraries/base/GHC/Err.hs"
+,"start-line": 38
+,"start-col": 1
+,"end-line": 38
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "freezeCallStack"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "emptyCallStack"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "error"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Err.hs"
+,"start-line": 49
+,"start-col": 1
+,"end-line": 52
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.Err"
+,"name": "absentErr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Err.hs"
+,"start-line": 84
+,"start-col": 1
+,"end-line": 84
+,"end-col": 91}}
+,{"id": {"package": "base"
+,"module": "GHC.Err"
+,"name": "undefined"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "error"}]
+,"src-span": {"file": "libraries/base/GHC/Err.hs"
+,"start-line": 79
+,"start-col": 1
+,"end-line": 79
+,"end-col": 39}}]

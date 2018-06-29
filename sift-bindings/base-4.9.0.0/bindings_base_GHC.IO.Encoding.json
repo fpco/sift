@@ -1,0 +1,473 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "unknownEncodingErr"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "ioException"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "IOError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "NoSuchThing"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 289
+,"start-col": 1
+,"end-line": 290
+,"end-col": 89}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "latin1_decode"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "input'"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "output'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Latin1"
+,"name": "latin1_decode"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "input"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "output"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 285
+,"start-col": 1
+,"end-line": 285
+,"end-col": 115}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "latin1_encode"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "input'"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "output'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Latin1"
+,"name": "latin1_encode"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "input"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "output"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 281
+,"start-col": 1
+,"end-line": 281
+,"end-col": 115}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "mkTextEncoding'"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "enc"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "c"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "toUpper"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.UTF8"
+,"name": "mkUTF8"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "cfm"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.UTF16"
+,"name": "mkUTF16"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.UTF16"
+,"name": "mkUTF16le"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.UTF16"
+,"name": "mkUTF16be"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.UTF32"
+,"name": "mkUTF32"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.UTF32"
+,"name": "mkUTF32le"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.UTF32"
+,"name": "mkUTF32be"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Latin1"
+,"name": "mkLatin1"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Iconv"
+,"name": "mkIconvEncoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "any"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "ansiEncNames"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "res"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "isAscii"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Latin1"
+,"name": "mkAscii"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "unknownEncodingErr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "codingFailureModeSuffix"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 238
+,"start-col": 1
+,"end-line": 276
+,"end-col": 8}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "mkTextEncoding"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "mb_coding_failure_mode"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "unknownEncodingErr"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "mkTextEncoding'"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "cfm"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "enc"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "span"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "suffix"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ErrorOnCodingFailure"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "IgnoreCodingFailure"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "TransliterateCodingFailure"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "RoundtripFailure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 225
+,"start-col": 1
+,"end-line": 235
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "char8"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Latin1"
+,"name": "latin1"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 174
+,"start-col": 1
+,"end-line": 174
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "initForeignEncoding"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafePerformIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "mkTextEncoding'"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "IgnoreCodingFailure"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Iconv"
+,"name": "localeEncodingName"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 157
+,"start-col": 1
+,"end-line": 157
+,"end-col": 105}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "initFileSystemEncoding"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafePerformIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "mkTextEncoding'"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "RoundtripFailure"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Iconv"
+,"name": "localeEncodingName"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 156
+,"start-col": 1
+,"end-line": 156
+,"end-col": 105}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "initLocaleEncoding"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafePerformIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "mkTextEncoding'"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ErrorOnCodingFailure"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Iconv"
+,"name": "localeEncodingName"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 155
+,"start-col": 1
+,"end-line": 155
+,"end-col": 105}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "mkGlobal"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafePerformIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IORef"
+,"name": "newIORef"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IORef"
+,"name": "readIORef"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "x_ref"}
+,{"package": "base"
+,"module": "GHC.IORef"
+,"name": "writeIORef"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 137
+,"start-col": 1
+,"end-line": 139
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "utf32be"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.UTF32"
+,"name": "utf32be"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 102
+,"start-col": 1
+,"end-line": 102
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "utf32le"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.UTF32"
+,"name": "utf32le"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 98
+,"start-col": 1
+,"end-line": 98
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "utf32"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.UTF32"
+,"name": "utf32"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 94
+,"start-col": 1
+,"end-line": 94
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "utf16be"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.UTF16"
+,"name": "utf16be"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 89
+,"start-col": 1
+,"end-line": 89
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "utf16le"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.UTF16"
+,"name": "utf16le"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 85
+,"start-col": 1
+,"end-line": 85
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "utf16"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.UTF16"
+,"name": "utf16"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 81
+,"start-col": 1
+,"end-line": 81
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "utf8_bom"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.UTF8"
+,"name": "utf8_bom"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 76
+,"start-col": 1
+,"end-line": 76
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "utf8"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.UTF8"
+,"name": "utf8"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 65
+,"start-col": 1
+,"end-line": 65
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding"
+,"name": "latin1"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Latin1"
+,"name": "latin1_checked"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding.hs"
+,"start-line": 61
+,"start-col": 1
+,"end-line": 61
+,"end-col": 31}}]

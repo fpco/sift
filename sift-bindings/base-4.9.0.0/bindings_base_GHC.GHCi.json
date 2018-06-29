@@ -1,0 +1,303 @@
+[{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$tcNoIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$tc'NoIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$tcGHCiSandboxIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$tc'C:GHCiSandboxIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "noio"}
+,"refs": [{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "noio"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 35
+,"start-col": 25
+,"end-line": 35
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$dGHCiSandboxIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "C:GHCiSandboxIO"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$cp1GHCiSandboxIO"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$cghciStepIO"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 47
+,"start-col": 10
+,"end-line": 47
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "ghciStepIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "noio"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 48
+,"start-col": 5
+,"end-line": 48
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 44
+,"start-col": 10
+,"end-line": 44
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": ">>="}
+,"refs": [{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "NoIO"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "noio"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 45
+,"start-col": 5
+,"end-line": 45
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm>>"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmreturn"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmfail"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 40
+,"start-col": 10
+,"end-line": 40
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "NoIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 41
+,"start-col": 3
+,"end-line": 41
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "ap"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 42
+,"start-col": 3
+,"end-line": 42
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 37
+,"start-col": 10
+,"end-line": 37
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "NoIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 38
+,"start-col": 3
+,"end-line": 38
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$dGHCiSandboxIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "C:GHCiSandboxIO"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$cp1GHCiSandboxIO"}
+,{"package": "base"
+,"module": "GHC.GHCi"
+,"name": "$cghciStepIO"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 31
+,"start-col": 10
+,"end-line": 31
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.GHCi"
+,"name": "ghciStepIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/GHC/GHCi.hs"
+,"start-line": 32
+,"start-col": 5
+,"end-line": 32
+,"end-col": 20}}]

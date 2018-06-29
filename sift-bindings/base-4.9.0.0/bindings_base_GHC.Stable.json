@@ -1,0 +1,168 @@
+[{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "$tcStablePtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "$tc'StablePtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "castPtrToStablePtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stable"
+,"name": "StablePtr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "unsafeCoerce#"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/Stable.hs"
+,"start-line": 102
+,"start-col": 1
+,"end-line": 102
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "castStablePtrToPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "Ptr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "unsafeCoerce#"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Stable.hs"
+,"start-line": 88
+,"start-col": 1
+,"end-line": 88
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "deRefStablePtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "deRefStablePtr#"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "sp"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Stable.hs"
+,"start-line": 65
+,"start-col": 1
+,"end-line": 65
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "newStablePtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "makeStablePtr#"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "StablePtr"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "sp"}]
+,"src-span": {"file": "libraries/base/GHC/Stable.hs"
+,"start-line": 54
+,"start-col": 1
+,"end-line": 55
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Stable.hs"
+,"start-line": 104
+,"start-col": 10
+,"end-line": 104
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqStablePtr#"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "sp1"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "sp2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Stable.hs"
+,"start-line": 105
+,"start-col": 5
+,"end-line": 108
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Stable"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm/="}]}]

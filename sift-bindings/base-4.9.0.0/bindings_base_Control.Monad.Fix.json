@@ -1,0 +1,670 @@
+[{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$tcMonadFix"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$tc'C:MonadFix"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 119
+,"start-col": 10
+,"end-line": 119
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "fstP"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": ":*:"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "sndP"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "b"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 120
+,"start-col": 5
+,"end-line": 123
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 116
+,"start-col": 10
+,"end-line": 116
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "M1"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "unM1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 117
+,"start-col": 5
+,"end-line": 117
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 113
+,"start-col": 10
+,"end-line": 113
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "Rec1"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "unRec1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 114
+,"start-col": 5
+,"end-line": 114
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 110
+,"start-col": 10
+,"end-line": 110
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "Par1"}
+,{"package": "base"
+,"module": "Data.Function"
+,"name": "fix"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "unPar1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 111
+,"start-col": 5
+,"end-line": 111
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 106
+,"start-col": 10
+,"end-line": 106
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Data.Monoid"
+,"name": "Alt"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,{"package": "base"
+,"module": "Data.Monoid"
+,"name": "getAlt"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 107
+,"start-col": 5
+,"end-line": 107
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 103
+,"start-col": 10
+,"end-line": 103
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Data.Monoid"
+,"name": "Last"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,{"package": "base"
+,"module": "Data.Monoid"
+,"name": "getLast"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 104
+,"start-col": 5
+,"end-line": 104
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 100
+,"start-col": 10
+,"end-line": 100
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Data.Monoid"
+,"name": "First"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,{"package": "base"
+,"module": "Data.Monoid"
+,"name": "getFirst"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 101
+,"start-col": 5
+,"end-line": 101
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 97
+,"start-col": 10
+,"end-line": 97
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Data.Monoid"
+,"name": "Product"}
+,{"package": "base"
+,"module": "Data.Function"
+,"name": "fix"}
+,{"package": "base"
+,"module": "Data.Monoid"
+,"name": "getProduct"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 98
+,"start-col": 5
+,"end-line": 98
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 94
+,"start-col": 10
+,"end-line": 94
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Data.Monoid"
+,"name": "Sum"}
+,{"package": "base"
+,"module": "Data.Function"
+,"name": "fix"}
+,{"package": "base"
+,"module": "Data.Monoid"
+,"name": "getSum"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 95
+,"start-col": 5
+,"end-line": 95
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 91
+,"start-col": 10
+,"end-line": 91
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Data.Monoid"
+,"name": "Dual"}
+,{"package": "base"
+,"module": "Data.Function"
+,"name": "fix"}
+,{"package": "base"
+,"module": "Data.Monoid"
+,"name": "getDual"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 92
+,"start-col": 5
+,"end-line": 92
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 86
+,"start-col": 10
+,"end-line": 86
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "GHC.ST"
+,"name": "fixST"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 87
+,"start-col": 9
+,"end-line": 87
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 81
+,"start-col": 10
+,"end-line": 81
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "unRight"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 82
+,"start-col": 5
+,"end-line": 84
+,"end-col": 82}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 78
+,"start-col": 10
+,"end-line": 78
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "r"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 79
+,"start-col": 5
+,"end-line": 79
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 75
+,"start-col": 10
+,"end-line": 75
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "System.IO"
+,"name": "fixIO"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 76
+,"start-col": 5
+,"end-line": 76
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 70
+,"start-col": 10
+,"end-line": 70
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Data.Function"
+,"name": "fix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "head"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "tail"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 71
+,"start-col": 5
+,"end-line": 73
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 65
+,"start-col": 10
+,"end-line": 65
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "unJust"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fix.hs"
+,"start-line": 66
+,"start-col": 5
+,"end-line": 68
+,"end-col": 82}}]

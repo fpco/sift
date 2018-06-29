@@ -1,0 +1,351 @@
+[{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$tcCallStack"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$tc'EmptyCallStack"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$tc'PushCallStack"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$tc'FreezeCallStack"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$tcSrcLoc"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$tc'SrcLoc"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "freezeCallStack"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "FreezeCallStack"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "stk"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 202
+,"start-col": 1
+,"end-line": 202
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "emptyCallStack"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "EmptyCallStack"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 192
+,"start-col": 1
+,"end-line": 192
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "pushCallStack"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "stk"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "PushCallStack"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "fn"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "loc"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 182
+,"start-col": 1
+,"end-line": 184
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "fromCallSiteList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "PushCallStack"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "fn"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "loc"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "fromCallSiteList"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "cs"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "EmptyCallStack"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 157
+,"start-col": 1
+,"end-line": 158
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "getCallStack"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "stk"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "fn"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "loc"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "getCallStack"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "stk'"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "stk'"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 148
+,"start-col": 1
+,"end-line": 151
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocEndCol"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocEndCol"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 216
+,"start-col": 5
+,"end-line": 216
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocEndLine"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocEndLine"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 215
+,"start-col": 5
+,"end-line": 215
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocFile"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocFile"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 212
+,"start-col": 5
+,"end-line": 212
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocModule"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocModule"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 211
+,"start-col": 5
+,"end-line": 211
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocPackage"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocPackage"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 210
+,"start-col": 5
+,"end-line": 210
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocStartCol"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocStartCol"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 214
+,"start-col": 5
+,"end-line": 214
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocStartLine"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "srcLocStartLine"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 213
+,"start-col": 5
+,"end-line": 213
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 217
+,"start-col": 14
+,"end-line": 217
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "b2"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "a3"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "b3"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "a4"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "b4"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "a5"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "b5"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "a6"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "b6"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "a7"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "b7"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 217
+,"start-col": 14
+,"end-line": 217
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Stack/Types.hs"
+,"start-line": 217
+,"start-col": 14
+,"end-line": 217
+,"end-col": 16}}]

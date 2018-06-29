@@ -1,0 +1,801 @@
+[{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$tcMonadZip"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$tc'C:MonadZip"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "(,)"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 44
+,"start-col": 5
+,"end-line": 44
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM"}
+,{"package": "base"
+,"module": "Data.Tuple"
+,"name": "uncurry"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "ma"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mb"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 47
+,"start-col": 5
+,"end-line": 47
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM"}
+,{"package": "base"
+,"module": "Data.Tuple"
+,"name": "fst"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mab"}
+,{"package": "base"
+,"module": "Data.Tuple"
+,"name": "snd"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 50
+,"start-col": 5
+,"end-line": 50
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 98
+,"start-col": 10
+,"end-line": 98
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "x1"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "x2"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": ":*:"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "y1"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "y2"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 99
+,"start-col": 5
+,"end-line": 99
+,"end-col": 79}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 95
+,"start-col": 10
+,"end-line": 95
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "M1"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "fa"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "fb"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 96
+,"start-col": 5
+,"end-line": 96
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 92
+,"start-col": 10
+,"end-line": 92
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "Rec1"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "fa"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "fb"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 93
+,"start-col": 5
+,"end-line": 93
+,"end-col": 61}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 89
+,"start-col": 10
+,"end-line": 89
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM2"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 90
+,"start-col": 5
+,"end-line": 90
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 86
+,"start-col": 10
+,"end-line": 86
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "U1"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 87
+,"start-col": 5
+,"end-line": 87
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 82
+,"start-col": 10
+,"end-line": 82
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "Data.Proxy"
+,"name": "Proxy"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 83
+,"start-col": 5
+,"end-line": 83
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 79
+,"start-col": 10
+,"end-line": 79
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "Data.Monoid"
+,"name": "Alt"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "ma"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mb"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 80
+,"start-col": 5
+,"end-line": 80
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 76
+,"start-col": 10
+,"end-line": 76
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM2"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 77
+,"start-col": 5
+,"end-line": 77
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 73
+,"start-col": 10
+,"end-line": 73
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM2"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 74
+,"start-col": 5
+,"end-line": 74
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 70
+,"start-col": 10
+,"end-line": 70
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM2"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 71
+,"start-col": 5
+,"end-line": 71
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 67
+,"start-col": 10
+,"end-line": 67
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM2"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 68
+,"start-col": 5
+,"end-line": 68
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 64
+,"start-col": 10
+,"end-line": 64
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM2"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 65
+,"start-col": 5
+,"end-line": 65
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 60
+,"start-col": 10
+,"end-line": 60
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM2"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 62
+,"start-col": 5
+,"end-line": 62
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dmmunzip"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$dMonadZip"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "C:MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cp1MonadZip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzip"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmzipWith"}
+,{"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "$cmunzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 55
+,"start-col": 10
+,"end-line": 55
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzip"}
+,"refs": [{"package": "base"
+,"module": "GHC.List"
+,"name": "zip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 56
+,"start-col": 5
+,"end-line": 56
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "mzipWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.List"
+,"name": "zipWith"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 57
+,"start-col": 5
+,"end-line": 57
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Zip"
+,"name": "munzip"}
+,"refs": [{"package": "base"
+,"module": "GHC.List"
+,"name": "unzip"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Zip.hs"
+,"start-line": 58
+,"start-col": 5
+,"end-line": 58
+,"end-col": 21}}]

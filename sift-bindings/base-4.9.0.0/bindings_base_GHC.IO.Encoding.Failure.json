@@ -1,0 +1,413 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$tcCodingFailureMode"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$tc'ErrorOnCodingFailure"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$tc'IgnoreCodingFailure"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$tc'TransliterateCodingFailure"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$tc'RoundtripFailure"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ioe_encodingError"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "ioException"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "IOError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "InvalidArgument"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 200
+,"start-col": 1
+,"end-line": 202
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ioe_decodingError"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "ioException"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "IOError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "InvalidArgument"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 195
+,"start-col": 1
+,"end-line": 197
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "unescapeRoundtripCharacterSurrogate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "ord"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 140
+,"start-col": 1
+,"end-line": 143
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "recoverEncode"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "readCharBuf"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "iraw"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ir"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "cfm"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "input"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ir'"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "output"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "c"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "writeCharBuf"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "unescapeRoundtripCharacterSurrogate"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "writeWord8Buf"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "oraw"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ow"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ioe_encodingError"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 163
+,"start-col": 1
+,"end-line": 192
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "escapeToRoundtripCharacterSurrogate"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Char"
+,"name": "chr"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 131
+,"start-col": 1
+,"end-line": 135
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "isSurrogate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "ord"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 124
+,"start-col": 1
+,"end-line": 126
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "unrepresentableChar"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 106
+,"start-col": 1
+,"end-line": 106
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "recoverDecode"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "cfm"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ioe_decodingError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "input"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ir"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "output"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "writeCharBuf"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "oraw"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ow"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "unrepresentableChar"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ow'"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "readWord8Buf"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "iraw"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "escapeToRoundtripCharacterSurrogate"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "ow'"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 147
+,"start-col": 1
+,"end-line": 159
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "codingFailureModeSuffix"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 95
+,"start-col": 1
+,"end-line": 98
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 51
+,"start-col": 13
+,"end-line": 51
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 51
+,"start-col": 13
+,"end-line": 51
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Failure"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Failure.hs"
+,"start-line": 51
+,"start-col": 13
+,"end-line": 51
+,"end-col": 17}}]

@@ -1,0 +1,1013 @@
+[{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$tcTimerManager"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$tc'TimerManager"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$tcState"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$tc'Created"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$tc'Running"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$tc'Dying"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$tc'Finished"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$tcTimeoutKey"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$tc'TK"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "editTimeouts"}
+,"refs": [{"package": "base"
+,"module": "Data.IORef"
+,"name": "atomicModifyIORef'"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emTimeouts"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "tq"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 242
+,"start-col": 1
+,"end-line": 242
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "wakeManager"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "sendWakeup"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emControl"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 204
+,"start-col": 1
+,"end-line": 204
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "registerTimeout"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Unique"
+,"name": "newUnique"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emUniqueSource"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "us"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "cb"}
+,{"package": "base"
+,"module": "GHC.Event.Clock"
+,"name": "getMonotonicTime"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "now"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "editTimeouts"}
+,{"package": "base"
+,"module": "GHC.Event.PSQ"
+,"name": "insert"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "key"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "expTime"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "wakeManager"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "TK"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 214
+,"start-col": 1
+,"end-line": 223
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "unregisterTimeout"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "editTimeouts"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}
+,{"package": "base"
+,"module": "GHC.Event.PSQ"
+,"name": "delete"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "key"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "wakeManager"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 227
+,"start-col": 1
+,"end-line": 229
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "updateTimeout"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Clock"
+,"name": "getMonotonicTime"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "us"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "now"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "editTimeouts"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}
+,{"package": "base"
+,"module": "GHC.Event.PSQ"
+,"name": "adjust"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "expTime"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "key"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "wakeManager"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 234
+,"start-col": 1
+,"end-line": 239
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "cleanup"}
+,"refs": [{"package": "base"
+,"module": "GHC.IORef"
+,"name": "writeIORef"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emState"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "Finished"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "delete"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emBackend"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "closeControl"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emControl"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 149
+,"start-col": 1
+,"end-line": 152
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "finished"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "Finished"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM"}
+,{"package": "base"
+,"module": "GHC.IORef"
+,"name": "readIORef"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emState"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 146
+,"start-col": 1
+,"end-line": 146
+,"end-col": 61}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "shutdown"}
+,"refs": [{"package": "base"
+,"module": "Data.IORef"
+,"name": "atomicModifyIORef'"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emState"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "Dying"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "state"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "Running"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "sendDie"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emControl"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 141
+,"start-col": 1
+,"end-line": 143
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "newWith"}
+,"refs": [{"package": "base"
+,"module": "GHC.IORef"
+,"name": "newIORef"}
+,{"package": "base"
+,"module": "GHC.Event.PSQ"
+,"name": "empty"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "newControl"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "Created"}
+,{"package": "base"
+,"module": "GHC.Event.Unique"
+,"name": "newSource"}
+,{"package": "base"
+,"module": "Data.IORef"
+,"name": "mkWeakIORef"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "state"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Data.IORef"
+,"name": "atomicModifyIORef'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "Finished"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "st"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "delete"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "be"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "closeControl"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "ctrl"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$WTimerManager"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "timeouts"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "us"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "modifyFd"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "controlReadFd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtRead"}
+,{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "wakeupReadFd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 119
+,"start-col": 1
+,"end-line": 137
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "newDefaultBackend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Poll"
+,"name": "new"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 109
+,"start-col": 1
+,"end-line": 109
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "new"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "newWith"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "=<<"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "newDefaultBackend"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 116
+,"start-col": 1
+,"end-line": 116
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "handleControlEvent"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Control"
+,"name": "readControlMessage"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emControl"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "fd"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "msg"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.IORef"
+,"name": "writeIORef"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emState"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "Finished"}
+,{"package": "base"
+,"module": "GHC.Conc.Signal"
+,"name": "runHandlers"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "fp"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 100
+,"start-col": 1
+,"end-line": 105
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "step"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mkTimeout"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "poll"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emBackend"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "timeout"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "handleControlEvent"}
+,{"package": "base"
+,"module": "GHC.IORef"
+,"name": "readIORef"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emState"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "state"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "Running"}
+,{"package": "base"
+,"module": "GHC.Event.Clock"
+,"name": "getMonotonicTime"}
+,{"package": "base"
+,"module": "Data.IORef"
+,"name": "atomicModifyIORef'"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emTimeouts"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.PSQ"
+,"name": "atMost"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "now"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "tq"}
+,{"package": "base"
+,"module": "GHC.Event.PSQ"
+,"name": "minView"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "tq'"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "Forever"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "t"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "t'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$WTimeout"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "expired"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "timeout"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "sequence_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Event.PSQ"
+,"name": "value"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "expired"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "timeout"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 178
+,"start-col": 1
+,"end-line": 200
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "loop"}
+,"refs": [{"package": "base"
+,"module": "Data.IORef"
+,"name": "atomicModifyIORef'"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emState"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "mgr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "Running"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "state"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "go"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "finally"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "cleanup"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "step"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "when"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "running"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "go"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 163
+,"start-col": 1
+,"end-line": 175
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emControl"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emControl"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 93
+,"start-col": 7
+,"end-line": 93
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emBackend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emBackend"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 89
+,"start-col": 7
+,"end-line": 89
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emTimeouts"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emTimeouts"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 90
+,"start-col": 7
+,"end-line": 90
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emState"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emState"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 91
+,"start-col": 7
+,"end-line": 91
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emUniqueSource"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "emUniqueSource"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 92
+,"start-col": 7
+,"end-line": 92
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 70
+,"start-col": 15
+,"end-line": 70
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 70
+,"start-col": 15
+,"end-line": 70
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 70
+,"start-col": 15
+,"end-line": 70
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 79
+,"start-col": 24
+,"end-line": 79
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 79
+,"start-col": 24
+,"end-line": 79
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 79
+,"start-col": 24
+,"end-line": 79
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 79
+,"start-col": 28
+,"end-line": 79
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 79
+,"start-col": 28
+,"end-line": 79
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.TimerManager"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Event/TimerManager.hs"
+,"start-line": 79
+,"start-col": 28
+,"end-line": 79
+,"end-col": 32}}]

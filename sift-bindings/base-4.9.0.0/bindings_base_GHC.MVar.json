@@ -1,0 +1,393 @@
+[{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "$tcMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "$tc'MVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "addMVarFinalizer"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "mkWeak#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "finalizer"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s1"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 179
+,"start-col": 1
+,"end-line": 180
+,"end-col": 80}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "isEmptyMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "isEmptyMVar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "mv#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s2#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "flg"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "/=#"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 172
+,"start-col": 1
+,"end-line": 174
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "tryReadMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tryReadMVar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 160
+,"start-col": 1
+,"end-line": 163
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "tryPutMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tryPutMVar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "mvar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 149
+,"start-col": 1
+,"end-line": 152
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "tryTakeMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tryTakeMVar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 140
+,"start-col": 1
+,"end-line": 143
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "putMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "putMVar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "mvar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s2#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 131
+,"start-col": 1
+,"end-line": 133
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "readMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "readMVar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "mvar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s#"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 114
+,"start-col": 1
+,"end-line": 114
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "takeMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "takeMVar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "mvar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s#"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 89
+,"start-col": 1
+,"end-line": 89
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "newEmptyMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "newMVar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "s2#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "MVar"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "svar#"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 62
+,"start-col": 1
+,"end-line": 64
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "newMVar"}
+,"refs": [{"package": "base"
+,"module": "GHC.MVar"
+,"name": "newEmptyMVar"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "putMVar"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "mvar"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "value"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 68
+,"start-col": 1
+,"end-line": 71
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 45
+,"start-col": 10
+,"end-line": 45
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "sameMVar#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "mvar1#"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "mvar2#"}]
+,"src-span": {"file": "libraries/base/GHC/MVar.hs"
+,"start-line": 46
+,"start-col": 9
+,"end-line": 46
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.MVar"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm/="}]}]

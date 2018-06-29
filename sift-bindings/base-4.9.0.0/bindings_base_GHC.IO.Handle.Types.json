@@ -1,0 +1,1966 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tcNewlineMode"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'NewlineMode"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tcHandle"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'FileHandle"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'DuplexHandle"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tcHandle__"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'Handle__"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tcNewline"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'LF"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'CRLF"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tcBufferMode"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'NoBuffering"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'LineBuffering"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'BlockBuffering"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tcHandleType"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'ClosedHandle"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'SemiClosedHandle"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'ReadHandle"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'WriteHandle"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'AppendHandle"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'ReadWriteHandle"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tcBufferList"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'BufferListNil"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$tc'BufferListCons"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showHandle"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "file"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 425
+,"start-col": 1
+,"end-line": 425
+,"end-col": 76}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "noNewlineTranslation"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "NewlineMode"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "LF"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 401
+,"start-col": 1
+,"end-line": 401
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "nativeNewline"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "LF"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 372
+,"start-col": 1
+,"end-line": 372
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "universalNewlineMode"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "NewlineMode"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "CRLF"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "nativeNewline"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 384
+,"start-col": 1
+,"end-line": 385
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "nativeNewlineMode"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "NewlineMode"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "nativeNewline"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 393
+,"start-col": 1
+,"end-line": 394
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "checkHandleInvariants"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 195
+,"start-col": 1
+,"end-line": 195
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "isReadWriteHandleType"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 169
+,"start-col": 1
+,"end-line": 170
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "isWritableHandleType"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 163
+,"start-col": 1
+,"end-line": 166
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "isReadableHandleType"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 158
+,"start-col": 1
+,"end-line": 160
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$con2tag_7aPDe1zCQRt9V2ymk3Rk7G"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$con2tag_F5VBGXvsD54C9pACak7AIi"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "inputNL"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "inputNL"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 359
+,"start-col": 19
+,"end-line": 359
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "outputNL"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "outputNL"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 361
+,"start-col": 19
+,"end-line": 361
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haBufferMode"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haBufferMode"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 126
+,"start-col": 7
+,"end-line": 126
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haBuffers"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haBuffers"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 129
+,"start-col": 7
+,"end-line": 129
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haByteBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haByteBuffer"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 125
+,"start-col": 7
+,"end-line": 125
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haCharBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haCharBuffer"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 128
+,"start-col": 7
+,"end-line": 128
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haCodec"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haCodec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 132
+,"start-col": 7
+,"end-line": 132
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haDecoder"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 131
+,"start-col": 7
+,"end-line": 131
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haDevice"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 123
+,"start-col": 7
+,"end-line": 123
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haEncoder"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 130
+,"start-col": 7
+,"end-line": 130
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haInputNL"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haInputNL"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 133
+,"start-col": 7
+,"end-line": 133
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haLastDecode"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 127
+,"start-col": 7
+,"end-line": 127
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haOtherSide"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haOtherSide"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 135
+,"start-col": 7
+,"end-line": 135
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haOutputNL"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haOutputNL"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 134
+,"start-col": 7
+,"end-line": 134
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haType"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "haType"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 124
+,"start-col": 7
+,"end-line": 124
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 14
+,"end-line": 249
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 14
+,"end-line": 249
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 14
+,"end-line": 249
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 18
+,"end-line": 249
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 18
+,"end-line": 249
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 18
+,"end-line": 249
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 18
+,"end-line": 249
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 18
+,"end-line": 249
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 18
+,"end-line": 249
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 23
+,"end-line": 249
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 23
+,"end-line": 249
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "choose"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "NoBuffering"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "LineBuffering"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "+++"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "prec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Ident"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "step"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "BlockBuffering"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 23
+,"end-line": 249
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 23
+,"end-line": 249
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 29
+,"end-line": 249
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 29
+,"end-line": 249
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 249
+,"start-col": 29
+,"end-line": 249
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 24
+,"end-line": 351
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 24
+,"end-line": 351
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 24
+,"end-line": 351
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 28
+,"end-line": 351
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 28
+,"end-line": 351
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 28
+,"end-line": 351
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 28
+,"end-line": 351
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 28
+,"end-line": 351
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 28
+,"end-line": 351
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 33
+,"end-line": 351
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 33
+,"end-line": 351
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "choose"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "LF"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "CRLF"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 33
+,"end-line": 351
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 33
+,"end-line": 351
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 39
+,"end-line": 351
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 39
+,"end-line": 351
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 351
+,"start-col": 39
+,"end-line": 351
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 24
+,"end-line": 364
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b2"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 24
+,"end-line": 364
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 24
+,"end-line": 364
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 28
+,"end-line": 364
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 28
+,"end-line": 364
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 28
+,"end-line": 364
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 28
+,"end-line": 364
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 28
+,"end-line": 364
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 28
+,"end-line": 364
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 33
+,"end-line": 364
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 33
+,"end-line": 364
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "prec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Ident"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Punc"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "reset"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "NewlineMode"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a2"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 33
+,"end-line": 364
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 33
+,"end-line": 364
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 39
+,"end-line": 364
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "b2"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 39
+,"end-line": 364
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 364
+,"start-col": 39
+,"end-line": 364
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 420
+,"start-col": 10
+,"end-line": 420
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showHandle"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "file"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "file"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 421
+,"start-col": 3
+,"end-line": 422
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 410
+,"start-col": 10
+,"end-line": 410
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "t"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 411
+,"start-col": 3
+,"end-line": 418
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 115
+,"start-col": 10
+,"end-line": 115
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "h1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "h2"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "h1"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "h2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Handle/Types.hs"
+,"start-line": 116
+,"start-col": 2
+,"end-line": 118
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Handle.Types"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm/="}]}]

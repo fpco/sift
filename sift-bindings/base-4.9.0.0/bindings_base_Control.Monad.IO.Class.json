@@ -1,0 +1,61 @@
+[{"id": {"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "$tcMonadIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "$tc'C:MonadIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "$dMonadIO"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "C:MonadIO"}
+,{"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "$cp1MonadIO"}
+,{"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "$cliftIO"}]
+,"src-span": {"file": "libraries/base/Control/Monad/IO/Class.hs"
+,"start-line": 35
+,"start-col": 10
+,"end-line": 35
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.IO.Class"
+,"name": "liftIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/Control/Monad/IO/Class.hs"
+,"start-line": 36
+,"start-col": 5
+,"end-line": 36
+,"end-col": 16}}]

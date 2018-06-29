@@ -1,0 +1,64 @@
+[{"id": {"package": "base"
+,"module": "GHC.Desugar"
+,"name": "$tcAnnotationWrapper"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Desugar"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Desugar"
+,"name": "$tc'AnnotationWrapper"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Desugar"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Desugar"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Desugar"
+,"name": "toAnnotationWrapper"}
+,"refs": [{"package": "base"
+,"module": "GHC.Desugar"
+,"name": "AnnotationWrapper"}
+,{"package": "base"
+,"module": "GHC.Desugar"
+,"name": "what"}]
+,"src-span": {"file": "libraries/base/GHC/Desugar.hs"
+,"start-line": 40
+,"start-col": 1
+,"end-line": 40
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Desugar"
+,"name": ">>>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Desugar"
+,"name": "g"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Desugar"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/Desugar.hs"
+,"start-line": 34
+,"start-col": 1
+,"end-line": 34
+,"end-col": 16}}]

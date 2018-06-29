@@ -1,0 +1,836 @@
+[{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$tcFunPtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$tc'FunPtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$tcPtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$tc'Ptr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castPtrToFunPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "FunPtr"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "addr"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 160
+,"start-col": 1
+,"end-line": 160
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castFunPtrToPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "Ptr"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "addr"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 151
+,"start-col": 1
+,"end-line": 151
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castFunPtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 142
+,"start-col": 1
+,"end-line": 142
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "nullFunPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "FunPtr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "nullAddr#"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 138
+,"start-col": 1
+,"end-line": 138
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "minusPtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "minusAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a2"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 84
+,"start-col": 1
+,"end-line": 84
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "alignPtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "remAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "addr"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "Ptr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusAddr#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 74
+,"start-col": 1
+,"end-line": 77
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "plusPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "Ptr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "addr"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 67
+,"start-col": 1
+,"end-line": 67
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castPtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 63
+,"start-col": 1
+,"end-line": 63
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "nullPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "Ptr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "nullAddr#"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 59
+,"start-col": 1
+,"end-line": 59
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 45
+,"start-col": 34
+,"end-line": 45
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 45
+,"start-col": 34
+,"end-line": 45
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 45
+,"start-col": 34
+,"end-line": 45
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 45
+,"start-col": 38
+,"end-line": 45
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqAddr#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 45
+,"start-col": 38
+,"end-line": 45
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 45
+,"start-col": 38
+,"end-line": 45
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "leAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 45
+,"start-col": 38
+,"end-line": 45
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 45
+,"start-col": 38
+,"end-line": 45
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "geAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 45
+,"start-col": 38
+,"end-line": 45
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 93
+,"start-col": 40
+,"end-line": 93
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 93
+,"start-col": 40
+,"end-line": 93
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 93
+,"start-col": 40
+,"end-line": 93
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 93
+,"start-col": 44
+,"end-line": 93
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqAddr#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 93
+,"start-col": 44
+,"end-line": 93
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 93
+,"start-col": 44
+,"end-line": 93
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "leAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 93
+,"start-col": 44
+,"end-line": 93
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 93
+,"start-col": 44
+,"end-line": 93
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "geAddr#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 93
+,"start-col": 44
+,"end-line": 93
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 173
+,"start-col": 10
+,"end-line": 173
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castFunPtrToPtr"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 174
+,"start-col": 4
+,"end-line": 174
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 166
+,"start-col": 10
+,"end-line": 166
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "pad_out"}
+,{"package": "base"
+,"module": "Numeric"
+,"name": "showHex"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "wordToInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "addr2Int#"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "replicate"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "length"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "ls"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "rs"}]
+,"src-span": {"file": "libraries/base/GHC/Ptr.hs"
+,"start-line": 167
+,"start-col": 4
+,"end-line": 171
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Ptr"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

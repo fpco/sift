@@ -1,0 +1,1569 @@
+[{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tcArrowLoop"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tc'C:ArrowLoop"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tcArrowMonad"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tc'ArrowMonad"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tcArrowApply"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tc'C:ArrowApply"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tcArrowChoice"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tc'C:ArrowChoice"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tcArrowPlus"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tc'C:ArrowPlus"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tcArrowZero"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tc'C:ArrowZero"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tcKleisli"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tc'Kleisli"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tcArrow"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$tc'C:Arrow"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "leftApp"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "b"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Left"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "|||"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "d"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Right"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "app"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 332
+,"start-col": 1
+,"end-line": 333
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "^<<"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "<<<"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 178
+,"start-col": 1
+,"end-line": 178
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "<<^"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "<<<"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 174
+,"start-col": 1
+,"end-line": 174
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": ">>^"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 170
+,"start-col": 1
+,"end-line": 170
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "^>>"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 166
+,"start-col": 1
+,"end-line": 166
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "returnA"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 162
+,"start-col": 1
+,"end-line": 162
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "runKleisli"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "runKleisli"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 149
+,"start-col": 35
+,"end-line": 149
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "first"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "***"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 97
+,"start-col": 5
+,"end-line": 97
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "second"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "***"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 104
+,"start-col": 5
+,"end-line": 104
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "***"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "first"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "swap"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "y"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 112
+,"start-col": 5
+,"end-line": 113
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "&&&"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "b"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "***"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 121
+,"start-col": 5
+,"end-line": 121
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "left"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 224
+,"start-col": 5
+,"end-line": 224
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "right"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 231
+,"start-col": 5
+,"end-line": 231
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "left"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "mirror"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Right"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Left"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 240
+,"start-col": 5
+,"end-line": 244
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "|||"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "untag"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 252
+,"start-col": 5
+,"end-line": 255
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrowLoop"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:ArrowLoop"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1ArrowLoop"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cloop"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 372
+,"start-col": 10
+,"end-line": 372
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "loop"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM"}
+,{"package": "base"
+,"module": "Data.Tuple"
+,"name": "fst"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "mfix"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f'"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}
+,{"package": "base"
+,"module": "Data.Tuple"
+,"name": "snd"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 373
+,"start-col": 5
+,"end-line": 374
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrowLoop"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:ArrowLoop"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1ArrowLoop"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cloop"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 366
+,"start-col": 10
+,"end-line": 366
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "loop"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "b"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "d"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 367
+,"start-col": 5
+,"end-line": 367
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dMonadPlus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:MonadPlus"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1MonadPlus"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp2MonadPlus"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cmzero"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cmplus"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 324
+,"start-col": 10
+,"end-line": 324
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "mzero"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "ArrowMonad"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "zeroArrow"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 325
+,"start-col": 4
+,"end-line": 325
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "mplus"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "ArrowMonad"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "<+>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 326
+,"start-col": 4
+,"end-line": 326
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1Alternative"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cempty"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c<|>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$csome"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cmany"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 320
+,"start-col": 10
+,"end-line": 320
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "empty"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "ArrowMonad"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "zeroArrow"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 321
+,"start-col": 4
+,"end-line": 321
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "ArrowMonad"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "<+>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 322
+,"start-col": 4
+,"end-line": 322
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 316
+,"start-col": 10
+,"end-line": 316
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": ">>="}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "ArrowMonad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "m"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "h"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "app"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 317
+,"start-col": 5
+,"end-line": 318
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm>>"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmreturn"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmfail"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 312
+,"start-col": 10
+,"end-line": 312
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "ArrowMonad"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 313
+,"start-col": 4
+,"end-line": 313
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "ArrowMonad"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "&&&"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Data.Tuple"
+,"name": "uncurry"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 314
+,"start-col": 4
+,"end-line": 314
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 309
+,"start-col": 10
+,"end-line": 309
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "ArrowMonad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "m"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 310
+,"start-col": 5
+,"end-line": 310
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrowApply"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:ArrowApply"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1ArrowApply"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$capp"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 301
+,"start-col": 10
+,"end-line": 301
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "app"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 302
+,"start-col": 5
+,"end-line": 302
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrowApply"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:ArrowApply"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1ArrowApply"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$capp"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 298
+,"start-col": 10
+,"end-line": 298
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "app"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 299
+,"start-col": 5
+,"end-line": 299
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrowChoice"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:ArrowChoice"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1ArrowChoice"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cleft"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cright"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c+++"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c|||"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 278
+,"start-col": 10
+,"end-line": 278
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "left"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 279
+,"start-col": 5
+,"end-line": 279
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "right"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 280
+,"start-col": 5
+,"end-line": 280
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Left"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "|||"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Right"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 281
+,"start-col": 5
+,"end-line": 281
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "|||"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "either"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 282
+,"start-col": 5
+,"end-line": 282
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrowChoice"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:ArrowChoice"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1ArrowChoice"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cleft"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cright"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c+++"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c|||"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 272
+,"start-col": 10
+,"end-line": 272
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "left"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 273
+,"start-col": 5
+,"end-line": 273
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "right"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "id"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 274
+,"start-col": 5
+,"end-line": 274
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "+++"}
+,"refs": [{"package": "base"
+,"module": "Data.Either"
+,"name": "Left"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "|||"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Right"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 275
+,"start-col": 5
+,"end-line": 275
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "|||"}
+,"refs": [{"package": "base"
+,"module": "Data.Either"
+,"name": "either"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 276
+,"start-col": 5
+,"end-line": 276
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrowPlus"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:ArrowPlus"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1ArrowPlus"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c<+>"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 191
+,"start-col": 10
+,"end-line": 191
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "<+>"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 192
+,"start-col": 5
+,"end-line": 192
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrowZero"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:ArrowZero"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1ArrowZero"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$czeroArrow"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 183
+,"start-col": 10
+,"end-line": 183
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "zeroArrow"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mzero"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 184
+,"start-col": 5
+,"end-line": 184
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrow"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:Arrow"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1Arrow"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$carr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cfirst"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$csecond"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c***"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c&&&"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 155
+,"start-col": 10
+,"end-line": 155
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 156
+,"start-col": 5
+,"end-line": 156
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "first"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "c"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 157
+,"start-col": 5
+,"end-line": 157
+,"end-col": 73}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "second"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "d"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 158
+,"start-col": 5
+,"end-line": 158
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "***"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dm***"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "&&&"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dm&&&"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dCategory"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "C:Category"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cid"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c."}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 151
+,"start-col": 10
+,"end-line": 151
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "id"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 152
+,"start-col": 5
+,"end-line": 152
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "."}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "Kleisli"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 153
+,"start-col": 5
+,"end-line": 153
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dArrow"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "C:Arrow"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cp1Arrow"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$carr"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$cfirst"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$csecond"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c***"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$c&&&"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 142
+,"start-col": 10
+,"end-line": 142
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 143
+,"start-col": 5
+,"end-line": 143
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "first"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dmfirst"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "second"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dmsecond"}]}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "***"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "g"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/Control/Arrow.hs"
+,"start-line": 146
+,"start-col": 5
+,"end-line": 146
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "Control.Arrow"
+,"name": "&&&"}
+,"refs": [{"package": "base"
+,"module": "Control.Arrow"
+,"name": "$dm&&&"}]}]

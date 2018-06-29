@@ -1,0 +1,165 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$tcCodePageArrays"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$tc'SingleByteCP"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$tcCompactArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$tc'CompactArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$tcConvArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$tc'ConvArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "codePageMap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$WSingleByteCP"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "ConvArray"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "$WCompactArray"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/CodePage/Table.hs"
+,"start-line": 56
+,"start-col": 1
+,"end-line": 432
+,"end-col": 6}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "blockBitSize"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/CodePage/Table.hs"
+,"start-line": 54
+,"start-col": 1
+,"end-line": 54
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "decoderArray"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "decoderArray"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/CodePage/Table.hs"
+,"start-line": 49
+,"start-col": 5
+,"end-line": 49
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "encoderArray"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "encoderArray"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/CodePage/Table.hs"
+,"start-line": 50
+,"start-col": 5
+,"end-line": 50
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "encoderIndices"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "encoderIndices"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/CodePage/Table.hs"
+,"start-line": 44
+,"start-col": 5
+,"end-line": 44
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "encoderMax"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "encoderMax"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/CodePage/Table.hs"
+,"start-line": 43
+,"start-col": 5
+,"end-line": 43
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "encoderValues"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.CodePage.Table"
+,"name": "encoderValues"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/CodePage/Table.hs"
+,"start-line": 45
+,"start-col": 5
+,"end-line": 45
+,"end-col": 18}}]

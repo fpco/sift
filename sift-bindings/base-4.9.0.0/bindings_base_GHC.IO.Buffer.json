@@ -1,0 +1,857 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$tcBuffer"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$tc'Buffer"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$tcBufferState"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$tc'ReadBuffer"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$tc'WriteBuffer"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "summaryBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufSize"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufL"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufR"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 267
+,"start-col": 1
+,"end-line": 267
+,"end-col": 107}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "check"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "summaryBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "buf"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 289
+,"start-col": 1
+,"end-line": 290
+,"end-col": 95}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "checkBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "check"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "size"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "w"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "state"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "WriteBuffer"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 279
+,"start-col": 1
+,"end-line": 286
+,"end-col": 8}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "emptyBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$WBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "raw"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "state"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "sz"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 240
+,"start-col": 1
+,"end-line": 241
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "newBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.ForeignPtr"
+,"name": "mallocForeignPtrBytes"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bytes"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "emptyBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "fp"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "sz"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "state"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 250
+,"start-col": 1
+,"end-line": 252
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "newByteBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "newBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "st"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 244
+,"start-col": 1
+,"end-line": 244
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufferAdd"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "w"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 237
+,"start-col": 1
+,"end-line": 237
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufferAdjustL"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "l"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "w"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "buf"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 232
+,"start-col": 1
+,"end-line": 234
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufferRemove"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufferAdjustL"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "buf"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 229
+,"start-col": 1
+,"end-line": 229
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufferAvailable"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "w"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 226
+,"start-col": 1
+,"end-line": 226
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufferElems"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "w"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 223
+,"start-col": 1
+,"end-line": 223
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "isWriteBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufState"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "buf"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 218
+,"start-col": 1
+,"end-line": 220
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "isFullBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "s"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "w"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 207
+,"start-col": 1
+,"end-line": 207
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "isFullCharBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "isFullBuffer"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 214
+,"start-col": 1
+,"end-line": 214
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "isEmptyBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "l"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 204
+,"start-col": 1
+,"end-line": 204
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "withRawBuffer"}
+,"refs": [{"package": "base"
+,"module": "Foreign.ForeignPtr.Imp"
+,"name": "withForeignPtr"}
+,{"package": "base"
+,"module": "GHC.ForeignPtr"
+,"name": "castForeignPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "raw"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 201
+,"start-col": 1
+,"end-line": 201
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "slideContents"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "withRawBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "raw"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "memmove"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "plusPtr"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "elems"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "buf"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 256
+,"start-col": 1
+,"end-line": 261
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "withBuffer"}
+,"refs": [{"package": "base"
+,"module": "Foreign.ForeignPtr.Imp"
+,"name": "withForeignPtr"}
+,{"package": "base"
+,"module": "GHC.ForeignPtr"
+,"name": "castForeignPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "raw"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 198
+,"start-col": 1
+,"end-line": 198
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "charSize"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 159
+,"start-col": 1
+,"end-line": 159
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "newCharBuffer"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "newBuffer"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "charSize"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "st"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 247
+,"start-col": 1
+,"end-line": 247
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "writeCharBufPtr"}
+,"refs": [{"package": "base"
+,"module": "Foreign.Storable"
+,"name": "pokeElemOff"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "ix"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "ch"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 152
+,"start-col": 1
+,"end-line": 152
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "readCharBufPtr"}
+,"refs": [{"package": "base"
+,"module": "Foreign.Storable"
+,"name": "peekElemOff"}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "ix"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 136
+,"start-col": 1
+,"end-line": 136
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "writeCharBuf"}
+,"refs": [{"package": "base"
+,"module": "Foreign.ForeignPtr.Imp"
+,"name": "withForeignPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "arr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "writeCharBufPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "ix"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 123
+,"start-col": 1
+,"end-line": 123
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "readCharBuf"}
+,"refs": [{"package": "base"
+,"module": "Foreign.ForeignPtr.Imp"
+,"name": "withForeignPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "arr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "readCharBufPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "ix"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 119
+,"start-col": 1
+,"end-line": 119
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "peekCharBuf"}
+,"refs": [{"package": "base"
+,"module": "Foreign.ForeignPtr.Imp"
+,"name": "withForeignPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "arr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "readCharBufPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "ix"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 113
+,"start-col": 1
+,"end-line": 115
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "writeWord8Buf"}
+,"refs": [{"package": "base"
+,"module": "Foreign.ForeignPtr.Imp"
+,"name": "withForeignPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "arr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Foreign.Storable"
+,"name": "pokeByteOff"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "ix"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "w"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 102
+,"start-col": 1
+,"end-line": 102
+,"end-col": 71}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "readWord8Buf"}
+,"refs": [{"package": "base"
+,"module": "Foreign.ForeignPtr.Imp"
+,"name": "withForeignPtr"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "arr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Foreign.Storable"
+,"name": "peekByteOff"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "ix"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 99
+,"start-col": 1
+,"end-line": 99
+,"end-col": 66}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufL"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufL"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 185
+,"start-col": 9
+,"end-line": 185
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufR"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufR"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 186
+,"start-col": 9
+,"end-line": 186
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufRaw"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufRaw"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 182
+,"start-col": 9
+,"end-line": 182
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufSize"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 184
+,"start-col": 9
+,"end-line": 184
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufState"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "bufState"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 183
+,"start-col": 9
+,"end-line": 183
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 195
+,"start-col": 55
+,"end-line": 195
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 195
+,"start-col": 55
+,"end-line": 195
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Buffer"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Buffer.hs"
+,"start-line": 195
+,"start-col": 55
+,"end-line": 195
+,"end-col": 57}}]

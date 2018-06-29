@@ -1,0 +1,167 @@
+[{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "$tcWrapPipe"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "$tc'WrapPipe"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "$tcPipe"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "$tc'Pipe"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "idP"}
+,"refs": [{"package": "base"
+,"module": "CatPairs"
+,"name": "Pipe"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}]
+,"src-span": {"file": "libraries/base/tests/CatPairs.hs"
+,"start-line": 27
+,"start-col": 1
+,"end-line": 27
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": ">+>"}
+,"refs": [{"package": "base"
+,"module": "CatPairs"
+,"name": "Pipe"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad"
+,"name": ">=>"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/tests/CatPairs.hs"
+,"start-line": 24
+,"start-col": 1
+,"end-line": 24
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "unWrapPipe"}
+,"refs": [{"package": "base"
+,"module": "CatPairs"
+,"name": "unWrapPipe"}]
+,"src-span": {"file": "libraries/base/tests/CatPairs.hs"
+,"start-line": 30
+,"start-col": 7
+,"end-line": 30
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "runPipe"}
+,"refs": [{"package": "base"
+,"module": "CatPairs"
+,"name": "runPipe"}]
+,"src-span": {"file": "libraries/base/tests/CatPairs.hs"
+,"start-line": 18
+,"start-col": 30
+,"end-line": 18
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "$dCategory"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "C:Category"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "$cid"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "$c."}]
+,"src-span": {"file": "libraries/base/tests/CatPairs.hs"
+,"start-line": 32
+,"start-col": 10
+,"end-line": 32
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "id"}
+,"refs": [{"package": "base"
+,"module": "CatPairs"
+,"name": "WrapPipe"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "idP"}]
+,"src-span": {"file": "libraries/base/tests/CatPairs.hs"
+,"start-line": 33
+,"start-col": 3
+,"end-line": 33
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "CatPairs"
+,"name": "."}
+,"refs": [{"package": "base"
+,"module": "CatPairs"
+,"name": "WrapPipe"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "unWrapPipe"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "y"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": ">+>"}
+,{"package": "base"
+,"module": "CatPairs"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/tests/CatPairs.hs"
+,"start-line": 34
+,"start-col": 3
+,"end-line": 34
+,"end-col": 51}}]

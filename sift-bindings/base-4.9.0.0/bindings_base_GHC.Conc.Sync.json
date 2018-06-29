@@ -1,0 +1,2873 @@
+[{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tcTVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'TVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tcSTM"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'STM"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tcThreadStatus"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'ThreadRunning"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'ThreadFinished"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'ThreadBlocked"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'ThreadDied"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tcBlockReason"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'BlockedOnMVar"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'BlockedOnBlackHole"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'BlockedOnException"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'BlockedOnSTM"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'BlockedOnForeignCall"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'BlockedOnOther"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tcThreadId"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$tc'ThreadId"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "uncaughtExceptionHandler"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafePerformIO"}
+,{"package": "base"
+,"module": "GHC.IORef"
+,"name": "newIORef"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "defaultHandler"}
+,{"package": "base"
+,"module": "GHC.IO.Handle"
+,"name": "hFlush"}
+,{"package": "base"
+,"module": "GHC.IO.Handle.FD"
+,"name": "stdout"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchAny"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "Data.Typeable"
+,"name": "cast"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ex"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "se"}
+,{"package": "base"
+,"module": "Foreign.C.String"
+,"name": "withCString"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "msg"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "errorBelch"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "cfmt"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "cmsg"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 873
+,"start-col": 1
+,"end-line": 883
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "setUncaughtExceptionHandler"}
+,"refs": [{"package": "base"
+,"module": "GHC.IORef"
+,"name": "writeIORef"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "uncaughtExceptionHandler"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 891
+,"start-col": 1
+,"end-line": 891
+,"end-col": 66}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "getUncaughtExceptionHandler"}
+,"refs": [{"package": "base"
+,"module": "GHC.IORef"
+,"name": "readIORef"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "uncaughtExceptionHandler"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 894
+,"start-col": 1
+,"end-line": 894
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "reportError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "getUncaughtExceptionHandler"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "handler"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ex"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 862
+,"start-col": 1
+,"end-line": 864
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "sharedCAF"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "newStablePtr"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castPtr"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "castStablePtrToPtr"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "stable_ref"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "get_or_set"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ref"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ref2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "freeStablePtr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "deRefStablePtr"}
+,{"package": "base"
+,"module": "GHC.Stable"
+,"name": "castPtrToStablePtr"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 846
+,"start-col": 1
+,"end-line": 854
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "modifyMVar_"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "takeMVar"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchAny"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "restore"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "putMVar"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 826
+,"start-col": 1
+,"end-line": 832
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "withMVar"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "takeMVar"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchAny"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "restore"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.MVar"
+,"name": "putMVar"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 817
+,"start-col": 1
+,"end-line": 823
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "writeTVar"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "writeTVar#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tvar#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "val"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s2#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 808
+,"start-col": 1
+,"end-line": 810
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "readTVar"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "readTVar#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tvar#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 804
+,"start-col": 1
+,"end-line": 804
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "readTVarIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "readTVarIO#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tvar#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 800
+,"start-col": 1
+,"end-line": 800
+,"end-col": 59}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "newTVarIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "newTVar#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "val"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s2#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "TVar"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tvar#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 788
+,"start-col": 1
+,"end-line": 790
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "newTVar"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "newTVar#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "val"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s2#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "TVar"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tvar#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 779
+,"start-col": 1
+,"end-line": 781
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "checkInv"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "check#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 753
+,"start-col": 1
+,"end-line": 753
+,"end-col": 71}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "throwSTM"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raiseIO#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 737
+,"start-col": 1
+,"end-line": 737
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "retry"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "retry#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 708
+,"start-col": 1
+,"end-line": 708
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "atomically"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "atomically#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 700
+,"start-col": 1
+,"end-line": 700
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "unsafeIOToSTM"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 687
+,"start-col": 1
+,"end-line": 687
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "returnSTM"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 656
+,"start-col": 1
+,"end-line": 656
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "unSTM"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 626
+,"start-col": 1
+,"end-line": 626
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "bindSTM"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "unSTM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "new_s"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 644
+,"start-col": 1
+,"end-line": 647
+,"end-col": 4}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "thenSTM"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "unSTM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "new_s"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 650
+,"start-col": 1
+,"end-line": 653
+,"end-col": 4}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "orElse"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "catchRetry#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "unSTM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 716
+,"start-col": 1
+,"end-line": 716
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "alwaysSucceeds"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "retry"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "orElse"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "checkInv"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 761
+,"start-col": 1
+,"end-line": 762
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "always"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "alwaysSucceeds"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 768
+,"start-col": 1
+,"end-line": 769
+,"end-col": 123}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "catchSTM"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "STM"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "catchSTM#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "handler'"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "fromException"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "unSTM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "handler"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "e'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raiseIO#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 741
+,"start-col": 1
+,"end-line": 745
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "mkWeakThreadId"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "mkWeakNoFinalizer#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1"}
+,{"package": "base"
+,"module": "GHC.Weak"
+,"name": "Weak"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "w"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 610
+,"start-col": 1
+,"end-line": 612
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "threadCapability"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "threadStatus#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "cap#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "locked#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "/=#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 589
+,"start-col": 1
+,"end-line": 591
+,"end-col": 81}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "threadStatus"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "threadStatus#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "mk_stat"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "stat"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ThreadRunning"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ThreadBlocked"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "BlockedOnMVar"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "BlockedOnBlackHole"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "BlockedOnSTM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "BlockedOnForeignCall"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "BlockedOnException"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ThreadFinished"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ThreadDied"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "BlockedOnOther"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 564
+,"start-col": 1
+,"end-line": 580
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "runSparks"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "loop"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "getSpark#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "p"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "loop"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 523
+,"start-col": 1
+,"end-line": 528
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "par"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "par#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Magic"
+,"name": "lazy"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 519
+,"start-col": 1
+,"end-line": 519
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "pseq"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "ghc-prim"
+,"module": "GHC.Magic"
+,"name": "lazy"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 515
+,"start-col": 1
+,"end-line": 515
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "labelThread"}
+,"refs": [{"package": "base"
+,"module": "GHC.Foreign"
+,"name": "withCString"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.UTF8"
+,"name": "utf8"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "str"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "labelThread#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 497
+,"start-col": 1
+,"end-line": 500
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "yield"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "yield#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 483
+,"start-col": 1
+,"end-line": 484
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "myThreadId"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "myThreadId#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ThreadId"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tid"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 474
+,"start-col": 1
+,"end-line": 475
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "reportStackOverflow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "myThreadId"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "callStackOverflowHook"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tid"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 857
+,"start-col": 1
+,"end-line": 859
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "throwTo"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "killThread#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tid"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ex"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 469
+,"start-col": 1
+,"end-line": 470
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "killThread"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "throwTo"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tid"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "ThreadKilled"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 414
+,"start-col": 1
+,"end-line": 414
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "real_handler"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "fromException"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "se"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "reportStackOverflow"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "reportError"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 400
+,"start-col": 1
+,"end-line": 405
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "childHandler"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchException"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "real_handler"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "err"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "childHandler"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 397
+,"start-col": 1
+,"end-line": 397
+,"end-col": 66}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "numSparks"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "numSparks#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 392
+,"start-col": 1
+,"end-line": 392
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "getNumProcessors"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "c_getNumberOfProcessors"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 385
+,"start-col": 1
+,"end-line": 385
+,"end-col": 61}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "setNumCapabilities"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "c_setNumCapabilities"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 376
+,"start-col": 1
+,"end-line": 376
+,"end-col": 61}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "getNumCapabilities"}
+,"refs": [{"package": "base"
+,"module": "Foreign.Storable"
+,"name": "peek"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "enabled_capabilities"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 357
+,"start-col": 1
+,"end-line": 359
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "numCapabilities"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafePerformIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "getNumCapabilities"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 347
+,"start-col": 1
+,"end-line": 347
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "forkOn"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "forkOn#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "cpu"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "action_plus"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ThreadId"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tid"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchException"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "action"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "childHandler"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 326
+,"start-col": 1
+,"end-line": 329
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "forkOnWithUnmask"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "forkOn"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "cpu"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "unsafeUnmask"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 336
+,"start-col": 1
+,"end-line": 336
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "forkIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "fork#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "action_plus"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "s1"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "ThreadId"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tid"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchException"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "action"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "childHandler"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 278
+,"start-col": 1
+,"end-line": 281
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "forkIOWithUnmask"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "forkIO"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "unsafeUnmask"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 300
+,"start-col": 1
+,"end-line": 300
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "disableAllocationLimit"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "myThreadId"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "rts_disableThreadAllocationLimit"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 239
+,"start-col": 1
+,"end-line": 241
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "enableAllocationLimit"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "myThreadId"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "rts_enableThreadAllocationLimit"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 231
+,"start-col": 1
+,"end-line": 233
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "getAllocationCounter"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "myThreadId"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "rts_getThreadAllocationCounter"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 204
+,"start-col": 1
+,"end-line": 206
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "setAllocationCounter"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "myThreadId"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "rts_setThreadAllocationCounter"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 195
+,"start-col": 1
+,"end-line": 197
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "id2TSO"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 156
+,"start-col": 1
+,"end-line": 156
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "cmpThread"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "cmp_thread"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "id2TSO"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t1"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t2"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 162
+,"start-col": 1
+,"end-line": 166
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$con2tag_LURHN40r2tG80EhWWGd0Zg"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$con2tag_452fDGwIKDp7KUkccs9X9f"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 13
+,"end-line": 549
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 13
+,"end-line": 549
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 13
+,"end-line": 549
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 16
+,"end-line": 549
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$con2tag_452fDGwIKDp7KUkccs9X9f"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 16
+,"end-line": 549
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$con2tag_452fDGwIKDp7KUkccs9X9f"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 16
+,"end-line": 549
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$con2tag_452fDGwIKDp7KUkccs9X9f"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 16
+,"end-line": 549
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$con2tag_452fDGwIKDp7KUkccs9X9f"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 16
+,"end-line": 549
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$con2tag_452fDGwIKDp7KUkccs9X9f"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 16
+,"end-line": 549
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 20
+,"end-line": 549
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 20
+,"end-line": 549
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 549
+,"start-col": 20
+,"end-line": 549
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 561
+,"start-col": 13
+,"end-line": 561
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 561
+,"start-col": 13
+,"end-line": 561
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 561
+,"start-col": 13
+,"end-line": 561
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 561
+,"start-col": 16
+,"end-line": 561
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$con2tag_LURHN40r2tG80EhWWGd0Zg"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 561
+,"start-col": 16
+,"end-line": 561
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm<"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm<="}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": ">"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm>"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": ">="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm>="}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 561
+,"start-col": 20
+,"end-line": 561
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 561
+,"start-col": 20
+,"end-line": 561
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 561
+,"start-col": 20
+,"end-line": 561
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 774
+,"start-col": 10
+,"end-line": 774
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "sameTVar#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tvar1#"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "tvar2#"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 775
+,"start-col": 9
+,"end-line": 775
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm/="}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dMonadPlus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cp1MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cp2MonadPlus"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cmzero"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cmplus"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 662
+,"start-col": 10
+,"end-line": 662
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "mzero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "empty"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 663
+,"start-col": 3
+,"end-line": 663
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "mplus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "<|>"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 664
+,"start-col": 3
+,"end-line": 664
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cp1Alternative"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cempty"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<|>"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$csome"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cmany"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 658
+,"start-col": 10
+,"end-line": 658
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "empty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "retry"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 659
+,"start-col": 3
+,"end-line": 659
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "orElse"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 660
+,"start-col": 3
+,"end-line": 660
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 638
+,"start-col": 11
+,"end-line": 638
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": ">>="}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "bindSTM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "k"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 640
+,"start-col": 5
+,"end-line": 640
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "*>"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 641
+,"start-col": 5
+,"end-line": 641
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmreturn"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmfail"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 631
+,"start-col": 10
+,"end-line": 631
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "returnSTM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 634
+,"start-col": 3
+,"end-line": 634
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "ap"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 635
+,"start-col": 3
+,"end-line": 635
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "thenSTM"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "k"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 636
+,"start-col": 3
+,"end-line": 636
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 628
+,"start-col": 11
+,"end-line": 628
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 629
+,"start-col": 4
+,"end-line": 629
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 174
+,"start-col": 10
+,"end-line": 174
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "cmpThread"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 175
+,"start-col": 4
+,"end-line": 175
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm<"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "<="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm<="}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": ">"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm>"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": ">="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm>="}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 168
+,"start-col": 10
+,"end-line": 168
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t1"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "cmpThread"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 169
+,"start-col": 4
+,"end-line": 172
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm/="}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 148
+,"start-col": 10
+,"end-line": 148
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "getThreadId"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "id2TSO"}
+,{"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "t"}]
+,"src-span": {"file": "libraries/base/GHC/Conc/Sync.hs"
+,"start-line": 149
+,"start-col": 4
+,"end-line": 151
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Conc.Sync"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

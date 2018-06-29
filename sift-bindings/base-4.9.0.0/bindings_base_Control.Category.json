@@ -1,0 +1,178 @@
+[{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "$tcCategory"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "$tc'C:Category"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "g"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 67
+,"start-col": 1
+,"end-line": 67
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "<<<"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "."}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 63
+,"start-col": 1
+,"end-line": 63
+,"end-col": 12}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "$dCategory"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "C:Category"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "$cid"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "$c."}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 57
+,"start-col": 10
+,"end-line": 57
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "id"}
+,"refs": [{"package": "base"
+,"module": "Data.Type.Coercion"
+,"name": "Coercion"}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 58
+,"start-col": 3
+,"end-line": 58
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "."}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 59
+,"start-col": 3
+,"end-line": 59
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "$dCategory"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "C:Category"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "$cid"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "$c."}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 53
+,"start-col": 10
+,"end-line": 53
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "id"}
+,"refs": [{"package": "base"
+,"module": "Data.Type.Equality"
+,"name": "$WRefl"}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 54
+,"start-col": 3
+,"end-line": 54
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "."}
+,"refs": [{"package": "base"
+,"module": "Data.Type.Equality"
+,"name": "$WRefl"}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 55
+,"start-col": 3
+,"end-line": 55
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "$dCategory"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "C:Category"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "$cid"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": "$c."}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 49
+,"start-col": 10
+,"end-line": 49
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "id"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 50
+,"start-col": 5
+,"end-line": 50
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Category"
+,"name": "."}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}]
+,"src-span": {"file": "libraries/base/Control/Category.hs"
+,"start-line": 51
+,"start-col": 5
+,"end-line": 51
+,"end-col": 23}}]

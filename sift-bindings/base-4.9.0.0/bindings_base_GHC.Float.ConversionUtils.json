@@ -1,0 +1,234 @@
+[{"id": {"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "$tcBA"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "$tc'BA"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "zeroCountArr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "newByteArray#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "s"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "writeInt8Array#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "mba"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "s1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "idx"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "val"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "st"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "fillA"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "step"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "nx"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "*#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "fillA"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "s2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "unsafeFreezeByteArray#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "s3"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "ba"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "mkArr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "realWorld#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "BA"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Float/ConversionUtils.hs"
+,"start-line": 82
+,"start-col": 1
+,"end-line": 99
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "toByte#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Float/ConversionUtils.hs"
+,"start-line": 75
+,"start-col": 1
+,"end-line": 75
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "zeroCount"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "zeroCountArr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "indexInt8Array#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "ba"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Float/ConversionUtils.hs"
+,"start-line": 70
+,"start-col": 1
+,"end-line": 72
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "elimZerosInt#"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "zeroCount"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "toByte#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "e"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "t"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "smallInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftRA#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "elimZerosInt#"}]
+,"src-span": {"file": "libraries/base/GHC/Float/ConversionUtils.hs"
+,"start-line": 62
+,"start-col": 1
+,"end-line": 66
+,"end-col": 81}}
+,{"id": {"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "elim64#"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "elimZerosInt#"}]
+,"src-span": {"file": "libraries/base/GHC/Float/ConversionUtils.hs"
+,"start-line": 53
+,"start-col": 1
+,"end-line": 53
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "elimZerosInteger"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "elim64#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "integerToInt"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/Float/ConversionUtils.hs"
+,"start-line": 59
+,"start-col": 1
+,"end-line": 59
+,"end-col": 50}}]

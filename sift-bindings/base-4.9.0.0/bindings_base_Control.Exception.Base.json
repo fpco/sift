@@ -1,0 +1,1468 @@
+[{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tcNestedAtomically"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tc'NestedAtomically"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tcNonTermination"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tc'NonTermination"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tcTypeError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tc'TypeError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tcNoMethodError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tc'NoMethodError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tcRecUpdError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tc'RecUpdError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tcRecConError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tc'RecConError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tcRecSelError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tc'RecSelError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tcPatternMatchFail"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$tc'PatternMatchFail"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "nestedAtomically"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "NestedAtomically"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 422
+,"start-col": 1
+,"end-line": 422
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "nonTermination"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "NonTermination"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 418
+,"start-col": 1
+,"end-line": 418
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "typeError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "TypeError"}
+,{"package": "ghc-prim"
+,"module": "GHC.CString"
+,"name": "unpackCStringUtf8#"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 414
+,"start-col": 1
+,"end-line": 414
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "patError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "PatternMatchFail"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "untangle"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 413
+,"start-col": 1
+,"end-line": 413
+,"end-col": 96}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "noMethodBindingError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "NoMethodError"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "untangle"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 412
+,"start-col": 1
+,"end-line": 412
+,"end-col": 120}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "recConError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "RecConError"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "untangle"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 411
+,"start-col": 1
+,"end-line": 411
+,"end-col": 106}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "irrefutPatError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "PatternMatchFail"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "untangle"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 410
+,"start-col": 1
+,"end-line": 410
+,"end-col": 108}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "nonExhaustiveGuardsError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "PatternMatchFail"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "untangle"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 409
+,"start-col": 1
+,"end-line": 409
+,"end-col": 94}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "absentError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "ghc-prim"
+,"module": "GHC.CString"
+,"name": "unpackCStringUtf8#"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 407
+,"start-col": 1
+,"end-line": 407
+,"end-col": 107}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "runtimeError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "ghc-prim"
+,"module": "GHC.CString"
+,"name": "unpackCStringUtf8#"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 406
+,"start-col": 1
+,"end-line": 406
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "recSelError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "RecSelError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "ghc-prim"
+,"module": "GHC.CString"
+,"name": "unpackCStringUtf8#"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 404
+,"start-col": 1
+,"end-line": 405
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "catch"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchException"}
+,{"package": "ghc-prim"
+,"module": "GHC.Magic"
+,"name": "lazy"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "act"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 150
+,"start-col": 1
+,"end-line": 150
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "catchJust"}
+,"refs": [{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "catch"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "handler'"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "p"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "throwIO"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "handler"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 170
+,"start-col": 1
+,"end-line": 173
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "handleJust"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "flip"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "catchJust"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "p"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 186
+,"start-col": 1
+,"end-line": 186
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "handle"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "flip"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "catch"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 181
+,"start-col": 1
+,"end-line": 181
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "mapException"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafePerformIO"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "catch"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "evaluate"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "throwIO"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 197
+,"start-col": 1
+,"end-line": 198
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "try"}
+,"refs": [{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "catch"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Right"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "v"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Left"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 212
+,"start-col": 1
+,"end-line": 212
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "tryJust"}
+,"refs": [{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "try"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Right"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "v"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "p"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "throwIO"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Left"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 218
+,"start-col": 1
+,"end-line": 224
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "onException"}
+,"refs": [{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "io"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "catch"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "what"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "throwIO"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 229
+,"start-col": 1
+,"end-line": 230
+,"end-col": 71}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "bracket"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "before"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "restore"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "thing"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "onException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "after"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 259
+,"start-col": 1
+,"end-line": 264
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "bracket_"}
+,"refs": [{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "bracket"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "before"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "after"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "thing"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 282
+,"start-col": 1
+,"end-line": 282
+,"end-col": 73}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "finally"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "restore"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "onException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "sequel"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 273
+,"start-col": 1
+,"end-line": 277
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "bracketOnError"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "before"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "restore"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "thing"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "onException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "after"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 291
+,"start-col": 1
+,"end-line": 294
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 395
+,"start-col": 10
+,"end-line": 395
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 392
+,"start-col": 10
+,"end-line": 392
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 393
+,"start-col": 5
+,"end-line": 393
+,"end-col": 93}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 384
+,"start-col": 10
+,"end-line": 384
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 381
+,"start-col": 10
+,"end-line": 381
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 382
+,"start-col": 5
+,"end-line": 382
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 371
+,"start-col": 10
+,"end-line": 371
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 368
+,"start-col": 10
+,"end-line": 368
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "err"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 369
+,"start-col": 5
+,"end-line": 369
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 357
+,"start-col": 10
+,"end-line": 357
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 354
+,"start-col": 10
+,"end-line": 354
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "err"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 355
+,"start-col": 5
+,"end-line": 355
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 345
+,"start-col": 10
+,"end-line": 345
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 342
+,"start-col": 10
+,"end-line": 342
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "err"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 343
+,"start-col": 5
+,"end-line": 343
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 331
+,"start-col": 10
+,"end-line": 331
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 328
+,"start-col": 10
+,"end-line": 328
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "err"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 329
+,"start-col": 5
+,"end-line": 329
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 319
+,"start-col": 10
+,"end-line": 319
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 316
+,"start-col": 10
+,"end-line": 316
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "err"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 317
+,"start-col": 5
+,"end-line": 317
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 305
+,"start-col": 10
+,"end-line": 305
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 302
+,"start-col": 10
+,"end-line": 302
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "err"}]
+,"src-span": {"file": "libraries/base/Control/Exception/Base.hs"
+,"start-line": 303
+,"start-col": 5
+,"end-line": 303
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

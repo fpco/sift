@@ -1,0 +1,1093 @@
+[{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tcBackend"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tc'Backend"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tcTimeout"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tc'Timeout"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tc'Forever"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tcEventLifetime"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tc'EL"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tcLifetime"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tc'OneShot"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tc'MultiShot"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tcEvent"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$tc'Event"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "throwErrnoIfMinus1NoRetry"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "res"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "getErrno"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "err"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "eINTR"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "Foreign.C.Error"
+,"name": "throwErrno"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "loc"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 203
+,"start-col": 1
+,"end-line": 209
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "delete"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bDelete"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bState"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 194
+,"start-col": 1
+,"end-line": 194
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "modifyFdOnce"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bModifyFdOnce"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bState"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 190
+,"start-col": 1
+,"end-line": 190
+,"end-col": 73}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "modifyFd"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bModifyFd"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bState"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 183
+,"start-col": 1
+,"end-line": 183
+,"end-col": 61}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "poll"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bPoll"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bState"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 176
+,"start-col": 1
+,"end-line": 176
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "backend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$WBackend"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "state"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bPoll"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bModifyFd"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bModifyFdOnce"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "bDelete"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 171
+,"start-col": 1
+,"end-line": 172
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "elEvent"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "Event"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "x"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".&."}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 128
+,"start-col": 1
+,"end-line": 128
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "elLifetime"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "x"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".&."}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "OneShot"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "MultiShot"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 124
+,"start-col": 1
+,"end-line": 124
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "eventLifetime"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "EL"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "e"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "lifetimeBit"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 117
+,"start-col": 1
+,"end-line": 120
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "elSupremum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "OneShot"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "MultiShot"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 96
+,"start-col": 1
+,"end-line": 97
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtCombine"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "Event"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "a"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 79
+,"start-col": 1
+,"end-line": 79
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "eventIs"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "a"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".&."}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 63
+,"start-col": 1
+,"end-line": 63
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtClose"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "Event"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 59
+,"start-col": 1
+,"end-line": 59
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtWrite"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "Event"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 54
+,"start-col": 1
+,"end-line": 54
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "Event"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 49
+,"start-col": 1
+,"end-line": 49
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtNothing"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "Event"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 44
+,"start-col": 1
+,"end-line": 44
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtConcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.List"
+,"name": "foldl'"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtCombine"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtNothing"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 83
+,"start-col": 1
+,"end-line": 83
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "_beState"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 138
+,"start-col": 7
+,"end-line": 138
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "_bePoll"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 142
+,"start-col": 7
+,"end-line": 142
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "_beModifyFd"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 149
+,"start-col": 7
+,"end-line": 149
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "_beModifyFdOnce"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 157
+,"start-col": 7
+,"end-line": 157
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "_beDelete"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 162
+,"start-col": 7
+,"end-line": 162
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 41
+,"start-col": 15
+,"end-line": 41
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 41
+,"start-col": 15
+,"end-line": 41
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 41
+,"start-col": 15
+,"end-line": 41
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 92
+,"start-col": 25
+,"end-line": 92
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 92
+,"start-col": 25
+,"end-line": 92
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 92
+,"start-col": 25
+,"end-line": 92
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 92
+,"start-col": 31
+,"end-line": 92
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 92
+,"start-col": 31
+,"end-line": 92
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 92
+,"start-col": 31
+,"end-line": 92
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 110
+,"start-col": 33
+,"end-line": 110
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 110
+,"start-col": 33
+,"end-line": 110
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 110
+,"start-col": 33
+,"end-line": 110
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 110
+,"start-col": 39
+,"end-line": 110
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 110
+,"start-col": 39
+,"end-line": 110
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 110
+,"start-col": 39
+,"end-line": 110
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 134
+,"start-col": 26
+,"end-line": 134
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 134
+,"start-col": 26
+,"end-line": 134
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 134
+,"start-col": 26
+,"end-line": 134
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 112
+,"start-col": 10
+,"end-line": 112
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "EL"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 113
+,"start-col": 5
+,"end-line": 113
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "EL"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "a"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".|."}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 114
+,"start-col": 5
+,"end-line": 114
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 101
+,"start-col": 10
+,"end-line": 101
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "OneShot"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 102
+,"start-col": 5
+,"end-line": 102
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "elSupremum"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 103
+,"start-col": 5
+,"end-line": 103
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cmempty"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cmappend"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 73
+,"start-col": 10
+,"end-line": 73
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtNothing"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 74
+,"start-col": 5
+,"end-line": 74
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtCombine"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 75
+,"start-col": 5
+,"end-line": 75
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtConcat"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 76
+,"start-col": 5
+,"end-line": 76
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 65
+,"start-col": 10
+,"end-line": 65
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "show"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "Data.OldList"
+,"name": "intercalate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "filter"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "null"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtRead"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "so"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtWrite"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "evtClose"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "eventIs"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "ev"}
+,{"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "disp"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Event/Internal.hs"
+,"start-line": 66
+,"start-col": 5
+,"end-line": 71
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Event.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

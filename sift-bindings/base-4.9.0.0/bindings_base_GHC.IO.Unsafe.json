@@ -1,0 +1,115 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "noDuplicate"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "noDuplicate#"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "s'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Unsafe.hs"
+,"start-line": 180
+,"start-col": 1
+,"end-line": 180
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafeDupableInterleaveIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "res"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Unsafe.hs"
+,"start-line": 163
+,"start-col": 1
+,"end-line": 167
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafeInterleaveIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafeDupableInterleaveIO"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "noDuplicate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Unsafe.hs"
+,"start-line": 141
+,"start-col": 1
+,"end-line": 141
+,"end-col": 68}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafeDupablePerformIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Magic"
+,"name": "runRW#"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Unsafe.hs"
+,"start-line": 104
+,"start-col": 1
+,"end-line": 104
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafePerformIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafeDupablePerformIO"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "noDuplicate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Unsafe.hs"
+,"start-line": 88
+,"start-col": 1
+,"end-line": 88
+,"end-col": 62}}]

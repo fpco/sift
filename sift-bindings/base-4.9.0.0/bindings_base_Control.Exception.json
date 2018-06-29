@@ -1,0 +1,154 @@
+[{"id": {"package": "base"
+,"module": "Control.Exception"
+,"name": "$tcHandler"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception"
+,"name": "$tc'Handler"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Exception"
+,"name": "allowInterrupt"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "interruptible"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/Control/Exception.hs"
+,"start-line": 226
+,"start-col": 1
+,"end-line": 226
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Exception"
+,"name": "catchesHandler"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "foldr"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "tryHandler"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "e"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "handlers"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "fromException"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "handler"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "e'"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "res"}]
+,"src-span": {"file": "libraries/base/Control/Exception.hs"
+,"start-line": 168
+,"start-col": 1
+,"end-line": 172
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "Control.Exception"
+,"name": "catches"}
+,"refs": [{"package": "base"
+,"module": "Control.Exception"
+,"name": "io"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "catch"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "catchesHandler"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "handlers"}]
+,"src-span": {"file": "libraries/base/Control/Exception.hs"
+,"start-line": 165
+,"start-col": 1
+,"end-line": 165
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "Control.Exception"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/Control/Exception.hs"
+,"start-line": 143
+,"start-col": 10
+,"end-line": 143
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "Control.Exception"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "Control.Exception"
+,"name": "Handler"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Exception"
+,"name": "h"}]
+,"src-span": {"file": "libraries/base/Control/Exception.hs"
+,"start-line": 144
+,"start-col": 6
+,"end-line": 144
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "Control.Exception"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}]

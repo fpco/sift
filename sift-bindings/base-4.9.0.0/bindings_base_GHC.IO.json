@@ -1,0 +1,741 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "$tcMaskingState"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "$tc'Unmasked"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "$tc'MaskedInterruptible"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "$tc'MaskedUninterruptible"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "evaluate"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq#"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 385
+,"start-col": 1
+,"end-line": 385
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "getMaskingState"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "getMaskingState#"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "Unmasked"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "MaskedUninterruptible"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "MaskedInterruptible"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 235
+,"start-col": 1
+,"end-line": 240
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "blockUninterruptible"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "maskUninterruptible#"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 221
+,"start-col": 1
+,"end-line": 221
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "unsafeUnmask"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "unmaskAsyncExceptions#"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 202
+,"start-col": 1
+,"end-line": 202
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "interruptible"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "getMaskingState"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "st"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "act"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "unsafeUnmask"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 213
+,"start-col": 1
+,"end-line": 218
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "unblock"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "unsafeUnmask"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 199
+,"start-col": 1
+,"end-line": 199
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "block"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "maskAsyncExceptions#"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 191
+,"start-col": 1
+,"end-line": 191
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "mask"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "getMaskingState"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "block"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "unblock"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "blockUninterruptible"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 312
+,"start-col": 1
+,"end-line": 317
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "mask_"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 310
+,"start-col": 1
+,"end-line": 310
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "uninterruptibleMask"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "getMaskingState"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "blockUninterruptible"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "unblock"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "block"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 321
+,"start-col": 1
+,"end-line": 326
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "uninterruptibleMask_"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "uninterruptibleMask"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 319
+,"start-col": 1
+,"end-line": 319
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "throwIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raiseIO#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 171
+,"start-col": 1
+,"end-line": 171
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "catchAny"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "catch#"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "handler'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "unIO"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "handler"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 146
+,"start-col": 1
+,"end-line": 147
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "catchException"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "catch#"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "handler'"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "fromException"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "unIO"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "handler"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "e'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raiseIO#"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 135
+,"start-col": 1
+,"end-line": 138
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "mplusIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchIOError"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchException"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 151
+,"start-col": 1
+,"end-line": 153
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "onException"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "catchException"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "what"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "throwIO"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 243
+,"start-col": 1
+,"end-line": 244
+,"end-col": 80}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "bracket"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "before"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "restore"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "thing"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "onException"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "after"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 333
+,"start-col": 1
+,"end-line": 338
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "finally"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "mask"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "restore"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "onException"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "sequel"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 344
+,"start-col": 1
+,"end-line": 348
+,"end-col": 13}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "unsafeSTToIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "unsafeCoerce#"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 103
+,"start-col": 1
+,"end-line": 103
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "unsafeIOToST"}
+,"refs": [{"package": "base"
+,"module": "GHC.ST"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "unsafeCoerce#"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "io"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 100
+,"start-col": 1
+,"end-line": 100
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "ioToST"}
+,"refs": [{"package": "base"
+,"module": "GHC.ST"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 94
+,"start-col": 1
+,"end-line": 94
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "stToIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 91
+,"start-col": 1
+,"end-line": 91
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "failIO"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "IO"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raiseIO#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.IO.Exception"
+,"name": "userError"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 81
+,"start-col": 1
+,"end-line": 81
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "liftIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.ST"
+,"name": "STret"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "s'"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 78
+,"start-col": 1
+,"end-line": 78
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 231
+,"start-col": 12
+,"end-line": 231
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 231
+,"start-col": 12
+,"end-line": 231
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 231
+,"start-col": 12
+,"end-line": 231
+,"end-col": 14}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 231
+,"start-col": 15
+,"end-line": 231
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 231
+,"start-col": 15
+,"end-line": 231
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO.hs"
+,"start-line": 231
+,"start-col": 15
+,"end-line": 231
+,"end-col": 19}}]

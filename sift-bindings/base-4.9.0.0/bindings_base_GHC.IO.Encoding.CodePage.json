@@ -1,0 +1,9 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.CodePage"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}]

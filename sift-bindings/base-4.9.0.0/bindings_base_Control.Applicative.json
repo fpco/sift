@@ -1,0 +1,1701 @@
+[{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$tcZipList"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$tc'ZipList"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$tcWrappedArrow"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$tc'WrapArrow"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$tcWrappedMonad"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$tc'WrapMonad"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "optional"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "Data.Functor"
+,"name": "<$>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<|>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 111
+,"start-col": 1
+,"end-line": 111
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "getZipList"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "getZipList"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 98
+,"start-col": 31
+,"end-line": 98
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "unwrapArrow"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "unwrapArrow"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 80
+,"start-col": 42
+,"end-line": 80
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "unwrapMonad"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "unwrapMonad"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 66
+,"start-col": 40
+,"end-line": 66
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dGeneric"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "C:Generic"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfrom"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cto"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 67
+,"start-col": 36
+,"end-line": 67
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "from"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "M1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "K1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 66
+,"start-col": 1
+,"end-line": 66
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "to"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapMonad"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 66
+,"start-col": 1
+,"end-line": 66
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dGeneric1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "C:Generic1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfrom1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cto1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 67
+,"start-col": 45
+,"end-line": 67
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "from1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "M1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "Rec1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 66
+,"start-col": 1
+,"end-line": 66
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "to1"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapMonad"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "unRec1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 66
+,"start-col": 1
+,"end-line": 66
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 67
+,"start-col": 55
+,"end-line": 67
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": ">>="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 67
+,"start-col": 55
+,"end-line": 67
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": ">>"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 67
+,"start-col": 55
+,"end-line": 67
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "return"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 67
+,"start-col": 55
+,"end-line": 67
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "fail"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 67
+,"start-col": 55
+,"end-line": 67
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dGeneric"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "C:Generic"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfrom"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cto"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 81
+,"start-col": 38
+,"end-line": 81
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "from"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "M1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "K1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 80
+,"start-col": 1
+,"end-line": 80
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "to"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapArrow"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 80
+,"start-col": 1
+,"end-line": 80
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dGeneric1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "C:Generic1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfrom1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cto1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 81
+,"start-col": 47
+,"end-line": 81
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "from1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "M1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "Rec1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 80
+,"start-col": 1
+,"end-line": 80
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "to1"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapArrow"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "unRec1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 80
+,"start-col": 1
+,"end-line": 80
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 30
+,"end-line": 99
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "b1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 30
+,"end-line": 99
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 30
+,"end-line": 99
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 36
+,"end-line": 99
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 36
+,"end-line": 99
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 36
+,"end-line": 99
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 40
+,"end-line": 99
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "compare"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 40
+,"end-line": 99
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 40
+,"end-line": 99
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 40
+,"end-line": 99
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": ">"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 40
+,"end-line": 99
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": ">="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 40
+,"end-line": 99
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "max"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 40
+,"end-line": 99
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "min"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 40
+,"end-line": 99
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 45
+,"end-line": 99
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 45
+,"end-line": 99
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "prec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Ident"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Punc"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "reset"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "ZipList"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "a1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 45
+,"end-line": 99
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 45
+,"end-line": 99
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 51
+,"end-line": 99
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "fmap"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 51
+,"end-line": 99
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<$"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "<$"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 99
+,"start-col": 51
+,"end-line": 99
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dFoldable"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "C:Foldable"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfold"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfoldMap"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfoldr"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfoldr'"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfoldl"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfoldl'"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfoldr1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfoldl1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$ctoList"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cnull"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$clength"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$celem"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cmaximum"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cminimum"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$csum"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cproduct"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "fold"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "fold"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "foldMap"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldMap"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "foldr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldr"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "foldr'"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldr'"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "foldl"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldl"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "foldl'"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldl'"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "foldr1"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldr1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "foldl1"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldl1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "toList"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "toList"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "null"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "null"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "length"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "length"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "elem"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "elem"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "maximum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "maximum"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "minimum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "minimum"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "sum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "sum"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "product"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "product"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 30
+,"end-line": 100
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dGeneric"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "C:Generic"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfrom"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cto"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 40
+,"end-line": 100
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "from"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "M1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "K1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 98
+,"start-col": 1
+,"end-line": 98
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "to"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "ZipList"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 98
+,"start-col": 1
+,"end-line": 98
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dGeneric1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "C:Generic1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfrom1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cto1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 100
+,"start-col": 49
+,"end-line": 100
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "from1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Generics"
+,"name": "M1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "Rec1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 98
+,"start-col": 1
+,"end-line": 98
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "to1"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "ZipList"}
+,{"package": "base"
+,"module": "GHC.Generics"
+,"name": "unRec1"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "g1"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 98
+,"start-col": 1
+,"end-line": 98
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 103
+,"start-col": 10
+,"end-line": 103
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "ZipList"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "repeat"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 104
+,"start-col": 5
+,"end-line": 104
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "ZipList"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "zipWith"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "fs"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "xs"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 105
+,"start-col": 5
+,"end-line": 105
+,"end-col": 59}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cp1Alternative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cempty"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<|>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$csome"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cmany"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 90
+,"start-col": 10
+,"end-line": 90
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "empty"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapArrow"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "zeroArrow"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 91
+,"start-col": 5
+,"end-line": 91
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapArrow"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "u"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "<+>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "v"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 92
+,"start-col": 5
+,"end-line": 92
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 86
+,"start-col": 10
+,"end-line": 86
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapArrow"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 87
+,"start-col": 5
+,"end-line": 87
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapArrow"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "&&&"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "v"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Data.Tuple"
+,"name": "uncurry"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 88
+,"start-col": 5
+,"end-line": 88
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 83
+,"start-col": 10
+,"end-line": 83
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapArrow"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Category"
+,"name": ">>>"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "arr"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 84
+,"start-col": 5
+,"end-line": 84
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cp1Alternative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cempty"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<|>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$csome"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cmany"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 76
+,"start-col": 10
+,"end-line": 76
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "empty"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapMonad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mzero"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 77
+,"start-col": 5
+,"end-line": 77
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapMonad"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "u"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "v"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 78
+,"start-col": 5
+,"end-line": 78
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 72
+,"start-col": 10
+,"end-line": 72
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapMonad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 73
+,"start-col": 5
+,"end-line": 73
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapMonad"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "ap"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "v"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 74
+,"start-col": 5
+,"end-line": 74
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 69
+,"start-col": 10
+,"end-line": 69
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "Control.Applicative"
+,"name": "WrapMonad"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "liftM"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Applicative"
+,"name": "v"}]
+,"src-span": {"file": "libraries/base/Control/Applicative.hs"
+,"start-line": 70
+,"start-col": 5
+,"end-line": 70
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "Control.Applicative"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}]

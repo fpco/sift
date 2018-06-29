@@ -1,0 +1,376 @@
+[{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$tcIsStatic"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$tc'C:IsStatic"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$tcStaticPtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$tc'StaticPtr"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$tcStaticPtrInfo"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$tc'StaticPtrInfo"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "staticPtrKeys"}
+,"refs": [{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "hs_spt_key_count"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "Foreign.Marshal.Array"
+,"name": "allocaArray"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "keyCount"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "hs_spt_keys"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "p"}
+,{"package": "base"
+,"module": "Foreign.Marshal.Array"
+,"name": "peekArray"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "count"}
+,{"package": "base"
+,"module": "Data.Traversable"
+,"name": "mapM"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "pa"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Fingerprint.Type"
+,"name": "$WFingerprint"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "w1"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "w2"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 112
+,"start-col": 1
+,"end-line": 117
+,"end-col": 81}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "staticPtrInfo"}
+,"refs": [{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 108
+,"start-col": 1
+,"end-line": 108
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "unsafeLookupStaticPtr"}
+,"refs": [{"package": "base"
+,"module": "Foreign.Marshal.Array"
+,"name": "withArray"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "w1"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "w2"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "hs_spt_lookup"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "castPtr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "ptr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "nullPtr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "addrToAny#"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "addr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "spe"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 75
+,"start-col": 1
+,"end-line": 80
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "staticKey"}
+,"refs": [{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "k"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 65
+,"start-col": 1
+,"end-line": 65
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "deRefStaticPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "v"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 57
+,"start-col": 1
+,"end-line": 57
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "spInfoModuleName"}
+,"refs": [{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "spInfoModuleName"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 96
+,"start-col": 7
+,"end-line": 96
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "spInfoName"}
+,"refs": [{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "spInfoName"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 99
+,"start-col": 7
+,"end-line": 99
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "spInfoSrcLoc"}
+,"refs": [{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "spInfoSrcLoc"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 102
+,"start-col": 7
+,"end-line": 102
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "spInfoUnitId"}
+,"refs": [{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "spInfoUnitId"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 94
+,"start-col": 7
+,"end-line": 94
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 104
+,"start-col": 13
+,"end-line": 104
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "b2"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "b3"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "b4"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 104
+,"start-col": 13
+,"end-line": 104
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 104
+,"start-col": 13
+,"end-line": 104
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$dIsStatic"}
+,"refs": [{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "C:IsStatic"}
+,{"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "$cfromStaticPtr"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 88
+,"start-col": 10
+,"end-line": 88
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.StaticPtr"
+,"name": "fromStaticPtr"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "libraries/base/GHC/StaticPtr.hs"
+,"start-line": 89
+,"start-col": 5
+,"end-line": 89
+,"end-col": 23}}]

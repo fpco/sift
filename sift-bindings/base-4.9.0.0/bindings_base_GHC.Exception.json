@@ -1,0 +1,1337 @@
+[{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tcArithException"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tc'Overflow"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tc'Underflow"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tc'LossOfPrecision"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tc'DivideByZero"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tc'Denormal"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tc'RatioZeroDenominator"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tcErrorCall"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tc'ErrorCallWithLocation"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tcException"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tc'C:Exception"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tcSomeException"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$tc'SomeException"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "ratioZeroDenomException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "RatioZeroDenominator"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 242
+,"start-col": 1
+,"end-line": 242
+,"end-col": 59}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "overflowException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "Overflow"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 241
+,"start-col": 1
+,"end-line": 241
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "divZeroException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "DivideByZero"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 240
+,"start-col": 1
+,"end-line": 240
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "prettySrcLoc"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "foldr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "srcLocFile"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "srcLocStartLine"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "srcLocStartCol"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "srcLocPackage"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "srcLocModule"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 207
+,"start-col": 1
+,"end-line": 213
+,"end-col": 8}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "prettyCallStackLines"}
+,"refs": [{"package": "base"
+,"module": "GHC.Stack.Types"
+,"name": "getCallStack"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "cs"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "prettyCallSite"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "stk"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "prettySrcLoc"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "loc"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 222
+,"start-col": 1
+,"end-line": 227
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "prettyCallStack"}
+,"refs": [{"package": "base"
+,"module": "Data.OldList"
+,"name": "intercalate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "prettyCallStackLines"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 219
+,"start-col": 1
+,"end-line": 219
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "showCCSStack"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "reverse"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "stk"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 197
+,"start-col": 1
+,"end-line": 198
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "errorCallWithCallStackException"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Unsafe"
+,"name": "unsafeDupablePerformIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Stack.CCS"
+,"name": "currentCallStack"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "showCCSStack"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "ccsStack"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "prettyCallStackLines"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "stk"}
+,{"package": "base"
+,"module": "Data.OldList"
+,"name": "intercalate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "implicitParamCallStack"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "ccsCallStack"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "ErrorCallWithLocation"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "stack"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 188
+,"start-col": 1
+,"end-line": 194
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$mErrorCall"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "scrut"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "cont"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "err"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "errorCallException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$bErrorCall"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 185
+,"start-col": 1
+,"end-line": 185
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "throw"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raise#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 167
+,"start-col": 1
+,"end-line": 167
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$bErrorCall"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "ErrorCallWithLocation"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "err"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$con2tag_86ws71kagg94XVL9CHKbcw"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "SomeException"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 148
+,"start-col": 5
+,"end-line": 148
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "Data.Typeable"
+,"name": "cast"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 149
+,"start-col": 5
+,"end-line": 149
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 157
+,"start-col": 5
+,"end-line": 157
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 172
+,"start-col": 15
+,"end-line": 172
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b2"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 172
+,"start-col": 15
+,"end-line": 172
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 172
+,"start-col": 15
+,"end-line": 172
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 172
+,"start-col": 19
+,"end-line": 172
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 172
+,"start-col": 19
+,"end-line": 172
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 172
+,"start-col": 19
+,"end-line": 172
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 172
+,"start-col": 19
+,"end-line": 172
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 172
+,"start-col": 19
+,"end-line": 172
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a1"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 172
+,"start-col": 19
+,"end-line": 172
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 237
+,"start-col": 13
+,"end-line": 237
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 237
+,"start-col": 13
+,"end-line": 237
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 237
+,"start-col": 13
+,"end-line": 237
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 237
+,"start-col": 17
+,"end-line": 237
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$con2tag_86ws71kagg94XVL9CHKbcw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 237
+,"start-col": 17
+,"end-line": 237
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$con2tag_86ws71kagg94XVL9CHKbcw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 237
+,"start-col": 17
+,"end-line": 237
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$con2tag_86ws71kagg94XVL9CHKbcw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 237
+,"start-col": 17
+,"end-line": 237
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$con2tag_86ws71kagg94XVL9CHKbcw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 237
+,"start-col": 17
+,"end-line": 237
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$con2tag_86ws71kagg94XVL9CHKbcw"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 237
+,"start-col": 17
+,"end-line": 237
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 246
+,"start-col": 10
+,"end-line": 246
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 247
+,"start-col": 3
+,"end-line": 252
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 244
+,"start-col": 10
+,"end-line": 244
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 180
+,"start-col": 10
+,"end-line": 180
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "err"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "err"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "loc"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 181
+,"start-col": 3
+,"end-line": 182
+,"end-col": 79}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 178
+,"start-col": 10
+,"end-line": 178
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmtoException"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmfromException"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dmdisplayException"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "C:Exception"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cp1Exception"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cp2Exception"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$ctoException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cfromException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cdisplayException"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 159
+,"start-col": 10
+,"end-line": 159
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "toException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "se"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 160
+,"start-col": 5
+,"end-line": 160
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "fromException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 161
+,"start-col": 5
+,"end-line": 161
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "displayException"}
+,"refs": [{"package": "base"
+,"module": "GHC.Exception"
+,"name": "displayException"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 162
+,"start-col": 5
+,"end-line": 162
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 53
+,"start-col": 10
+,"end-line": 53
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/Exception.hs"
+,"start-line": 54
+,"start-col": 5
+,"end-line": 54
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Exception"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

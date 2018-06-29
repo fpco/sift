@@ -1,0 +1,115 @@
+[{"id": {"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$tcMonadFail"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$tc'C:MonadFail"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$dMonadFail"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "C:MonadFail"}
+,{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$cp1MonadFail"}
+,{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fail.hs"
+,"start-line": 77
+,"start-col": 10
+,"end-line": 77
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "failIO"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fail.hs"
+,"start-line": 78
+,"start-col": 5
+,"end-line": 78
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$dMonadFail"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "C:MonadFail"}
+,{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$cp1MonadFail"}
+,{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fail.hs"
+,"start-line": 73
+,"start-col": 10
+,"end-line": 73
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "fail"}
+,"refs": []
+,"src-span": {"file": "libraries/base/Control/Monad/Fail.hs"
+,"start-line": 75
+,"start-col": 5
+,"end-line": 75
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$dMonadFail"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "C:MonadFail"}
+,{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$cp1MonadFail"}
+,{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fail.hs"
+,"start-line": 70
+,"start-col": 10
+,"end-line": 70
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}]
+,"src-span": {"file": "libraries/base/Control/Monad/Fail.hs"
+,"start-line": 71
+,"start-col": 5
+,"end-line": 71
+,"end-col": 21}}]

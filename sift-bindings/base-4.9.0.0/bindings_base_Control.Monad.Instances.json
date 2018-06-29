@@ -1,0 +1,9 @@
+[{"id": {"package": "base"
+,"module": "Control.Monad.Instances"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}]

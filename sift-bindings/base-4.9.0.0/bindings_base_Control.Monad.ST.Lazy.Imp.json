@@ -1,0 +1,472 @@
+[{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$tcST"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$tc'ST"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$tcState"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$tc'S#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "lazyToStrictST"}
+,"refs": [{"package": "base"
+,"module": "GHC.ST"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "m"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "S#"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s'"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 131
+,"start-col": 1
+,"end-line": 132
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "stToIO"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO"
+,"name": "stToIO"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "lazyToStrictST"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 139
+,"start-col": 1
+,"end-line": 139
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "strictToLazyST"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.ST"
+,"name": "liftST"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "m"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s#"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "pr"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "v"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "S#"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s2#"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "r"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s'"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 119
+,"start-col": 1
+,"end-line": 125
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "unsafeInterleaveST"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "strictToLazyST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.ST"
+,"name": "unsafeInterleaveST"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "lazyToStrictST"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 145
+,"start-col": 1
+,"end-line": 145
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "unsafeIOToST"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "strictToLazyST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.IO"
+,"name": "unsafeIOToST"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 148
+,"start-col": 1
+,"end-line": 148
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "fixST"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "ST"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "m"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "r"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "m_r"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "r"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s'"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 100
+,"start-col": 1
+,"end-line": 105
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "runST"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "st"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "the_st"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "S#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "realWorld#"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 94
+,"start-col": 1
+,"end-line": 94
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$dMonadFix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fix"
+,"name": "C:MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$cp1MonadFix"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$cmfix"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 107
+,"start-col": 10
+,"end-line": 107
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "mfix"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "fixST"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 108
+,"start-col": 9
+,"end-line": 108
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$cp1Monad"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$c>>="}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$c>>"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$creturn"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$cfail"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 77
+,"start-col": 10
+,"end-line": 77
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": ">>="}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "m"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "k"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "r"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "k_a"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "new_s"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 81
+,"start-col": 9
+,"end-line": 87
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm>>"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmreturn"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 79
+,"start-col": 9
+,"end-line": 79
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$cp1Applicative"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$cpure"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$c<*>"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$c*>"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$c<*"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 73
+,"start-col": 10
+,"end-line": 73
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "pure"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "a"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 74
+,"start-col": 5
+,"end-line": 74
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "ap"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 75
+,"start-col": 5
+,"end-line": 75
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$cfmap"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "$c<$"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 65
+,"start-col": 10
+,"end-line": 65
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "fmap"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "m"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "m_a"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "s"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "f"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "r"}
+,{"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "new_s"}]
+,"src-span": {"file": "libraries/base/Control/Monad/ST/Lazy/Imp.hs"
+,"start-line": 66
+,"start-col": 5
+,"end-line": 71
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "Control.Monad.ST.Lazy.Imp"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}]

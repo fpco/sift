@@ -1,0 +1,7392 @@
+[{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$tcInt64"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$tc'I64#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$tcInt32"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$tc'I32#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$tcInt16"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$tc'I16#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$tcInt8"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$tc'I8#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "uncheckedIShiftRA64#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftRA#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1004
+,"start-col": 1
+,"end-line": 1004
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "uncheckedIShiftL64#"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftL#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1001
+,"start-col": 1
+,"end-line": 1001
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "leInt64"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 862
+,"start-col": 1
+,"end-line": 862
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "ltInt64"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 861
+,"start-col": 1
+,"end-line": 861
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "geInt64"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 860
+,"start-col": 1
+,"end-line": 860
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "gtInt64"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 859
+,"start-col": 1
+,"end-line": 859
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "neInt64"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "/=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 844
+,"start-col": 1
+,"end-line": 844
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "eqInt64"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 843
+,"start-col": 1
+,"end-line": 843
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "leInt32"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 466
+,"start-col": 1
+,"end-line": 466
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "ltInt32"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 465
+,"start-col": 1
+,"end-line": 465
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "geInt32"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 464
+,"start-col": 1
+,"end-line": 464
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "gtInt32"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 463
+,"start-col": 1
+,"end-line": 463
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "neInt32"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "/=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 448
+,"start-col": 1
+,"end-line": 448
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "eqInt32"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 447
+,"start-col": 1
+,"end-line": 447
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "leInt16"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 273
+,"start-col": 1
+,"end-line": 273
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "ltInt16"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 272
+,"start-col": 1
+,"end-line": 272
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "geInt16"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 271
+,"start-col": 1
+,"end-line": 271
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "gtInt16"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 270
+,"start-col": 1
+,"end-line": 270
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "neInt16"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "/=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 255
+,"start-col": 1
+,"end-line": 255
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "eqInt16"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 254
+,"start-col": 1
+,"end-line": 254
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "leInt8"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 85
+,"start-col": 1
+,"end-line": 85
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "ltInt8"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 84
+,"start-col": 1
+,"end-line": 84
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "geInt8"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 83
+,"start-col": 1
+,"end-line": 83
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "gtInt8"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 82
+,"start-col": 1
+,"end-line": 82
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "neInt8"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "/=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 67
+,"start-col": 1
+,"end-line": 67
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "eqInt8"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 66
+,"start-col": 1
+,"end-line": 66
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dIx"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "C:Ix"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Ix"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crange"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cindex"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeIndex"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cinRange"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crangeSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeRangeSize"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1024
+,"start-col": 10
+,"end-line": 1024
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "range"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1025
+,"start-col": 5
+,"end-line": 1025
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "index"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmindex"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeIndex"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1026
+,"start-col": 5
+,"end-line": 1026
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "inRange"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1027
+,"start-col": 5
+,"end-line": 1027
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmrangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeRangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmunsafeRangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1020
+,"start-col": 10
+,"end-line": 1020
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1021
+,"start-col": 5
+,"end-line": 1021
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1022
+,"start-col": 5
+,"end-line": 1022
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1017
+,"start-col": 10
+,"end-line": 1017
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1018
+,"start-col": 5
+,"end-line": 1018
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dFiniteBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "C:FiniteBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1FiniteBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfiniteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccountLeadingZeros"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccountTrailingZeros"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1007
+,"start-col": 10
+,"end-line": 1007
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "finiteBitSize"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1008
+,"start-col": 5
+,"end-line": 1008
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "countLeadingZeros"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "clz64#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1013
+,"start-col": 5
+,"end-line": 1013
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "countTrailingZeros"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ctz64#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 1014
+,"start-col": 5
+,"end-line": 1014
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "C:Bits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Bits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c.&."}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c.|."}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cxor"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccomplement"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshift"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotate"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$czeroBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csetBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cclearBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccomplementBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctestBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbitSizeMaybe"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cisSigned"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshiftL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeShiftL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshiftR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeShiftR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotateL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotateR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cpopCount"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 933
+,"start-col": 10
+,"end-line": 933
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ".&."}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 938
+,"start-col": 5
+,"end-line": 938
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ".|."}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "or#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 939
+,"start-col": 5
+,"end-line": 939
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "xor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "xor#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 940
+,"start-col": 5
+,"end-line": 940
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "complement"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "xor#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 941
+,"start-col": 5
+,"end-line": 941
+,"end-col": 88}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shift"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftL#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRA#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 942
+,"start-col": 5
+,"end-line": 944
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotate"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i'#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x'#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftL#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "or#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftRL#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 949
+,"start-col": 5
+,"end-line": 957
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "zeroBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmzeroBits"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "bitDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 962
+,"start-col": 5
+,"end-line": 962
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "setBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmsetBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "clearBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmclearBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "complementBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmcomplementBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "testBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "testBitDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 963
+,"start-col": 5
+,"end-line": 963
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bitSizeMaybe"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "finiteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 958
+,"start-col": 5
+,"end-line": 958
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bitSize"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "finiteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 959
+,"start-col": 5
+,"end-line": 959
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "isSigned"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 960
+,"start-col": 5
+,"end-line": 960
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shiftL"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftL#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 945
+,"start-col": 5
+,"end-line": 945
+,"end-col": 63}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeShiftL"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftL#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 946
+,"start-col": 5
+,"end-line": 946
+,"end-col": 72}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shiftR"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRA#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 947
+,"start-col": 5
+,"end-line": 947
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeShiftR"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftRA#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 948
+,"start-col": 5
+,"end-line": 948
+,"end-col": 73}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotateL"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmrotateL"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotateR"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmrotateR"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "popCount"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "popCnt64#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 961
+,"start-col": 5
+,"end-line": 961
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 930
+,"start-col": 10
+,"end-line": 930
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 931
+,"start-col": 5
+,"end-line": 931
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadListPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dIntegral"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp2Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cquot"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crem"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cdiv"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmod"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cquotRem"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cdivMod"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 891
+,"start-col": 10
+,"end-line": 891
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "quot"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 892
+,"start-col": 5
+,"end-line": 895
+,"end-col": 63}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "remInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 896
+,"start-col": 5
+,"end-line": 902
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "div"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "divInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 903
+,"start-col": 5
+,"end-line": 906
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "mod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "modInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 907
+,"start-col": 5
+,"end-line": 913
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "quotRem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotRemInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 914
+,"start-col": 5
+,"end-line": 920
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "divMod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "divModInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 921
+,"start-col": 5
+,"end-line": 927
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toInteger"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "smallInteger"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 928
+,"start-col": 5
+,"end-line": 928
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 879
+,"start-col": 10
+,"end-line": 879
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "succError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 880
+,"start-col": 5
+,"end-line": 882
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "predError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 883
+,"start-col": 5
+,"end-line": 885
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 886
+,"start-col": 5
+,"end-line": 886
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "fromEnum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 887
+,"start-col": 5
+,"end-line": 887
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFrom"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 888
+,"start-col": 5
+,"end-line": 888
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFromThen"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 889
+,"start-col": 5
+,"end-line": 889
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromThenTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dNum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "C:Num"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c+"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c-"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c*"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cnegate"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cabs"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csignum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 867
+,"start-col": 10
+,"end-line": 867
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "+"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 868
+,"start-col": 5
+,"end-line": 868
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "-"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 869
+,"start-col": 5
+,"end-line": 869
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "*#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 870
+,"start-col": 5
+,"end-line": 870
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "negate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 871
+,"start-col": 5
+,"end-line": 871
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "abs"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 872
+,"start-col": 5
+,"end-line": 873
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "signum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 874
+,"start-col": 5
+,"end-line": 876
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "fromInteger"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I64#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "integerToInt"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 877
+,"start-col": 5
+,"end-line": 877
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 864
+,"start-col": 10
+,"end-line": 864
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 865
+,"start-col": 5
+,"end-line": 865
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 848
+,"start-col": 10
+,"end-line": 848
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "compare"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmcompare"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "ltInt64"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 849
+,"start-col": 5
+,"end-line": 849
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "leInt64"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 850
+,"start-col": 5
+,"end-line": 850
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "gtInt64"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 852
+,"start-col": 5
+,"end-line": 852
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "geInt64"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 851
+,"start-col": 5
+,"end-line": 851
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 838
+,"start-col": 10
+,"end-line": 838
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "eqInt64"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 839
+,"start-col": 5
+,"end-line": 839
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "/="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "neInt64"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 840
+,"start-col": 5
+,"end-line": 840
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dIx"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "C:Ix"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Ix"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crange"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cindex"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeIndex"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cinRange"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crangeSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeRangeSize"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 631
+,"start-col": 10
+,"end-line": 631
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "range"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 632
+,"start-col": 5
+,"end-line": 632
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "index"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmindex"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeIndex"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 633
+,"start-col": 5
+,"end-line": 633
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "inRange"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 634
+,"start-col": 5
+,"end-line": 634
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmrangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeRangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmunsafeRangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 627
+,"start-col": 10
+,"end-line": 627
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 628
+,"start-col": 5
+,"end-line": 628
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 629
+,"start-col": 5
+,"end-line": 629
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 624
+,"start-col": 10
+,"end-line": 624
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 625
+,"start-col": 5
+,"end-line": 625
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dFiniteBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "C:FiniteBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1FiniteBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfiniteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccountLeadingZeros"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccountTrailingZeros"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 579
+,"start-col": 10
+,"end-line": 579
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "finiteBitSize"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 580
+,"start-col": 5
+,"end-line": 580
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "countLeadingZeros"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "clz32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 581
+,"start-col": 5
+,"end-line": 581
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "countTrailingZeros"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ctz32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 582
+,"start-col": 5
+,"end-line": 582
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "C:Bits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Bits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c.&."}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c.|."}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cxor"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccomplement"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshift"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotate"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$czeroBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csetBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cclearBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccomplementBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctestBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbitSizeMaybe"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cisSigned"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshiftL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeShiftL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshiftR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeShiftR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotateL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotateR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cpopCount"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 546
+,"start-col": 10
+,"end-line": 546
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ".&."}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 551
+,"start-col": 5
+,"end-line": 551
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ".|."}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "or#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 552
+,"start-col": 5
+,"end-line": 552
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "xor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "xor#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 553
+,"start-col": 5
+,"end-line": 553
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "complement"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "not#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 554
+,"start-col": 5
+,"end-line": 554
+,"end-col": 72}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shift"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftL#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRA#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 555
+,"start-col": 5
+,"end-line": 557
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotate"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i'#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x'#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftL#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "or#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftRL#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Word#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 563
+,"start-col": 5
+,"end-line": 571
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "zeroBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmzeroBits"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "bitDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 576
+,"start-col": 5
+,"end-line": 576
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "setBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmsetBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "clearBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmclearBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "complementBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmcomplementBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "testBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "testBitDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 577
+,"start-col": 5
+,"end-line": 577
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bitSizeMaybe"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "finiteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 572
+,"start-col": 5
+,"end-line": 572
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bitSize"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "finiteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 573
+,"start-col": 5
+,"end-line": 573
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "isSigned"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 574
+,"start-col": 5
+,"end-line": 574
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shiftL"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftL#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 558
+,"start-col": 5
+,"end-line": 558
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeShiftL"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftL#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 559
+,"start-col": 5
+,"end-line": 560
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shiftR"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRA#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 561
+,"start-col": 5
+,"end-line": 561
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeShiftR"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftRA#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 562
+,"start-col": 5
+,"end-line": 562
+,"end-col": 73}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotateL"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmrotateL"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotateR"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmrotateR"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "popCount"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "popCnt32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 575
+,"start-col": 5
+,"end-line": 575
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 543
+,"start-col": 10
+,"end-line": 543
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 544
+,"start-col": 5
+,"end-line": 544
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadListPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dIntegral"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp2Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cquot"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crem"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cdiv"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmod"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cquotRem"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cdivMod"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 502
+,"start-col": 10
+,"end-line": 502
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "quot"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 503
+,"start-col": 5
+,"end-line": 506
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "remInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 507
+,"start-col": 5
+,"end-line": 513
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "div"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "divInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 514
+,"start-col": 5
+,"end-line": 517
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "mod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "modInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 518
+,"start-col": 5
+,"end-line": 524
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "quotRem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotRemInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 525
+,"start-col": 5
+,"end-line": 532
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "divMod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "divModInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 533
+,"start-col": 5
+,"end-line": 540
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toInteger"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "smallInteger"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 541
+,"start-col": 5
+,"end-line": 541
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 483
+,"start-col": 10
+,"end-line": 483
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "succError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 484
+,"start-col": 5
+,"end-line": 486
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "predError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 487
+,"start-col": 5
+,"end-line": 489
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnumError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 493
+,"start-col": 5
+,"end-line": 496
+,"end-col": 83}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "fromEnum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 498
+,"start-col": 5
+,"end-line": 498
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFrom"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 499
+,"start-col": 5
+,"end-line": 499
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFromThen"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 500
+,"start-col": 5
+,"end-line": 500
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromThenTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dNum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "C:Num"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c+"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c-"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c*"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cnegate"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cabs"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csignum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 471
+,"start-col": 10
+,"end-line": 471
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "+"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 472
+,"start-col": 5
+,"end-line": 472
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "-"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 473
+,"start-col": 5
+,"end-line": 473
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "*#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 474
+,"start-col": 5
+,"end-line": 474
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "negate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 475
+,"start-col": 5
+,"end-line": 475
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "abs"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 476
+,"start-col": 5
+,"end-line": 477
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "signum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 478
+,"start-col": 5
+,"end-line": 480
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "fromInteger"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I32#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow32Int#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "integerToInt"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 481
+,"start-col": 5
+,"end-line": 481
+,"end-col": 66}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 468
+,"start-col": 10
+,"end-line": 468
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 469
+,"start-col": 5
+,"end-line": 469
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 452
+,"start-col": 10
+,"end-line": 452
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "compare"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmcompare"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "ltInt32"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 453
+,"start-col": 5
+,"end-line": 453
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "leInt32"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 454
+,"start-col": 5
+,"end-line": 454
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "gtInt32"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 456
+,"start-col": 5
+,"end-line": 456
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "geInt32"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 455
+,"start-col": 5
+,"end-line": 455
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 442
+,"start-col": 10
+,"end-line": 442
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "eqInt32"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 443
+,"start-col": 5
+,"end-line": 443
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "/="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "neInt32"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 444
+,"start-col": 5
+,"end-line": 444
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dFiniteBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "C:FiniteBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1FiniteBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfiniteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccountLeadingZeros"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccountTrailingZeros"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 385
+,"start-col": 10
+,"end-line": 385
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "finiteBitSize"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 386
+,"start-col": 5
+,"end-line": 386
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "countLeadingZeros"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "clz16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 387
+,"start-col": 5
+,"end-line": 387
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "countTrailingZeros"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ctz16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 388
+,"start-col": 5
+,"end-line": 388
+,"end-col": 74}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "C:Bits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Bits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c.&."}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c.|."}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cxor"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccomplement"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshift"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotate"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$czeroBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csetBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cclearBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccomplementBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctestBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbitSizeMaybe"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cisSigned"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshiftL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeShiftL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshiftR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeShiftR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotateL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotateR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cpopCount"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 353
+,"start-col": 10
+,"end-line": 353
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ".&."}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 358
+,"start-col": 5
+,"end-line": 358
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ".|."}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "or#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 359
+,"start-col": 5
+,"end-line": 359
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "xor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "xor#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 360
+,"start-col": 5
+,"end-line": 360
+,"end-col": 85}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "complement"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "not#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 361
+,"start-col": 5
+,"end-line": 361
+,"end-col": 72}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shift"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftL#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRA#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 362
+,"start-col": 5
+,"end-line": 364
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotate"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i'#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x'#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftL#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "or#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftRL#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Word#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 369
+,"start-col": 5
+,"end-line": 377
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "zeroBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmzeroBits"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "bitDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 382
+,"start-col": 5
+,"end-line": 382
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "setBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmsetBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "clearBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmclearBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "complementBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmcomplementBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "testBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "testBitDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 383
+,"start-col": 5
+,"end-line": 383
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bitSizeMaybe"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "finiteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 378
+,"start-col": 5
+,"end-line": 378
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bitSize"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "finiteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 379
+,"start-col": 5
+,"end-line": 379
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "isSigned"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 380
+,"start-col": 5
+,"end-line": 380
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shiftL"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftL#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 365
+,"start-col": 5
+,"end-line": 365
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeShiftL"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftL#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 366
+,"start-col": 5
+,"end-line": 366
+,"end-col": 87}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shiftR"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRA#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 367
+,"start-col": 5
+,"end-line": 367
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeShiftR"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftRA#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 368
+,"start-col": 5
+,"end-line": 368
+,"end-col": 73}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotateL"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmrotateL"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotateR"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmrotateR"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "popCount"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "popCnt16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 381
+,"start-col": 5
+,"end-line": 381
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 350
+,"start-col": 10
+,"end-line": 350
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 351
+,"start-col": 5
+,"end-line": 351
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadListPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dIx"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "C:Ix"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Ix"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crange"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cindex"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeIndex"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cinRange"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crangeSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeRangeSize"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 345
+,"start-col": 10
+,"end-line": 345
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "range"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 346
+,"start-col": 5
+,"end-line": 346
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "index"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmindex"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeIndex"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 347
+,"start-col": 5
+,"end-line": 347
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "inRange"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 348
+,"start-col": 5
+,"end-line": 348
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmrangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeRangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmunsafeRangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 341
+,"start-col": 10
+,"end-line": 341
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 342
+,"start-col": 5
+,"end-line": 342
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 343
+,"start-col": 5
+,"end-line": 343
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dIntegral"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp2Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cquot"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crem"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cdiv"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmod"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cquotRem"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cdivMod"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 308
+,"start-col": 10
+,"end-line": 308
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "quot"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 309
+,"start-col": 5
+,"end-line": 312
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "remInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 313
+,"start-col": 5
+,"end-line": 315
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "div"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "divInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 316
+,"start-col": 5
+,"end-line": 319
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "mod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "modInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 320
+,"start-col": 5
+,"end-line": 322
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "quotRem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotRemInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 323
+,"start-col": 5
+,"end-line": 330
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "divMod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "divModInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 331
+,"start-col": 5
+,"end-line": 338
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toInteger"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "smallInteger"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 339
+,"start-col": 5
+,"end-line": 339
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 293
+,"start-col": 10
+,"end-line": 293
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "succError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 294
+,"start-col": 5
+,"end-line": 296
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "predError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 297
+,"start-col": 5
+,"end-line": 299
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnumError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 300
+,"start-col": 5
+,"end-line": 303
+,"end-col": 83}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "fromEnum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 304
+,"start-col": 5
+,"end-line": 304
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFrom"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 305
+,"start-col": 5
+,"end-line": 305
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFromThen"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 306
+,"start-col": 5
+,"end-line": 306
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromThenTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 290
+,"start-col": 10
+,"end-line": 290
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 291
+,"start-col": 5
+,"end-line": 291
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dNum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "C:Num"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c+"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c-"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c*"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cnegate"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cabs"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csignum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 278
+,"start-col": 10
+,"end-line": 278
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "+"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 279
+,"start-col": 5
+,"end-line": 279
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "-"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 280
+,"start-col": 5
+,"end-line": 280
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "*#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 281
+,"start-col": 5
+,"end-line": 281
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "negate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 282
+,"start-col": 5
+,"end-line": 282
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "abs"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 283
+,"start-col": 5
+,"end-line": 284
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "signum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 285
+,"start-col": 5
+,"end-line": 287
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "fromInteger"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I16#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow16Int#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "integerToInt"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 288
+,"start-col": 5
+,"end-line": 288
+,"end-col": 66}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 275
+,"start-col": 10
+,"end-line": 275
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 276
+,"start-col": 5
+,"end-line": 276
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 259
+,"start-col": 10
+,"end-line": 259
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "compare"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmcompare"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "ltInt16"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 260
+,"start-col": 5
+,"end-line": 260
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "leInt16"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 261
+,"start-col": 5
+,"end-line": 261
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "gtInt16"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 263
+,"start-col": 5
+,"end-line": 263
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "geInt16"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 262
+,"start-col": 5
+,"end-line": 262
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 249
+,"start-col": 10
+,"end-line": 249
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "eqInt16"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 250
+,"start-col": 5
+,"end-line": 250
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "/="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "neInt16"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 251
+,"start-col": 5
+,"end-line": 251
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dFiniteBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "C:FiniteBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1FiniteBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfiniteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccountLeadingZeros"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccountTrailingZeros"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 197
+,"start-col": 10
+,"end-line": 197
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "finiteBitSize"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 198
+,"start-col": 5
+,"end-line": 198
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "countLeadingZeros"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "clz8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 199
+,"start-col": 5
+,"end-line": 199
+,"end-col": 72}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "countTrailingZeros"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ctz8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 200
+,"start-col": 5
+,"end-line": 200
+,"end-col": 72}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "C:Bits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Bits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c.&."}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c.|."}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cxor"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccomplement"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshift"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotate"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$czeroBits"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csetBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cclearBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccomplementBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctestBit"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbitSizeMaybe"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cbitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cisSigned"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshiftL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeShiftL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshiftR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeShiftR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotateL"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crotateR"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cpopCount"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 165
+,"start-col": 10
+,"end-line": 165
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ".&."}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 170
+,"start-col": 5
+,"end-line": 170
+,"end-col": 83}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ".|."}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "or#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 171
+,"start-col": 5
+,"end-line": 171
+,"end-col": 83}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "xor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "xor#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 172
+,"start-col": 5
+,"end-line": 172
+,"end-col": 83}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "complement"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "not#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 173
+,"start-col": 5
+,"end-line": 173
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shift"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftL#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRA#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 174
+,"start-col": 5
+,"end-line": 176
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotate"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i'#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x'#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftL#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "or#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedShiftRL#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Word#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 181
+,"start-col": 5
+,"end-line": 189
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "zeroBits"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmzeroBits"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "bitDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 194
+,"start-col": 5
+,"end-line": 194
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "setBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmsetBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "clearBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmclearBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "complementBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmcomplementBit"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "testBit"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "testBitDefault"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 195
+,"start-col": 5
+,"end-line": 195
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bitSizeMaybe"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "finiteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 190
+,"start-col": 5
+,"end-line": 190
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "bitSize"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "finiteBitSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 191
+,"start-col": 5
+,"end-line": 191
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "isSigned"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 192
+,"start-col": 5
+,"end-line": 192
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shiftL"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftL#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 177
+,"start-col": 5
+,"end-line": 177
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeShiftL"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftL#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 178
+,"start-col": 5
+,"end-line": 178
+,"end-col": 84}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "shiftR"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "iShiftRA#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 179
+,"start-col": 5
+,"end-line": 179
+,"end-col": 62}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeShiftR"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "uncheckedIShiftRA#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 180
+,"start-col": 5
+,"end-line": 180
+,"end-col": 71}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotateL"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmrotateL"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rotateR"}
+,"refs": [{"package": "base"
+,"module": "Data.Bits"
+,"name": "$dmrotateR"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "popCount"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "popCnt8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 193
+,"start-col": 5
+,"end-line": 193
+,"end-col": 73}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 162
+,"start-col": 10
+,"end-line": 162
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 163
+,"start-col": 5
+,"end-line": 163
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadListPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dIx"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "C:Ix"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Ix"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crange"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cindex"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeIndex"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cinRange"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crangeSize"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cunsafeRangeSize"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 157
+,"start-col": 10
+,"end-line": 157
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "range"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 158
+,"start-col": 5
+,"end-line": 158
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "index"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmindex"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeIndex"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 159
+,"start-col": 5
+,"end-line": 159
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "inRange"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 160
+,"start-col": 5
+,"end-line": 160
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmrangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "unsafeRangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmunsafeRangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dBounded"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Bounded"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cminBound"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmaxBound"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 153
+,"start-col": 10
+,"end-line": 153
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "minBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 154
+,"start-col": 5
+,"end-line": 154
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "maxBound"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 155
+,"start-col": 5
+,"end-line": 155
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dIntegral"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp2Integral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cquot"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$crem"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cdiv"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmod"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cquotRem"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cdivMod"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 120
+,"start-col": 10
+,"end-line": 120
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "quot"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 121
+,"start-col": 5
+,"end-line": 124
+,"end-col": 76}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "rem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "remInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 125
+,"start-col": 5
+,"end-line": 127
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "div"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "divInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 128
+,"start-col": 5
+,"end-line": 131
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "mod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "modInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 132
+,"start-col": 5
+,"end-line": 134
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "quotRem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotRemInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 135
+,"start-col": 5
+,"end-line": 142
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "divMod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "divModInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 143
+,"start-col": 5
+,"end-line": 150
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toInteger"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "smallInteger"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 151
+,"start-col": 5
+,"end-line": 151
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 105
+,"start-col": 10
+,"end-line": 105
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "succError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 106
+,"start-col": 5
+,"end-line": 108
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "predError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 109
+,"start-col": 5
+,"end-line": 111
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "toEnumError"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 112
+,"start-col": 5
+,"end-line": 115
+,"end-col": 80}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "fromEnum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 116
+,"start-col": 5
+,"end-line": 116
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFrom"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 117
+,"start-col": 5
+,"end-line": 117
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "boundedEnumFromThen"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 118
+,"start-col": 5
+,"end-line": 118
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromThenTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 102
+,"start-col": 10
+,"end-line": 102
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "toRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 103
+,"start-col": 5
+,"end-line": 103
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dNum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "C:Num"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c+"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c-"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c*"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cnegate"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cabs"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$csignum"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cfromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 90
+,"start-col": 10
+,"end-line": 90
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "+"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 91
+,"start-col": 5
+,"end-line": 91
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "-"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 92
+,"start-col": 5
+,"end-line": 92
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "*#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "y#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 93
+,"start-col": 5
+,"end-line": 93
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "negate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 94
+,"start-col": 5
+,"end-line": 94
+,"end-col": 63}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "abs"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 95
+,"start-col": 5
+,"end-line": 96
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "signum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 97
+,"start-col": 5
+,"end-line": 99
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "fromInteger"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "I8#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "narrow8Int#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "integerToInt"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 100
+,"start-col": 5
+,"end-line": 100
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 87
+,"start-col": 10
+,"end-line": 87
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 88
+,"start-col": 5
+,"end-line": 88
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 71
+,"start-col": 10
+,"end-line": 71
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "compare"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmcompare"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "ltInt8"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 72
+,"start-col": 5
+,"end-line": 72
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "leInt8"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 73
+,"start-col": 5
+,"end-line": 73
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "gtInt8"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 75
+,"start-col": 5
+,"end-line": 75
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "geInt8"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 74
+,"start-col": 5
+,"end-line": 74
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Int"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 61
+,"start-col": 10
+,"end-line": 61
+,"end-col": 17}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "eqInt8"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 62
+,"start-col": 5
+,"end-line": 62
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "GHC.Int"
+,"name": "/="}
+,"refs": [{"package": "base"
+,"module": "GHC.Int"
+,"name": "neInt8"}]
+,"src-span": {"file": "libraries/base/GHC/Int.hs"
+,"start-line": 63
+,"start-col": 5
+,"end-line": 63
+,"end-col": 18}}]

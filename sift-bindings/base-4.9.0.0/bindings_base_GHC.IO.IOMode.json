@@ -1,0 +1,889 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tcIOMode"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tc'ReadMode"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tc'WriteMode"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tc'AppendMode"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tc'ReadWriteMode"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$maxtag_2xp876h40IjBJSsAbrLbbD"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tag2con_2xp876h40IjBJSsAbrLbbD"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 1
+,"start-col": 1
+,"end-line": 1
+,"end-col": 1}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 31
+,"end-line": 29
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 31
+,"end-line": 29
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 31
+,"end-line": 29
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 35
+,"end-line": 29
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "compare"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "LT"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "EQ"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "GT"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 35
+,"end-line": 29
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 35
+,"end-line": 29
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 35
+,"end-line": 29
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": ">"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 35
+,"end-line": 29
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": ">="}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 35
+,"end-line": 29
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$dIx"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "C:Ix"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cp1Ix"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$crange"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cindex"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cunsafeIndex"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cinRange"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$crangeSize"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cunsafeRangeSize"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 40
+,"end-line": 29
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "range"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tag2con_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 40
+,"end-line": 29
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "index"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmindex"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "unsafeIndex"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "d#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "c"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 40
+,"end-line": 29
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "inRange"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "c"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tagToEnum#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "c#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b#"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 40
+,"end-line": 29
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "rangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmrangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "unsafeRangeSize"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "$dmunsafeRangeSize"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 44
+,"end-line": 29
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$maxtag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "error"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tag2con_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 44
+,"end-line": 29
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "error"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tag2con_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 44
+,"end-line": 29
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "toEnum"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$maxtag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tag2con_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "error"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 44
+,"end-line": 29
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "fromEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 44
+,"end-line": 29
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tag2con_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$maxtag_2xp876h40IjBJSsAbrLbbD"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 44
+,"end-line": 29
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$con2tag_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$tag2con_2xp876h40IjBJSsAbrLbbD"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "a#"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "b#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$maxtag_2xp876h40IjBJSsAbrLbbD"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 44
+,"end-line": 29
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "$dmenumFromThenTo"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$creadsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$creadList"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$creadPrec"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 50
+,"end-line": 29
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 50
+,"end-line": 29
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "choose"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "ReadMode"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "WriteMode"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "AppendMode"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "ReadWriteMode"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 50
+,"end-line": 29
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 50
+,"end-line": 29
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 56
+,"end-line": 29
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 56
+,"end-line": 29
+,"end-col": 60}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.IOMode"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/IOMode.hs"
+,"start-line": 29
+,"start-col": 56
+,"end-line": 29
+,"end-col": 60}}]

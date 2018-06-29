@@ -1,0 +1,147 @@
+[{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "$tc|-"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "$tc'Sub"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "$tcDict"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "$tc'Dict"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "reflexive"}
+,"refs": [{"package": "base"
+,"module": "CatEntail"
+,"name": "Sub"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "Dict"}]
+,"src-span": {"file": "libraries/base/tests/CatEntail.hs"
+,"start-line": 20
+,"start-col": 1
+,"end-line": 20
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "\\\\"}
+,"refs": [{"package": "base"
+,"module": "CatEntail"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/tests/CatEntail.hs"
+,"start-line": 17
+,"start-col": 1
+,"end-line": 17
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "transitive"}
+,"refs": [{"package": "base"
+,"module": "CatEntail"
+,"name": "Sub"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "Dict"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "\\\\"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "f"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/tests/CatEntail.hs"
+,"start-line": 23
+,"start-col": 1
+,"end-line": 23
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "$dCategory"}
+,"refs": [{"package": "base"
+,"module": "Control.Category"
+,"name": "C:Category"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "$cid"}
+,{"package": "base"
+,"module": "CatEntail"
+,"name": "$c."}]
+,"src-span": {"file": "libraries/base/tests/CatEntail.hs"
+,"start-line": 25
+,"start-col": 10
+,"end-line": 25
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "id"}
+,"refs": [{"package": "base"
+,"module": "CatEntail"
+,"name": "reflexive"}]
+,"src-span": {"file": "libraries/base/tests/CatEntail.hs"
+,"start-line": 26
+,"start-col": 3
+,"end-line": 26
+,"end-col": 18}}
+,{"id": {"package": "base"
+,"module": "CatEntail"
+,"name": "."}
+,"refs": [{"package": "base"
+,"module": "CatEntail"
+,"name": "transitive"}]
+,"src-span": {"file": "libraries/base/tests/CatEntail.hs"
+,"start-line": 27
+,"start-col": 3
+,"end-line": 27
+,"end-col": 19}}]

@@ -1,0 +1,316 @@
+[{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "$tcMutableByteArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "$tc'MutableByteArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "$tcByteArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "$tc'ByteArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "freeze_ps_array"}
+,"refs": [{"package": "base"
+,"module": "GHC.ST"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "unsafeFreezeByteArray#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "arr#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "s#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "s2#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "ByteArray"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "len#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "frozen#"}]
+,"src-span": {"file": "libraries/base/GHC/Pack.hs"
+,"start-line": 99
+,"start-col": 1
+,"end-line": 101
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "write_ps_array"}
+,"refs": [{"package": "base"
+,"module": "GHC.ST"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "writeCharArray#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "barr#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "ch"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "s#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "s2#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}]
+,"src-span": {"file": "libraries/base/GHC/Pack.hs"
+,"start-line": 94
+,"start-col": 1
+,"end-line": 96
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "new_ps_array"}
+,"refs": [{"package": "base"
+,"module": "GHC.ST"
+,"name": "ST"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "newByteArray#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "size"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "s2#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "MutableByteArray"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "bot"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "barr#"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Pack.hs"
+,"start-line": 88
+,"start-col": 1
+,"end-line": 92
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "packNBytesST"}
+,"refs": [{"package": "base"
+,"module": "GHC.Pack"
+,"name": "new_ps_array"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "length#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "fill_in"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "ch_array"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "str"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "freeze_ps_array"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "write_ps_array"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "arr_in#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "idx"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "chr#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "arr_in#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "idx"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "cs"}]
+,"src-span": {"file": "libraries/base/GHC/Pack.hs"
+,"start-line": 62
+,"start-col": 1
+,"end-line": 80
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "packStringST"}
+,"refs": [{"package": "base"
+,"module": "GHC.List"
+,"name": "length"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "str"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "packNBytesST"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "len"}]
+,"src-span": {"file": "libraries/base/GHC/Pack.hs"
+,"start-line": 57
+,"start-col": 1
+,"end-line": 59
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "packString"}
+,"refs": [{"package": "base"
+,"module": "GHC.ST"
+,"name": "runST"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "packStringST"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "str"}]
+,"src-span": {"file": "libraries/base/GHC/Pack.hs"
+,"start-line": 54
+,"start-col": 1
+,"end-line": 54
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "packCString#"}
+,"refs": [{"package": "base"
+,"module": "GHC.Pack"
+,"name": "packString"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "str"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "bytes"}]
+,"src-span": {"file": "libraries/base/GHC/Pack.hs"
+,"start-line": 51
+,"start-col": 1
+,"end-line": 51
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Pack"
+,"name": "unpackCString"}
+,"refs": [{"package": "base"
+,"module": "GHC.Pack"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Ptr"
+,"name": "nullPtr"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.CString"
+,"name": "unpackCString#"}
+,{"package": "base"
+,"module": "GHC.Pack"
+,"name": "addr"}]
+,"src-span": {"file": "libraries/base/GHC/Pack.hs"
+,"start-line": 46
+,"start-col": 1
+,"end-line": 48
+,"end-col": 41}}]

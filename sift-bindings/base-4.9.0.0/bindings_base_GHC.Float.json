@@ -1,0 +1,5738 @@
+[{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$tcFFFormat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$tc'FFExponent"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$tc'FFFixed"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$tc'FFGeneric"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$tcRealFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$tc'C:RealFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$tcFloating"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$tc'C:Floating"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "clamp"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "max"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "bd"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "min"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "k"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1241
+,"start-col": 1
+,"end-line": 1241
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "showSignedFloat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isNegativeZero"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "p"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showChar"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "showPos"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1229
+,"start-col": 1
+,"end-line": 1232
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "word2Float"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Float#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "w"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1168
+,"start-col": 1
+,"end-line": 1168
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "word2Double"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "word2Double#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "w"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1165
+,"start-col": 1
+,"end-line": 1165
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "powerDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "**##"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1136
+,"start-col": 1
+,"end-line": 1136
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tanhDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tanhDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1133
+,"start-col": 1
+,"end-line": 1133
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "coshDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coshDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1132
+,"start-col": 1
+,"end-line": 1132
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sinhDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "sinhDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1131
+,"start-col": 1
+,"end-line": 1131
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "atanDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "atanDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1130
+,"start-col": 1
+,"end-line": 1130
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "acosDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "acosDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1129
+,"start-col": 1
+,"end-line": 1129
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "asinDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "asinDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1128
+,"start-col": 1
+,"end-line": 1128
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tanDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tanDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1127
+,"start-col": 1
+,"end-line": 1127
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "cosDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "cosDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1126
+,"start-col": 1
+,"end-line": 1126
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sinDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "sinDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1125
+,"start-col": 1
+,"end-line": 1125
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrtDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "sqrtDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1124
+,"start-col": 1
+,"end-line": 1124
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "logDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "logDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1123
+,"start-col": 1
+,"end-line": 1123
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "expDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "expDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1122
+,"start-col": 1
+,"end-line": 1122
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "float2Double"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "float2Double#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1116
+,"start-col": 1
+,"end-line": 1116
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "double2Float"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "double2Float#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1113
+,"start-col": 1
+,"end-line": 1113
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "leDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=##"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1110
+,"start-col": 1
+,"end-line": 1110
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "ltDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<##"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1109
+,"start-col": 1
+,"end-line": 1109
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "geDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=##"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1108
+,"start-col": 1
+,"end-line": 1108
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "gtDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">##"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1107
+,"start-col": 1
+,"end-line": 1107
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "negateDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateDouble#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1104
+,"start-col": 1
+,"end-line": 1104
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "divideDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "/##"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1101
+,"start-col": 1
+,"end-line": 1101
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "timesDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "*##"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1100
+,"start-col": 1
+,"end-line": 1100
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "minusDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-##"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1099
+,"start-col": 1
+,"end-line": 1099
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "plusDouble"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+##"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1098
+,"start-col": 1
+,"end-line": 1098
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "powerFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "powerFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1092
+,"start-col": 1
+,"end-line": 1092
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tanhFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tanhFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1089
+,"start-col": 1
+,"end-line": 1089
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "coshFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coshFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1088
+,"start-col": 1
+,"end-line": 1088
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sinhFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "sinhFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1087
+,"start-col": 1
+,"end-line": 1087
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "atanFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "atanFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1086
+,"start-col": 1
+,"end-line": 1086
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "acosFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "acosFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1085
+,"start-col": 1
+,"end-line": 1085
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "asinFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "asinFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1084
+,"start-col": 1
+,"end-line": 1084
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tanFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "tanFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1083
+,"start-col": 1
+,"end-line": 1083
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "cosFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "cosFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1082
+,"start-col": 1
+,"end-line": 1082
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sinFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "sinFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1081
+,"start-col": 1
+,"end-line": 1081
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrtFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "sqrtFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1080
+,"start-col": 1
+,"end-line": 1080
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "logFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "logFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1079
+,"start-col": 1
+,"end-line": 1079
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "expFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "expFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1078
+,"start-col": 1
+,"end-line": 1078
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "leFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "leFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1072
+,"start-col": 1
+,"end-line": 1072
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "ltFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "ltFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1071
+,"start-col": 1
+,"end-line": 1071
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "geFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "geFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1070
+,"start-col": 1
+,"end-line": 1070
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "gtFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "gtFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1069
+,"start-col": 1
+,"end-line": 1069
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "negateFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1066
+,"start-col": 1
+,"end-line": 1066
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "divideFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "divideFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1063
+,"start-col": 1
+,"end-line": 1063
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "timesFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "timesFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1062
+,"start-col": 1
+,"end-line": 1062
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "minusFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "minusFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1061
+,"start-col": 1
+,"end-line": 1061
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "plusFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "plusFloat#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 1060
+,"start-col": 1
+,"end-line": 1060
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "fromRat''"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Logarithms.Internals"
+,"name": "integerLog2IsPowerOf2#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "pw#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "==#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Logarithms"
+,"name": "integerLog2#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ln#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ld#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "+#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "me#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "-#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "md#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "shiftR"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Logarithms.Internals"
+,"name": "roundingMode#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n'"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": ".&."}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n''"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ld'#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "<=#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minEx"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mantDigs"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "b"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "shiftL"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "p"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "max"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ln"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ld"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "p0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "scale"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n''"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d''"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "rdq"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "p'"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 989
+,"start-col": 1
+,"end-line": 1050
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "integerLogBase"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Logarithms"
+,"name": "integerLog2#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Logarithms"
+,"name": "integerLogBase#"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 965
+,"start-col": 1
+,"end-line": 968
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "maxExpt10"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 953
+,"start-col": 1
+,"end-line": 953
+,"end-col": 16}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "maxExpt"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 937
+,"start-col": 1
+,"end-line": 937
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "minExpt"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 936
+,"start-col": 1
+,"end-line": 936
+,"end-col": 12}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "expts"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "array"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minExpt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "maxExpt"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "^"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 950
+,"start-col": 1
+,"end-line": 950
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "expts10"}
+,"refs": [{"package": "base"
+,"module": "GHC.Arr"
+,"name": "array"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minExpt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "maxExpt10"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "^"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 956
+,"start-col": 1
+,"end-line": 956
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "expt"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "base"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minExpt"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "maxExpt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "expts"}
+,{"package": "base"
+,"module": "GHC.Arr"
+,"name": "!"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "maxExpt10"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "expts10"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "^"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 940
+,"start-col": 1
+,"end-line": 947
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "fromRat'"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRadix"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "round"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "p'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "xMax"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "toRational"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "p0"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "expt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "integerLogBase"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "numerator"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "denominator"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "max"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minExp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minExp0"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRange"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "f"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 918
+,"start-col": 1
+,"end-line": 932
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "fromRat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "fromRat'"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 900
+,"start-col": 1
+,"end-line": 906
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "floatToDigits"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mDnN"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "base"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mUpN"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "rn"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "sN"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "rn'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mDnN'"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mUpN'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "dn"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ds"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "gen"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRadix"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRange"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minExp0"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "p"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minExp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "e0"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "f0"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "expt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "e"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "be"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mUp"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "fixup"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "lx"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "k1"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "ceiling"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "fixup"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "k0"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "k"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "gen"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mDn"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "bk"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "reverse"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "rds"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 746
+,"start-col": 1
+,"end-line": 833
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "roundTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "is"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "base"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "replicate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "all"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "i'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ds"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "even"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "xs"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "c"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 709
+,"start-col": 1
+,"end-line": 725
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "formatRealFloatAlt"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "isNaN"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isInfinite"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isNegativeZero"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "doFmt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "fmt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatToDigits"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "base"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "intToDigit"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "is"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "format"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "doFmt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "e"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "FFExponent"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "FFFixed"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "decs"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ds"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "show_e'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ds'"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "max"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "dec"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "take"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "dec'"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "repeat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "roundTo"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ei"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "init"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "is'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ds'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ls"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "replicate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mk0"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "reverse"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "rs"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "s"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "rs"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "dec"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "dec'"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "splitAt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ei"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "is'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ls"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "null"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "rs"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "alt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ei"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "is'"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "ds'"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 645
+,"start-col": 1
+,"end-line": 705
+,"end-col": 59}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "formatRealFloat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "formatRealFloatAlt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "fmt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "decs"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 641
+,"start-col": 1
+,"end-line": 641
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "showFloat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "formatRealFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "FFGeneric"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 632
+,"start-col": 1
+,"end-line": 632
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "rationalToDouble"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "fromRat''"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minEx"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mantDigs"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 454
+,"start-col": 1
+,"end-line": 464
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "rationalToFloat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "fromRat''"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "minEx"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "mantDigs"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 277
+,"start-col": 1
+,"end-line": 287
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrt"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "**"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 118
+,"start-col": 5
+,"end-line": 118
+,"end-col": 36}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "**"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 116
+,"start-col": 5
+,"end-line": 116
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "logBase"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 117
+,"start-col": 5
+,"end-line": 117
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tan"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "sin"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "cos"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 119
+,"start-col": 5
+,"end-line": 119
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tanh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "sinh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "cosh"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 120
+,"start-col": 5
+,"end-line": 120
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log1p"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 126
+,"start-col": 5
+,"end-line": 126
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "expm1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 127
+,"start-col": 5
+,"end-line": 127
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log1pexp"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log1p"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 128
+,"start-col": 5
+,"end-line": 128
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log1mexp"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log1p"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 129
+,"start-col": 5
+,"end-line": 129
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "exponent"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 201
+,"start-col": 5
+,"end-line": 202
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "significand"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 204
+,"start-col": 5
+,"end-line": 205
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "scaleFloat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isFix"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "clamp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "k"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isNaN"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isInfinite"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRange"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "h"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "l"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 207
+,"start-col": 5
+,"end-line": 223
+,"end-col": 75}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "atan2"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "atan"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "pi"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isNegativeZero"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "atan2"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 225
+,"start-col": 5
+,"end-line": 236
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 614
+,"start-col": 11
+,"end-line": 614
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 615
+,"start-col": 5
+,"end-line": 615
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 616
+,"start-col": 5
+,"end-line": 616
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float.RealFracMethods"
+,"name": "int2Double"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 617
+,"start-col": 5
+,"end-line": 617
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "fromEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "truncate"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 618
+,"start-col": 5
+,"end-line": 618
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFrom"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 619
+,"start-col": 5
+,"end-line": 619
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThen"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 621
+,"start-col": 5
+,"end-line": 621
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromTo"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 620
+,"start-col": 5
+,"end-line": 620
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 622
+,"start-col": 5
+,"end-line": 622
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 604
+,"start-col": 11
+,"end-line": 604
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 605
+,"start-col": 5
+,"end-line": 605
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 606
+,"start-col": 5
+,"end-line": 606
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float.RealFracMethods"
+,"name": "int2Float"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 607
+,"start-col": 5
+,"end-line": 607
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "fromEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "truncate"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 608
+,"start-col": 5
+,"end-line": 608
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFrom"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 609
+,"start-col": 5
+,"end-line": 609
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThen"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 611
+,"start-col": 5
+,"end-line": 611
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromTo"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 610
+,"start-col": 5
+,"end-line": 610
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 612
+,"start-col": 5
+,"end-line": 612
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 580
+,"start-col": 11
+,"end-line": 580
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "showSignedFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "showFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 581
+,"start-col": 5
+,"end-line": 581
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 582
+,"start-col": 5
+,"end-line": 582
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dRealFloat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "C:RealFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1RealFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp2RealFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfloatRadix"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfloatDigits"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfloatRange"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cdecodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cencodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cexponent"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csignificand"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cscaleFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisNaN"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisInfinite"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisDenormalized"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisNegativeZero"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisIEEE"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$catan2"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 549
+,"start-col": 11
+,"end-line": 549
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRadix"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 550
+,"start-col": 5
+,"end-line": 550
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 551
+,"start-col": 5
+,"end-line": 551
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRange"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 552
+,"start-col": 5
+,"end-line": 552
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "decodeDoubleInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "j"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 554
+,"start-col": 5
+,"end-line": 556
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "encodeDoubleInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "j"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 558
+,"start-col": 5
+,"end-line": 558
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "exponent"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 560
+,"start-col": 5
+,"end-line": 561
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "significand"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 563
+,"start-col": 5
+,"end-line": 564
+,"end-col": 76}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "scaleFloat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isFix"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "clamp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "bd"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "k"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isDoubleFinite"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 566
+,"start-col": 5
+,"end-line": 572
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isNaN"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isDoubleNaN"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 574
+,"start-col": 5
+,"end-line": 574
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isInfinite"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isDoubleInfinite"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 575
+,"start-col": 5
+,"end-line": 575
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isDenormalized"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isDoubleDenormalized"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 576
+,"start-col": 5
+,"end-line": 576
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isNegativeZero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isDoubleNegativeZero"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 577
+,"start-col": 5
+,"end-line": 577
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isIEEE"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 578
+,"start-col": 5
+,"end-line": 578
+,"end-col": 31}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "atan2"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "$dmatan2"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dRealFrac"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:RealFrac"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1RealFrac"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp2RealFrac"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cproperFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctruncate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cround"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cceiling"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfloor"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 513
+,"start-col": 11
+,"end-line": 513
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "properFraction"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "^"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "w"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 520
+,"start-col": 5
+,"end-line": 528
+,"end-col": 10}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "truncate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 530
+,"start-col": 5
+,"end-line": 531
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "round"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "abs"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "half_down"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "even"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 533
+,"start-col": 5
+,"end-line": 541
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "ceiling"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 543
+,"start-col": 5
+,"end-line": 544
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "floor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 546
+,"start-col": 5
+,"end-line": 547
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dFloating"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "C:Floating"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1Floating"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cpi"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cexp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clog"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csqrt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c**"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clogBase"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csin"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ccos"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctan"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$casin"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cacos"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$catan"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csinh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ccosh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctanh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$casinh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cacosh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$catanh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clog1p"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cexpm1"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clog1pexp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clog1mexp"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 466
+,"start-col": 11
+,"end-line": 466
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "pi"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 467
+,"start-col": 5
+,"end-line": 467
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "expDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 468
+,"start-col": 5
+,"end-line": 468
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "logDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 469
+,"start-col": 5
+,"end-line": 469
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrt"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrtDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 470
+,"start-col": 5
+,"end-line": 470
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "**"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "powerDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 480
+,"start-col": 5
+,"end-line": 480
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "logBase"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 481
+,"start-col": 5
+,"end-line": 481
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sin"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "sinDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 471
+,"start-col": 5
+,"end-line": 471
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "cos"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "cosDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 472
+,"start-col": 5
+,"end-line": 472
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tan"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "tanDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 473
+,"start-col": 5
+,"end-line": 473
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "asin"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "asinDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 474
+,"start-col": 5
+,"end-line": 474
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "acos"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "acosDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 475
+,"start-col": 5
+,"end-line": 475
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "atan"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "atanDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 476
+,"start-col": 5
+,"end-line": 476
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sinh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "sinhDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 477
+,"start-col": 5
+,"end-line": 477
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "cosh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "coshDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 478
+,"start-col": 5
+,"end-line": 478
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tanh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "tanhDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 479
+,"start-col": 5
+,"end-line": 479
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "asinh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrt"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 483
+,"start-col": 5
+,"end-line": 483
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "acosh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrt"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 484
+,"start-col": 5
+,"end-line": 484
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "atanh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 485
+,"start-col": 5
+,"end-line": 485
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log1p"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log1pDouble"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 487
+,"start-col": 5
+,"end-line": 487
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "expm1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "expm1Double"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 488
+,"start-col": 5
+,"end-line": 488
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log1pexp"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log1pDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 494
+,"start-col": 5
+,"end-line": 497
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log1mexp"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "expm1Double"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log1pDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 490
+,"start-col": 5
+,"end-line": 492
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dFractional"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Fractional"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1Fractional"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$crecip"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfromRational"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 446
+,"start-col": 11
+,"end-line": 446
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "/"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "divideDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 447
+,"start-col": 5
+,"end-line": 447
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "recip"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 450
+,"start-col": 5
+,"end-line": 450
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "fromRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "rationalToDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 449
+,"start-col": 5
+,"end-line": 449
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 434
+,"start-col": 11
+,"end-line": 434
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "toRational"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "decodeDoubleInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "e#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "shiftLInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "integerToWord"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqWord#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "elimZerosInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 435
+,"start-col": 5
+,"end-line": 444
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dNum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "C:Num"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c-"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c*"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cnegate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cabs"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csignum"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 417
+,"start-col": 11
+,"end-line": 417
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "+"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "plusDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 418
+,"start-col": 5
+,"end-line": 418
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "-"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "minusDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 419
+,"start-col": 5
+,"end-line": 419
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "timesDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 421
+,"start-col": 5
+,"end-line": 421
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "negate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "negateDouble"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 420
+,"start-col": 5
+,"end-line": 420
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "abs"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "negateDouble"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 422
+,"start-col": 5
+,"end-line": 424
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "signum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "negateDouble"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 425
+,"start-col": 5
+,"end-line": 427
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "fromInteger"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "D#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "doubleFromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 431
+,"start-col": 5
+,"end-line": 431
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 409
+,"start-col": 11
+,"end-line": 409
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "showSignedFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "showFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 410
+,"start-col": 5
+,"end-line": 410
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 411
+,"start-col": 5
+,"end-line": 411
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dRealFloat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "C:RealFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1RealFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp2RealFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfloatRadix"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfloatDigits"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfloatRange"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cdecodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cencodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cexponent"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csignificand"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cscaleFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisNaN"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisInfinite"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisDenormalized"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisNegativeZero"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cisIEEE"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$catan2"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 379
+,"start-col": 11
+,"end-line": 379
+,"end-col": 26}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRadix"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 380
+,"start-col": 5
+,"end-line": 380
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 381
+,"start-col": 5
+,"end-line": 381
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "floatRange"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 382
+,"start-col": 5
+,"end-line": 382
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "decodeFloat_Int#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "f#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "smallInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "i"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 384
+,"start-col": 5
+,"end-line": 385
+,"end-col": 63}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "encodeFloatInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "i"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "e"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 387
+,"start-col": 5
+,"end-line": 387
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "exponent"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 389
+,"start-col": 5
+,"end-line": 390
+,"end-col": 77}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "significand"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "floatDigits"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 392
+,"start-col": 5
+,"end-line": 393
+,"end-col": 76}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "scaleFloat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isFix"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "decodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "clamp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "bf"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "k"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isFloatFinite"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 395
+,"start-col": 5
+,"end-line": 401
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isNaN"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isFloatNaN"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 403
+,"start-col": 5
+,"end-line": 403
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isInfinite"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isFloatInfinite"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 404
+,"start-col": 5
+,"end-line": 404
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isDenormalized"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isFloatDenormalized"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 405
+,"start-col": 5
+,"end-line": 405
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isNegativeZero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isFloatNegativeZero"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 406
+,"start-col": 5
+,"end-line": 406
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "isIEEE"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 407
+,"start-col": 5
+,"end-line": 407
+,"end-col": 28}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "atan2"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "$dmatan2"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dFloating"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "C:Floating"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1Floating"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cpi"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cexp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clog"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csqrt"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c**"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clogBase"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csin"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ccos"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctan"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$casin"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cacos"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$catan"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csinh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ccosh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctanh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$casinh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cacosh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$catanh"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clog1p"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cexpm1"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clog1pexp"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$clog1mexp"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 345
+,"start-col": 11
+,"end-line": 345
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "pi"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 346
+,"start-col": 5
+,"end-line": 346
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "expFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 347
+,"start-col": 5
+,"end-line": 347
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "logFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 348
+,"start-col": 5
+,"end-line": 348
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrt"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrtFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 349
+,"start-col": 5
+,"end-line": 349
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "**"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "powerFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 359
+,"start-col": 5
+,"end-line": 359
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "logBase"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 360
+,"start-col": 5
+,"end-line": 360
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sin"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "sinFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 350
+,"start-col": 5
+,"end-line": 350
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "cos"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "cosFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 351
+,"start-col": 5
+,"end-line": 351
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tan"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "tanFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 352
+,"start-col": 5
+,"end-line": 352
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "asin"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "asinFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 353
+,"start-col": 5
+,"end-line": 353
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "acos"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "acosFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 354
+,"start-col": 5
+,"end-line": 354
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "atan"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "atanFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 355
+,"start-col": 5
+,"end-line": 355
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "sinh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "sinhFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 356
+,"start-col": 5
+,"end-line": 356
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "cosh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "coshFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 357
+,"start-col": 5
+,"end-line": 357
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "tanh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "tanhFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 358
+,"start-col": 5
+,"end-line": 358
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "asinh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrt"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 362
+,"start-col": 5
+,"end-line": 362
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "acosh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "sqrt"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 363
+,"start-col": 5
+,"end-line": 363
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "atanh"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 364
+,"start-col": 5
+,"end-line": 364
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log1p"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "log1pFloat"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 366
+,"start-col": 5
+,"end-line": 366
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "expm1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "expm1Float"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 367
+,"start-col": 5
+,"end-line": 367
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log1pexp"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log1pFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 373
+,"start-col": 5
+,"end-line": 376
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "log1mexp"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "expm1Float"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "log1pFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "exp"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 369
+,"start-col": 5
+,"end-line": 371
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dRealFrac"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:RealFrac"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1RealFrac"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp2RealFrac"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cproperFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctruncate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cround"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cceiling"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfloor"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 302
+,"start-col": 11
+,"end-line": 302
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "properFraction"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "decodeFloat_Int#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "^"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "shiftR"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "i"}
+,{"package": "base"
+,"module": "Data.Bits"
+,"name": "shiftL"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "encodeFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "f"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 313
+,"start-col": 5
+,"end-line": 324
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "truncate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 326
+,"start-col": 5
+,"end-line": 327
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "round"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "abs"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "half_down"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "even"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 329
+,"start-col": 5
+,"end-line": 337
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "ceiling"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 339
+,"start-col": 5
+,"end-line": 340
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "floor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 342
+,"start-col": 5
+,"end-line": 343
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dFractional"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Fractional"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1Fractional"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$crecip"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfromRational"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 269
+,"start-col": 11
+,"end-line": 269
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "/"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "divideFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 270
+,"start-col": 5
+,"end-line": 270
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "recip"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 273
+,"start-col": 5
+,"end-line": 273
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "fromRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "rationalToFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 272
+,"start-col": 5
+,"end-line": 272
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 257
+,"start-col": 11
+,"end-line": 257
+,"end-col": 21}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "toRational"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "decodeFloat_Int#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "isTrue#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "e#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": ">=#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "smallInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "m#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "shiftLInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "int2Word#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "and#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "eqWord#"}
+,{"package": "base"
+,"module": "GHC.Float.ConversionUtils"
+,"name": "elimZerosInt#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "negateInt#"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "d#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 258
+,"start-col": 5
+,"end-line": 267
+,"end-col": 71}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "$dNum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "C:Num"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c+"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c-"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$c*"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cnegate"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cabs"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$csignum"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "$cfromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 242
+,"start-col": 11
+,"end-line": 242
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "+"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "plusFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 243
+,"start-col": 5
+,"end-line": 243
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "-"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "minusFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 244
+,"start-col": 5
+,"end-line": 244
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "timesFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 246
+,"start-col": 5
+,"end-line": 246
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "negate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "negateFloat"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 245
+,"start-col": 5
+,"end-line": 245
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "abs"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "negateFloat"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 247
+,"start-col": 5
+,"end-line": 249
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "signum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "negateFloat"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 250
+,"start-col": 5
+,"end-line": 252
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Float"
+,"name": "fromInteger"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "F#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "floatFromInteger"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Float.hs"
+,"start-line": 255
+,"start-col": 5
+,"end-line": 255
+,"end-col": 44}}]

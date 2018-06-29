@@ -1,0 +1,337 @@
+[{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$tcTextEncoding"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$tc'TextEncoding"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$tcBufferCodec"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$tc'BufferCodec"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$tcCodingProgress"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$tc'InputUnderflow"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$tc'OutputUnderflow"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$tc'InvalidSequence"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "mkTextDecoder"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 112
+,"start-col": 9
+,"end-line": 112
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "mkTextEncoder"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 115
+,"start-col": 9
+,"end-line": 115
+,"end-col": 22}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "textEncodingName"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "textEncodingName"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 109
+,"start-col": 9
+,"end-line": 109
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "close"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "close"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 72
+,"start-col": 3
+,"end-line": 72
+,"end-col": 8}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "encode"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "encode"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 37
+,"start-col": 3
+,"end-line": 37
+,"end-col": 9}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "getState"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "getState"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 77
+,"start-col": 3
+,"end-line": 77
+,"end-col": 11}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "recover"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "recover"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 53
+,"start-col": 3
+,"end-line": 53
+,"end-col": 10}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "setState"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "setState"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 90
+,"start-col": 3
+,"end-line": 90
+,"end-col": 11}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 131
+,"start-col": 31
+,"end-line": 131
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 131
+,"start-col": 31
+,"end-line": 131
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 131
+,"start-col": 31
+,"end-line": 131
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 131
+,"start-col": 35
+,"end-line": 131
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 131
+,"start-col": 35
+,"end-line": 131
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 131
+,"start-col": 35
+,"end-line": 131
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 120
+,"start-col": 10
+,"end-line": 120
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowsPrec"}]}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "textEncodingName"}
+,{"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "te"}]
+,"src-span": {"file": "libraries/base/GHC/IO/Encoding/Types.hs"
+,"start-line": 122
+,"start-col": 3
+,"end-line": 122
+,"end-col": 32}}
+,{"id": {"package": "base"
+,"module": "GHC.IO.Encoding.Types"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

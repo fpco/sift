@@ -1,0 +1,2994 @@
+[{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tcRealFrac"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tc'C:RealFrac"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tcFractional"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tc'C:Fractional"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tcIntegral"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tc'C:Integral"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tcReal"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tc'C:Real"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tcRatio"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$tc':%"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "integralEnumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n1"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n2"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 661
+,"start-col": 1
+,"end-line": 662
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "integralEnumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "m"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 658
+,"start-col": 1
+,"end-line": 658
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "integralEnumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "i_n2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "i_n1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromThenTo"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "asTypeOf"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n1"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n2"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 650
+,"start-col": 1
+,"end-line": 655
+,"end-col": 24}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "integralEnumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "enumFromTo"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "maxBound"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "asTypeOf"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 647
+,"start-col": 1
+,"end-line": 647
+,"end-col": 88}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "gcdWord'"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "gcdWord"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 642
+,"start-col": 1
+,"end-line": 642
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "gcdInt'"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "I#"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "gcdInt"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 634
+,"start-col": 1
+,"end-line": 634
+,"end-col": 40}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "gcd"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "gcd'"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "abs"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "gcd'"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "b"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "rem"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 614
+,"start-col": 1
+,"end-line": 616
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "lcm"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "abs"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "gcd"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 622
+,"start-col": 1
+,"end-line": 624
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "even"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "rem"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 464
+,"start-col": 1
+,"end-line": 464
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "odd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "even"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 465
+,"start-col": 1
+,"end-line": 465
+,"end-col": 30}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "^"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "y0"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x0"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "even"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "g"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "z"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "f"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "g"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 477
+,"start-col": 1
+,"end-line": 487
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "^^"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "^"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "recip"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 492
+,"start-col": 1
+,"end-line": 492
+,"end-col": 64}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "^%^"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "e"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "^"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 585
+,"start-col": 1
+,"end-line": 588
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "showSigned"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "p"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showChar"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "showPos"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 459
+,"start-col": 1
+,"end-line": 461
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "realToFrac"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "toRational"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 447
+,"start-col": 1
+,"end-line": 447
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 432
+,"start-col": 1
+,"end-line": 432
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "m"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThen"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 222
+,"start-col": 1
+,"end-line": 222
+,"end-col": 78}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.List"
+,"name": "takeWhile"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "predicate"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThen"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "e1"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "e2"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "e3"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "mid"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 228
+,"start-col": 1
+,"end-line": 233
+,"end-col": 71}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFrom"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 219
+,"start-col": 1
+,"end-line": 219
+,"end-col": 65}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.List"
+,"name": "takeWhile"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFrom"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 225
+,"start-col": 1
+,"end-line": 225
+,"end-col": 69}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "denominator"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 114
+,"start-col": 1
+,"end-line": 114
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "numerator"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 113
+,"start-col": 1
+,"end-line": 113
+,"end-col": 29}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "notANumber"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 82
+,"start-col": 1
+,"end-line": 82
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "infinity"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 81
+,"start-col": 1
+,"end-line": 81
+,"end-col": 20}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioPrec"}
+,"refs": []
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 77
+,"start-col": 1
+,"end-line": 77
+,"end-col": 15}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioPrec1"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioPrec"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 78
+,"start-col": 1
+,"end-line": 78
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raise#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "overflowException"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 62
+,"start-col": 1
+,"end-line": 62
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioZeroDenominatorError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raise#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "ratioZeroDenomException"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 58
+,"start-col": 1
+,"end-line": 58
+,"end-col": 59}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "reduce"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioZeroDenominatorError"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "gcd"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 107
+,"start-col": 1
+,"end-line": 109
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "%"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "reduce"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "signum"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "abs"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 111
+,"start-col": 1
+,"end-line": 111
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "^^%^^"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "e"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "^"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioZeroDenominatorError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "even"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "nn"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "dd"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 593
+,"start-col": 1
+,"end-line": 600
+,"end-col": 70}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "raise#"}
+,{"package": "base"
+,"module": "GHC.Exception"
+,"name": "divZeroException"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 54
+,"start-col": 1
+,"end-line": 54
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 149
+,"start-col": 5
+,"end-line": 149
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "rem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 150
+,"start-col": 5
+,"end-line": 150
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "div"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divMod"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 151
+,"start-col": 5
+,"end-line": 151
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "mod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divMod"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 152
+,"start-col": 5
+,"end-line": 152
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "divMod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "signum"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "qr"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 154
+,"start-col": 5
+,"end-line": 155
+,"end-col": 56}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "recip"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 174
+,"start-col": 5
+,"end-line": 174
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "recip"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 173
+,"start-col": 5
+,"end-line": 173
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "truncate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 200
+,"start-col": 5
+,"end-line": 200
+,"end-col": 61}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "round"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "signum"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "abs"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "even"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Err"
+,"name": "errorWithoutStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 202
+,"start-col": 5
+,"end-line": 208
+,"end-col": 93}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "ceiling"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 210
+,"start-col": 5
+,"end-line": 211
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "floor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "r"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 213
+,"start-col": 5
+,"end-line": 214
+,"end-col": 58}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c/="}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 69
+,"start-col": 37
+,"end-line": 69
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "=="}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a2"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "b2"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 69
+,"start-col": 37
+,"end-line": 69
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "b"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 69
+,"start-col": 37
+,"end-line": 69
+,"end-col": 39}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Enum"
+,"name": "C:Enum"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$csucc"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cpred"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ctoEnum"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cfromEnum"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cenumFrom"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cenumFromThen"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cenumFromTo"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cenumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 412
+,"start-col": 11
+,"end-line": 412
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "succ"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 414
+,"start-col": 5
+,"end-line": 414
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "pred"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 415
+,"start-col": 5
+,"end-line": 415
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "toEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 417
+,"start-col": 5
+,"end-line": 417
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "fromEnum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "truncate"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 418
+,"start-col": 5
+,"end-line": 418
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "enumFrom"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFrom"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 420
+,"start-col": 5
+,"end-line": 420
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "enumFromThen"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThen"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 421
+,"start-col": 5
+,"end-line": 421
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "enumFromTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromTo"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 422
+,"start-col": 5
+,"end-line": 422
+,"end-col": 45}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "enumFromThenTo"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "numericEnumFromThenTo"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 423
+,"start-col": 5
+,"end-line": 423
+,"end-col": 49}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cshowsPrec"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cshow"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cshowList"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 401
+,"start-col": 11
+,"end-line": 401
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "p"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioPrec1"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 403
+,"start-col": 5
+,"end-line": 410
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dRealFrac"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:RealFrac"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1RealFrac"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp2RealFrac"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cproperFraction"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ctruncate"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cround"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cceiling"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cfloor"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 396
+,"start-col": 11
+,"end-line": 396
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "properFraction"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 398
+,"start-col": 5
+,"end-line": 399
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "truncate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "$dmtruncate"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "round"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "$dmround"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "ceiling"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "$dmceiling"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "floor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "$dmfloor"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 392
+,"start-col": 11
+,"end-line": 392
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "toRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 394
+,"start-col": 5
+,"end-line": 394
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dFractional"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Fractional"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1Fractional"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c/"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$crecip"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cfromRational"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 383
+,"start-col": 11
+,"end-line": 383
+,"end-col": 48}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "/"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y'"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "%"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x'"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 385
+,"start-col": 5
+,"end-line": 385
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "recip"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "ratioZeroDenominatorError"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 386
+,"start-col": 5
+,"end-line": 389
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "fromRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "%"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 390
+,"start-col": 5
+,"end-line": 390
+,"end-col": 57}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dNum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "C:Num"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c+"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cnegate"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cabs"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$csignum"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cfromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 372
+,"start-col": 11
+,"end-line": 372
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "+"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "reduce"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y'"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x'"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 374
+,"start-col": 5
+,"end-line": 374
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "-"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "reduce"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y'"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "-"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x'"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 375
+,"start-col": 5
+,"end-line": 375
+,"end-col": 55}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "reduce"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x'"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y'"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 376
+,"start-col": 5
+,"end-line": 376
+,"end-col": 52}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "negate"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 377
+,"start-col": 5
+,"end-line": 377
+,"end-col": 37}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "abs"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "abs"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 378
+,"start-col": 5
+,"end-line": 378
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "signum"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "signum"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 379
+,"start-col": 5
+,"end-line": 379
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "fromInteger"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 380
+,"start-col": 5
+,"end-line": 380
+,"end-col": 46}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1Ord"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ccompare"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c<"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c<="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c>"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$c>="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cmax"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cmin"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 367
+,"start-col": 11
+,"end-line": 367
+,"end-col": 41}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "compare"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmcompare"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "<"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x'"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 370
+,"start-col": 5
+,"end-line": 370
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "<="}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "*"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y'"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x'"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 369
+,"start-col": 5
+,"end-line": 369
+,"end-col": 44}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": ">"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm>"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": ">="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm>="}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dIntegral"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Integral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1Integral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp2Integral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cquot"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$crem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cdiv"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cmod"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cquotRem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cdivMod"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ctoInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 334
+,"start-col": 11
+,"end-line": 334
+,"end-col": 27}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "quotInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 338
+,"start-col": 5
+,"end-line": 339
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "rem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "remInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 342
+,"start-col": 5
+,"end-line": 343
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "div"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "divInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 346
+,"start-col": 5
+,"end-line": 347
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "mod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "modInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 350
+,"start-col": 5
+,"end-line": 351
+,"end-col": 33}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "quotRemInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "r"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 359
+,"start-col": 5
+,"end-line": 361
+,"end-col": 43}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "divMod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}
+,{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "divModInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 354
+,"start-col": 5
+,"end-line": 356
+,"end-col": 42}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "n"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 335
+,"start-col": 5
+,"end-line": 335
+,"end-col": 25}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 319
+,"start-col": 11
+,"end-line": 319
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "toRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 320
+,"start-col": 5
+,"end-line": 320
+,"end-col": 34}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dIntegral"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Integral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1Integral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp2Integral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cquot"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$crem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cdiv"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cmod"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cquotRem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cdivMod"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ctoInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 292
+,"start-col": 10
+,"end-line": 292
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotWord#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 293
+,"start-col": 5
+,"end-line": 295
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "rem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "remWord#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 296
+,"start-col": 5
+,"end-line": 298
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "div"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotWord#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 299
+,"start-col": 5
+,"end-line": 301
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "mod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "remWord#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 302
+,"start-col": 5
+,"end-line": 304
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotRemWord#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "q"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "r"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 305
+,"start-col": 5
+,"end-line": 309
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "divMod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "W#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "quotWord#"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "y#"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "remWord#"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 310
+,"start-col": 5
+,"end-line": 312
+,"end-col": 47}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "wordToInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x#"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 313
+,"start-col": 5
+,"end-line": 313
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 289
+,"start-col": 10
+,"end-line": 289
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "toRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 290
+,"start-col": 5
+,"end-line": 290
+,"end-col": 35}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dIntegral"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Integral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1Integral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp2Integral"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cquot"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$crem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cdiv"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cmod"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cquotRem"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cdivMod"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ctoInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 242
+,"start-col": 11
+,"end-line": 242
+,"end-col": 23}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "quot"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "quotInt"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 245
+,"start-col": 5
+,"end-line": 249
+,"end-col": 51}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "rem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "remInt"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 251
+,"start-col": 5
+,"end-line": 257
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "div"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "divInt"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 259
+,"start-col": 5
+,"end-line": 263
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "mod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "modInt"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 265
+,"start-col": 5
+,"end-line": 271
+,"end-col": 50}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "quotRemInt"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 273
+,"start-col": 5
+,"end-line": 277
+,"end-col": 54}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "divMod"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "b"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "divZeroError"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "negate"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "a"}
+,{"package": "base"
+,"module": "GHC.Enum"
+,"name": "minBound"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "overflowError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "divModInt"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 279
+,"start-col": 5
+,"end-line": 283
+,"end-col": 53}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,"refs": [{"package": "integer-gmp"
+,"module": "GHC.Integer.Type"
+,"name": "smallInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "i"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 243
+,"start-col": 5
+,"end-line": 243
+,"end-col": 38}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "$dReal"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "C:Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp1Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$cp2Real"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$ctoRational"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 239
+,"start-col": 11
+,"end-line": 239
+,"end-col": 19}}
+,{"id": {"package": "base"
+,"module": "GHC.Real"
+,"name": "toRational"}
+,"refs": [{"package": "base"
+,"module": "GHC.Real"
+,"name": "toInteger"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "x"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "$W:%"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "libraries/base/GHC/Real.hs"
+,"start-line": 240
+,"start-col": 5
+,"end-line": 240
+,"end-col": 44}}]

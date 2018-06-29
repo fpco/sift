@@ -1,0 +1,52 @@
+[{"id": {"package": "base"
+,"module": "GHC.ExecutionStack"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "base"
+,"module": "GHC.ExecutionStack"
+,"name": "getStackTrace"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "join"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.ExecutionStack.Internal"
+,"name": "stackFrames"}
+,{"package": "base"
+,"module": "GHC.ExecutionStack.Internal"
+,"name": "collectStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/ExecutionStack.hs"
+,"start-line": 46
+,"start-col": 1
+,"end-line": 46
+,"end-col": 67}}
+,{"id": {"package": "base"
+,"module": "GHC.ExecutionStack"
+,"name": "showStackTrace"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fmap"}
+,{"package": "base"
+,"module": "GHC.ExecutionStack.Internal"
+,"name": "showStackFrames"}
+,{"package": "base"
+,"module": "GHC.ExecutionStack"
+,"name": "st"}
+,{"package": "base"
+,"module": "GHC.ExecutionStack"
+,"name": "getStackTrace"}]
+,"src-span": {"file": "libraries/base/GHC/ExecutionStack.hs"
+,"start-line": 50
+,"start-col": 1
+,"end-line": 50
+,"end-col": 74}}]
