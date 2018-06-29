@@ -10,6 +10,8 @@ module Sift.FrontendPlugin (frontendPlugin) where
 
 import           Bag
 import           Control.Monad.IO.Class
+import           Data.ByteString (ByteString)
+import qualified Data.ByteString as S
 import qualified Data.ByteString.Char8 as S8
 import qualified Data.ByteString.Lazy as L
 import qualified Data.ByteString.Lazy.Builder as L
@@ -60,23 +62,20 @@ buildDump bs = array (map buildBinding bs)
 buildBinding :: Binding -> L.Builder
 buildBinding b =
   object
-    [ ("id", buildBindingId (bindingId b))
-    , ("src-span", buildSrcSpan (bindingSrcSpan b))
-    , ("refs", array (map buildBindingId (bindingRefs b)))
-    ]
+    ([ ("id", buildBindingId (bindingId b))
+     , ("refs", array (map buildBindingId (bindingRefs b)))
+     ] ++
+     [("src-span", buildSrcSpan sr) | Just sr <- [bindingSrcSpan b]])
 
-buildSrcSpan :: GHC.SrcSpan -> L.Builder
-buildSrcSpan s =
-  case s of
-    GHC.RealSrcSpan rs ->
-      object
-        [ ("file", string (GHC.unpackFS (GHC.srcSpanFile rs)))
-        , ("start-line", int (GHC.srcSpanStartLine rs))
-        , ("start-col", int (GHC.srcSpanStartCol rs))
-        , ("end-line", int (GHC.srcSpanEndLine rs))
-        , ("end-col", int (GHC.srcSpanEndCol rs))
-        ]
-    GHC.UnhelpfulSpan fs -> string (GHC.unpackFS fs)
+buildSrcSpan :: Span -> L.Builder
+buildSrcSpan rs =
+  object
+    [ ("file", string (spanFile rs))
+    , ("start-line", int (spanStartLine rs))
+    , ("start-col", int (spanStartCol rs))
+    , ("end-line", int (spanEndLine rs))
+    , ("end-col", int (spanEndCol rs))
+    ]
 
 buildBindingId :: BindingId -> L.Builder
 buildBindingId b =
@@ -89,7 +88,7 @@ buildBindingId b =
 array :: [L.Builder] -> L.Builder
 array xs = "[" <> mconcat (intersperse "\n," xs) <> "]"
 
-object :: [(String, L.Builder)] -> L.Builder
+object :: [(ByteString, L.Builder)] -> L.Builder
 object keys =
   "{" <>
   mconcat
@@ -101,104 +100,11 @@ object keys =
 int :: Int -> L.Builder
 int s = L.byteString (S8.pack (show s))
 
-string :: String -> L.Builder
+string :: ByteString -> L.Builder
 string s = L.byteString (S8.pack (show s))
 
-prettyBindingId :: BindingId -> String
-prettyBindingId (BindingId pkg md name) = pkg ++ ":" ++ md ++ "." ++ name
-
--- | Track through the module grpah.
-_trackThrows :: GHC.GhcMonad m => m ()
-_trackThrows = trackGraph existing (const (const mempty))
-  where
-    existing =
-      [ Binding
-          { bindingFlagged = Set.singleton "Throws"
-          , bindingId =
-              (BindingId
-                 { bindingIdPackage = "ghc-prim"
-                 , bindingIdModule = "GHC.Prim"
-                 , bindingIdName = "raise#"
-                 })
-          , bindingSrcSpan = GHC.UnhelpfulSpan (GHC.mkFastString "")
-          , bindingRefs = []
-          }
-      , Binding
-          { bindingFlagged = Set.singleton "Unsafe"
-          , bindingId =
-              (BindingId
-                 { bindingIdPackage = "base"
-                 , bindingIdModule = "GHC.IO.Unsafe"
-                 , bindingIdName = "unsafeDupablePerformIO"
-                 })
-          , bindingSrcSpan = GHC.UnhelpfulSpan (GHC.mkFastString "")
-          , bindingRefs = []
-          }
-      , Binding
-          { bindingFlagged = Set.singleton "Unsafe"
-          , bindingId =
-              (BindingId
-                 { bindingIdPackage = "base"
-                 , bindingIdModule = "GHC.IO.Unsafe"
-                 , bindingIdName = "unsafePerformIO"
-                 })
-          , bindingSrcSpan = GHC.UnhelpfulSpan (GHC.mkFastString "")
-          , bindingRefs = []
-          }
-      ,  Binding
-           { bindingFlagged = Set.singleton "Unsafe"
-           , bindingId =
-               (BindingId
-                  { bindingIdPackage = "ghc-prim"
-                  , bindingIdModule = "GHC.Prim"
-                  , bindingIdName = "unsafeCoerce#"
-                  })
-           , bindingSrcSpan = GHC.UnhelpfulSpan (GHC.mkFastString "")
-           , bindingRefs = []
-           }
-      ]
-
--- | Track through the module grpah.
-trackGraph :: GHC.GhcMonad m => [Binding] -> (GHC.Module -> GHC.HsExpr GHC.Id -> Set String) -> m ()
-trackGraph existingBindings shouldFlag = do
-  mgraph <- GHC.getModuleGraph
-  liftIO
-    (putStrLn
-       ("Tracking module graph for " ++ show (length mgraph) ++ " module(s) ..."))
-  newBindings <- fmap concat (mapM (track shouldFlag) mgraph)
-  let (graph, vertexToNode, _lookupVertexByKey) =
-        Graph.graphFromEdges
-          (map
-             (\binding -> (binding, bindingId binding, bindingRefs binding))
-             (newBindings ++ existingBindings))
-      flaggedVertices :: [(Graph.Vertex, Binding)]
-      flaggedVertices =
-        filter
-          (not . Set.null . bindingFlagged . snd)
-          (map
-             (\v ->
-                (let (b, _, _) = vertexToNode v
-                  in (v, b)))
-             (Graph.topSort graph))
-  liftIO
-    (mapM_
-       (\(v, judas) -> do
-          putStrLn
-            ("Flagged binding: " ++
-             prettyBindingId (bindingId judas) ++
-             ": " ++ intercalate ", " (Set.toList (bindingFlagged judas)))
-          let revDeps =
-                map
-                  vertexToNode
-                  (filter (/= v) (Graph.reachable (Graph.transposeG graph) v))
-          if not (null revDeps)
-            then do
-              putStrLn "Which is used by these directly or indirectly:"
-              mapM_
-                (\(_, bid, _) -> putStrLn ("  " ++ prettyBindingId bid))
-                revDeps
-            else pure ())
-       flaggedVertices)
+prettyBindingId :: BindingId -> ByteString
+prettyBindingId (BindingId pkg md name) = pkg <>  ":" <>  md <>  "." <>  name
 
 -- | Type-check the module and track through it.
 track ::
@@ -226,7 +132,7 @@ track shouldFlag modSummary = do
                        (shouldFlag module')
                        (listify (not . Set.null . shouldFlag module') rhs))
               , bindingId = idToBindingId (GHC.ms_mod modSummary) id'
-              , bindingSrcSpan = GHC.getLoc located
+              , bindingSrcSpan = locToSpan (GHC.getLoc located)
               , bindingRefs =
                   map
                     (idToBindingId (GHC.ms_mod modSummary) . GHC.unLoc)
@@ -241,7 +147,7 @@ track shouldFlag modSummary = do
                        (shouldFlag module')
                        (listify (not . Set.null . shouldFlag module') rhs))
               , bindingId = idToBindingId module' id'
-              , bindingSrcSpan = GHC.getLoc located
+              , bindingSrcSpan = locToSpan (GHC.getLoc located)
               , bindingRefs =
                   map
                     (idToBindingId module' . GHC.unLoc)
@@ -270,9 +176,9 @@ referencedIds ignore =
 idToBindingId :: GHC.Module -> GHC.Id -> BindingId
 idToBindingId module0 gid =
   BindingId
-    { bindingIdPackage = packageNameVersion
-    , bindingIdModule = moduleNameString
-    , bindingIdName = nameString
+    { bindingIdPackage = S8.pack packageNameVersion
+    , bindingIdModule = S8.pack moduleNameString
+    , bindingIdName = S8.pack nameString
     }
   where
     name = GHC.idName gid
@@ -291,3 +197,17 @@ moduleToFilePath module' = "bindings_" ++ packageNameVersion ++ "_" ++ moduleNam
     moduleName = GHC.moduleName module'
     packageNameVersion = GHC.unitIdString unitId
     moduleNameString = GHC.moduleNameString moduleName
+
+locToSpan :: GHC.SrcSpan -> Maybe Span
+locToSpan =
+  \case
+    GHC.RealSrcSpan rs ->
+      Just
+        Span
+          { spanFile = GHC.fastStringToByteString (GHC.srcSpanFile rs)
+          , spanStartLine = GHC.srcSpanStartLine rs
+          , spanStartCol = GHC.srcSpanStartCol rs
+          , spanEndLine = GHC.srcSpanEndLine rs
+          , spanEndCol = GHC.srcSpanEndCol rs
+          }
+    GHC.UnhelpfulSpan fs -> Nothing

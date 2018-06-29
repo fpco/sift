@@ -2,30 +2,30 @@
 
 module Sift.Types where
 
-import           Data.Set (Set)
-import qualified GHC
+import Data.ByteString (ByteString)
+import Data.Set (Set)
 
 -- | Some binding declared top-level in a module.
 data Binding = Binding
-  { bindingId      :: BindingId   -- ^ A unique ID for this binding.
-  , bindingFlagged :: Set String  -- ^ This binding was flagged by a predicate.
-  , bindingSrcSpan :: GHC.SrcSpan -- ^ Location for the binding.
-  , bindingRefs    :: [BindingId] -- ^ Bindings that I reference.
+  { bindingId      :: {-# UNPACK #-} !BindingId   -- ^ A unique ID for this binding.
+  , bindingFlagged :: !(Set ByteString)  -- ^ This binding was flagged by a predicate.
+  , bindingSrcSpan :: !(Maybe Span)  -- ^ Location for the binding.
+  , bindingRefs    :: ![BindingId] -- ^ Bindings that I reference.
   } deriving (Show)
 
 -- | Source span.
 data Span = Span
-  { spanStartLine :: Int
-  , spanStartCol :: Int
-  , spanEndLine :: Int
-  , spanEndCol :: Int
-  , spanFilePath :: FilePath
+  { spanFile :: {-# UNPACK #-}!ByteString
+  , spanStartLine :: !Int
+  , spanStartCol :: !Int
+  , spanEndLine :: !Int
+  , spanEndCol :: !Int
   } deriving (Show)
 
 -- | ID for a binding declared in some package, in some module, with
 -- some name.
 data BindingId = BindingId
-  { bindingIdPackage :: String
-  , bindingIdModule :: String
-  , bindingIdName :: String
+  { bindingIdPackage :: !ByteString
+  , bindingIdModule :: !ByteString
+  , bindingIdName :: !ByteString
   } deriving (Show, Ord, Eq)
