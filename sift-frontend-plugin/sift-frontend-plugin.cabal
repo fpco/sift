@@ -23,8 +23,6 @@ library
   exposed-modules:
       Sift.FrontendPlugin
       Sift.Types
-  other-modules:
-      Paths_sift
   hs-source-dirs:
       src
   build-depends:
