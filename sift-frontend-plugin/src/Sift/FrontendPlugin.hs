@@ -11,13 +11,11 @@ module Sift.FrontendPlugin (frontendPlugin) where
 import           Bag
 import           Control.Monad.IO.Class
 import           Data.ByteString (ByteString)
-import qualified Data.ByteString as S
 import qualified Data.ByteString.Char8 as S8
 import qualified Data.ByteString.Lazy as L
 import qualified Data.ByteString.Lazy.Builder as L
 import           Data.Data
 import           Data.Generics
-import qualified Data.Graph as Graph
 import           Data.List
 import           Data.Maybe
 import           Data.Monoid
@@ -103,13 +101,10 @@ int s = L.byteString (S8.pack (show s))
 string :: ByteString -> L.Builder
 string s = L.byteString (S8.pack (show s))
 
-prettyBindingId :: BindingId -> ByteString
-prettyBindingId (BindingId pkg md name) = pkg <>  ":" <>  md <>  "." <>  name
-
 -- | Type-check the module and track through it.
 track ::
      GHC.GhcMonad m
-  => (GHC.Module -> GHC.HsExpr GHC.Id -> Set String)
+  => (GHC.Module -> GHC.HsExpr GHC.Id -> Set ByteString)
   -> GHC.ModSummary
   -> m [Binding]
 track shouldFlag modSummary = do
@@ -210,4 +205,4 @@ locToSpan =
           , spanEndLine = GHC.srcSpanEndLine rs
           , spanEndCol = GHC.srcSpanEndCol rs
           }
-    GHC.UnhelpfulSpan fs -> Nothing
+    GHC.UnhelpfulSpan _ -> Nothing

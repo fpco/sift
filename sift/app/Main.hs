@@ -164,4 +164,8 @@ _trackThrows = trackGraph existing (const (const mempty))
            , bindingRefs = []
            }
       ]
+
+prettyBindingId :: BindingId -> ByteString
+prettyBindingId (BindingId pkg md name) = pkg <>  ":" <>  md <>  "." <>  name
+
 -}
