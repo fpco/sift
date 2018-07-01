@@ -1,4 +1,5 @@
 resolver: lts-8.13
 packages:
 - sift-frontend-plugin
+- sift-compiler
 - sift
