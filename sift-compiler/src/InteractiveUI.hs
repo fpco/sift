@@ -870,9 +870,6 @@ checkPerms :: String -> IO Bool
 checkPerms _ = return True
 #else
 checkPerms name =
-  handleIO (\_ -> return False) $ do
-    st <- getFileStatus name
-    me <- getRealUserID
     return True
 #endif
 
