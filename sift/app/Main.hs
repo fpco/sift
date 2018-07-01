@@ -17,6 +17,7 @@ import           Data.Generics
 import qualified Data.Graph as Graph
 import           Data.List
 import           Data.Monoid
+import           Data.Ord
 import           Data.Set (Set)
 import qualified Data.Set as Set
 import qualified Data.Text.Encoding as T
@@ -116,7 +117,7 @@ trace opts = do
   mapM_
     (\(v, binding) -> do
        S.putStrLn ("Flagged binding: " <> prettyBindingId (bindingId binding))
-       let inferred = reverseDependencies g v
+       let inferred = sortBy (comparing (\(_,y,_) -> y)) (reverseDependencies g v)
        if null inferred
          then S.putStrLn "[no uses]"
          else mapM_
