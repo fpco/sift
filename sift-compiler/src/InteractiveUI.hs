@@ -289,7 +289,6 @@ ghciCommands = [
   ("unset",     keepGoing unsetOptions,         completeSetOptions),
   ("quit",      quit,                           noCompletion)
   ]
-  where lifted m = \str -> lift (m stdout str)
 
 -----------------------------------------------------------------------------
 -- :quit
