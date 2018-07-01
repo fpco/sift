@@ -1,0 +1,1674 @@
+[{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$tcInArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$tcSeries"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$tc'Empty"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$tc'Value"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$tcEncoding'"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$tc'Encoding"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "value"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "encodeToBuilder"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 360
+,"start-col": 1
+,"end-line": 360
+,"end-col": 38}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "zonedTime"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "zonedTime"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 353
+,"start-col": 1
+,"end-line": 353
+,"end-col": 47}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "timeOfDay"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "timeOfDay"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 350
+,"start-col": 1
+,"end-line": 350
+,"end-col": 47}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "utcTime"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "utcTime"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 347
+,"start-col": 1
+,"end-line": 347
+,"end-col": 43}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "localTime"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "localTime"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 344
+,"start-col": 1
+,"end-line": 344
+,"end-col": 47}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "day"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "day"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 341
+,"start-col": 1
+,"end-line": 341
+,"end-col": 35}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "scientificText"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "scientific"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 334
+,"start-col": 1
+,"end-line": 334
+,"end-col": 53}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "doubleText"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "doubleDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 331
+,"start-col": 1
+,"end-line": 331
+,"end-col": 47}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "floatText"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "floatDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 328
+,"start-col": 1
+,"end-line": 328
+,"end-col": 45}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "integerText"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "integerDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 325
+,"start-col": 1
+,"end-line": 325
+,"end-col": 49}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "wordText"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "wordDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 322
+,"start-col": 1
+,"end-line": 322
+,"end-col": 43}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "word64Text"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "word64Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 319
+,"start-col": 1
+,"end-line": 319
+,"end-col": 47}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "word32Text"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "word32Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 316
+,"start-col": 1
+,"end-line": 316
+,"end-col": 47}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "word16Text"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "word16Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 313
+,"start-col": 1
+,"end-line": 313
+,"end-col": 47}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "word8Text"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "word8Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 310
+,"start-col": 1
+,"end-line": 310
+,"end-col": 45}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "intText"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "intDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 307
+,"start-col": 1
+,"end-line": 307
+,"end-col": 41}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "int64Text"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "int64Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 304
+,"start-col": 1
+,"end-line": 304
+,"end-col": 45}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "int32Text"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "int32Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 301
+,"start-col": 1
+,"end-line": 301
+,"end-col": 45}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "int16Text"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "int16Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 298
+,"start-col": 1
+,"end-line": 298
+,"end-col": 45}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "int8Text"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "quote"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "int8Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 295
+,"start-col": 1
+,"end-line": 295
+,"end-col": 43}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "scientific"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "scientific"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 282
+,"start-col": 1
+,"end-line": 282
+,"end-col": 38}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "integer"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "integerDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 273
+,"start-col": 1
+,"end-line": 273
+,"end-col": 34}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "word"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "wordDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 270
+,"start-col": 1
+,"end-line": 270
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "word64"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "word64Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 267
+,"start-col": 1
+,"end-line": 267
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "word32"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "word32Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 264
+,"start-col": 1
+,"end-line": 264
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "word16"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "word16Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 261
+,"start-col": 1
+,"end-line": 261
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "word8"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "word8Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 258
+,"start-col": 1
+,"end-line": 258
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "int"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "intDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 255
+,"start-col": 1
+,"end-line": 255
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "int64"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "int64Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 252
+,"start-col": 1
+,"end-line": 252
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "int32"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "int32Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 249
+,"start-col": 1
+,"end-line": 249
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "int16"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "int16Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 246
+,"start-col": 1
+,"end-line": 246
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "int8"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "int8Dec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 243
+,"start-col": 1
+,"end-line": 243
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "closeCurly"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "char7"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 236
+,"start-col": 1
+,"end-line": 236
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "openCurly"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "char7"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 235
+,"start-col": 1
+,"end-line": 235
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "closeBracket"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "char7"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 234
+,"start-col": 1
+,"end-line": 234
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "openBracket"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "char7"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 233
+,"start-col": 1
+,"end-line": 233
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "colon"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "char7"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 232
+,"start-col": 1
+,"end-line": 232
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "comma"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "char7"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 231
+,"start-col": 1
+,"end-line": 231
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "string"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "string"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 224
+,"start-col": 1
+,"end-line": 224
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "lazyText"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "char7"}
+,{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "<>"}
+,{"package": "text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR"
+,"module": "Data.Text.Internal.Lazy"
+,"name": "foldrChunks"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "unquoted"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "x"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "xs"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "t"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 219
+,"start-col": 1
+,"end-line": 221
+,"end-col": 66}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "text"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "text"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 216
+,"start-col": 1
+,"end-line": 216
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "a"}
+,{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "<>"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 201
+,"start-col": 1
+,"end-line": 201
+,"end-col": 45}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "empty"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 194
+,"start-col": 1
+,"end-line": 194
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "econcat"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldr"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "empty"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 197
+,"start-col": 1
+,"end-line": 197
+,"end-col": 27}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "bool"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "Data.String"
+,"name": "fromString"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 155
+,"start-col": 1
+,"end-line": 156
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "null_"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "null_"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 152
+,"start-col": 1
+,"end-line": 152
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "realFloatToEncoding"}
+,"refs": [{"package": "base"
+,"module": "GHC.Float"
+,"name": "isNaN"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "d"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "||"}
+,{"package": "base"
+,"module": "GHC.Float"
+,"name": "isInfinite"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "null_"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "e"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 285
+,"start-col": 1
+,"end-line": 287
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "float"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "realFloatToEncoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "floatDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 276
+,"start-col": 1
+,"end-line": 276
+,"end-col": 52}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "double"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "realFloatToEncoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder.ASCII"
+,"name": "doubleDec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 279
+,"start-col": 1
+,"end-line": 279
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "emptyObject_"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "emptyObject_"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 143
+,"start-col": 1
+,"end-line": 143
+,"end-col": 40}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "emptyArray_"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Builder"
+,"name": "emptyArray_"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 140
+,"start-col": 1
+,"end-line": 140
+,"end-col": 38}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "list"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "emptyArray_"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "openBracket"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "to'"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "x"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "commas"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "xs"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "closeBracket"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldr"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "comma"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "v"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "vs"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "empty"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 165
+,"start-col": 1
+,"end-line": 168
+,"end-col": 57}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "nullEncoding"}
+,"refs": [{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Lazy"
+,"name": "null"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "toLazyByteString"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "fromEncoding"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 137
+,"start-col": 1
+,"end-line": 137
+,"end-col": 58}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "retagEncoding"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "fromEncoding"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 97
+,"start-col": 1
+,"end-line": 97
+,"end-col": 40}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "pair"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Value"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "retagEncoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "text"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "name"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "colon"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "val"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 125
+,"start-col": 1
+,"end-line": 125
+,"end-col": 66}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "wrapArray"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "retagEncoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "openBracket"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "e"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "closeBracket"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 146
+,"start-col": 1
+,"end-line": 146
+,"end-col": 63}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "wrapObject"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "retagEncoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "openCurly"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "e"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "closeCurly"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 149
+,"start-col": 1
+,"end-line": 149
+,"end-col": 60}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "pairs"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "openCurly"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "retagEncoding"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "v"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "closeCurly"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "emptyObject_"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 160
+,"start-col": 1
+,"end-line": 161
+,"end-col": 31}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "dict"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "pairs"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "foldrWithKey"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "go"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "retagEncoding"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "encodeKey"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "colon"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "encodeVal"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "v"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Value"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "encodeKV"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "v"}
+,{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "<>"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "c"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 178
+,"start-col": 1
+,"end-line": 181
+,"end-col": 87}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": ">*<"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "retagEncoding"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "comma"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 190
+,"start-col": 1
+,"end-line": 190
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "tuple"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "retagEncoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "openBracket"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "b"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "closeBracket"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 212
+,"start-col": 1
+,"end-line": 212
+,"end-col": 59}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "encodingToLazyByteString"}
+,"refs": [{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "toLazyByteString"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "fromEncoding"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 93
+,"start-col": 1
+,"end-line": 93
+,"end-col": 59}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "unsafeToEncoding"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Encoding"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 90
+,"start-col": 1
+,"end-line": 90
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "fromEncoding"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "fromEncoding"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 78
+,"start-col": 7
+,"end-line": 78
+,"end-col": 19}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cmempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cmappend"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 132
+,"start-col": 10
+,"end-line": 132
+,"end-col": 23}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "mempty"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Empty"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 133
+,"start-col": 5
+,"end-line": 133
+,"end-col": 20}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "<>"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 134
+,"start-col": 5
+,"end-line": 134
+,"end-col": 19}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$dSemigroup"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "C:Semigroup"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$c<>"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$csconcat"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cstimes"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 127
+,"start-col": 10
+,"end-line": 127
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "<>"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "Value"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "><"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "comma"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 128
+,"start-col": 5
+,"end-line": 130
+,"end-col": 49}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "sconcat"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "$dmsconcat"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "stimes"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "$dmstimes"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cp1Ord"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$ccompare"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$c<"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$c<="}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$c>"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$c>="}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cmax"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cmin"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 109
+,"start-col": 10
+,"end-line": 109
+,"end-col": 27}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "compare"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "toLazyByteString"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 110
+,"start-col": 5
+,"end-line": 111
+,"end-col": 56}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "<"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm<"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "<="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm<="}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": ">"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm>"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": ">="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm>="}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmax"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dmmin"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$c=="}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 106
+,"start-col": 10
+,"end-line": 106
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "=="}
+,"refs": [{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "toLazyByteString"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 107
+,"start-col": 5
+,"end-line": 107
+,"end-col": 72}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "$dm/="}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cshow"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 103
+,"start-col": 10
+,"end-line": 103
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowsPrec"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "bytestring-0.10.8.1"
+,"module": "Data.ByteString.Builder"
+,"name": "toLazyByteString"}
+,{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "e"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encoding/Internal.hs"
+,"start-line": 104
+,"start-col": 5
+,"end-line": 104
+,"end-col": 50}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}]

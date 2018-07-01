@@ -1,0 +1,212 @@
+[{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "eitherFormatError"}
+,"refs": [{"package": "base"
+,"module": "Data.Either"
+,"name": "either"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Left"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Data.Tuple"
+,"name": "uncurry"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "formatError"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Right"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 183
+,"start-col": 1
+,"end-line": 183
+,"end-col": 62}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "eitherDecode"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson"
+,"name": "eitherFormatError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "eitherDecodeWith"}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "jsonEOF"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.FromJSON"
+,"name": "ifromJSON"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 188
+,"start-col": 1
+,"end-line": 188
+,"end-col": 70}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "eitherDecodeStrict"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson"
+,"name": "eitherFormatError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "eitherDecodeStrictWith"}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "jsonEOF"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.FromJSON"
+,"name": "ifromJSON"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 193
+,"start-col": 1
+,"end-line": 194
+,"end-col": 63}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "eitherDecode'"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson"
+,"name": "eitherFormatError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "eitherDecodeWith"}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "jsonEOF'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.FromJSON"
+,"name": "ifromJSON"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 199
+,"start-col": 1
+,"end-line": 199
+,"end-col": 72}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "eitherDecodeStrict'"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson"
+,"name": "eitherFormatError"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "eitherDecodeStrictWith"}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "jsonEOF'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.FromJSON"
+,"name": "ifromJSON"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 204
+,"start-col": 1
+,"end-line": 205
+,"end-col": 64}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "decodeStrict'"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "decodeStrictWith"}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "jsonEOF'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.FromJSON"
+,"name": "fromJSON"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 179
+,"start-col": 1
+,"end-line": 179
+,"end-col": 51}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "decode'"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "decodeWith"}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "jsonEOF'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.FromJSON"
+,"name": "fromJSON"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 166
+,"start-col": 1
+,"end-line": 166
+,"end-col": 39}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "decodeStrict"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "decodeStrictWith"}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "jsonEOF"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.FromJSON"
+,"name": "fromJSON"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 153
+,"start-col": 1
+,"end-line": 153
+,"end-col": 49}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "decode"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "decodeWith"}
+,{"package": "main"
+,"module": "Data.Aeson.Parser.Internal"
+,"name": "jsonEOF"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.FromJSON"
+,"name": "fromJSON"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 140
+,"start-col": 1
+,"end-line": 140
+,"end-col": 37}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson"
+,"name": "encode"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Encoding.Internal"
+,"name": "encodingToLazyByteString"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Types.ToJSON"
+,"name": "toEncoding"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson.hs"
+,"start-line": 128
+,"start-col": 1
+,"end-line": 128
+,"end-col": 47}}]

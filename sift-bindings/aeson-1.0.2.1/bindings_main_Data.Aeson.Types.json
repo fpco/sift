@@ -1,0 +1,26 @@
+[{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types"
+,"name": "foldable"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.ToJSON"
+,"name": "toEncoding"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "toList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types.hs"
+,"start-line": 117
+,"start-col": 1
+,"end-line": 117
+,"end-col": 31}}]

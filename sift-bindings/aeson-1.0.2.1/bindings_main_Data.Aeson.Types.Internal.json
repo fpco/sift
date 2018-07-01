@@ -1,0 +1,4831 @@
+[{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tcOptions"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Options"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tcSumEncoding"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'TaggedObject"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'UntaggedValue"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'ObjectWithSingleField"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'TwoElemArray"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tcDotNetTime"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'DotNetTime"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tcValue"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Object"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Array"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'String"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Number"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Bool"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Null"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tcParser"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Parser"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tcResult"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Error"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Success"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tcIResult"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'IError"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'ISuccess"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tcJSONPathElement"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Key"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$tc'Index"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "camelTo2"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "toLower"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "go2"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "go1"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "isLower"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "l"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "isUpper"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "u"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "c"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "go2"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "xs"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "x"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "xs"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "u"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "l"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "x"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "go1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "xs"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "x"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "xs"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 644
+,"start-col": 1
+,"end-line": 650
+,"end-col": 34}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "camelTo"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "lastWasCap"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "isUpper"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "x"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "prev"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "toLower"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "xs"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "c"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 627
+,"start-col": 1
+,"end-line": 637
+,"end-col": 67}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "defaultTaggedObject"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "TaggedObject"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 612
+,"start-col": 1
+,"end-line": 615
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "defaultOptions"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Options"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "defaultTaggedObject"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 594
+,"start-col": 1
+,"end-line": 601
+,"end-col": 19}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "modifyFailure"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Parser"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "p"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "kf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "p'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "m"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ks"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 499
+,"start-col": 1
+,"end-line": 499
+,"end-col": 86}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<?>"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Parser"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "p"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "pathElem"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": ":"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "kf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ks"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 487
+,"start-col": 1
+,"end-line": 487
+,"end-col": 75}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "object"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WObject"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o"
+,"module": "Data.HashMap.Strict"
+,"name": "fromList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 467
+,"start-col": 1
+,"end-line": 467
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "formatError"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "format"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "msg"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "c"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "concatMap"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "escapeChar"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "isAlpha"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "all"}
+,{"package": "base"
+,"module": "GHC.Unicode"
+,"name": "isAlphaNum"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "xs"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "isIdentifierKey"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "strKey"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "otherwise"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "escapeKey"}
+,{"package": "text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR"
+,"module": "Data.Text.Show"
+,"name": "unpack"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "key"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "pfx"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "pfx"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "idx"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "parts"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "pfx"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "formatKey"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "key"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "parts"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 436
+,"start-col": 1
+,"end-line": 459
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "parseEither"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "m"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "v"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "onError"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Right"}
+,{"package": "base"
+,"module": "Data.Either"
+,"name": "Left"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "formatError"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "msg"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 429
+,"start-col": 1
+,"end-line": 430
+,"end-col": 55}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "parseMaybe"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "m"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Nothing"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "Just"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 423
+,"start-col": 1
+,"end-line": 423
+,"end-col": 59}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "iparse"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "m"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "v"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "IError"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ISuccess"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 418
+,"start-col": 1
+,"end-line": 418
+,"end-col": 48}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "parse"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "m"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "v"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Error"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Success"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 413
+,"start-col": 1
+,"end-line": 413
+,"end-col": 53}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "emptyObject"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WObject"}
+,{"package": "unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o"
+,"module": "Data.HashMap.Base"
+,"name": "empty"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 409
+,"start-col": 1
+,"end-line": 409
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "isEmptyArray"}
+,"refs": [{"package": "vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG"
+,"module": "Data.Vector"
+,"name": "null"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "arr"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 404
+,"start-col": 1
+,"end-line": 405
+,"end-col": 23}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "emptyArray"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WArray"}
+,{"package": "vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG"
+,"module": "Data.Vector"
+,"name": "empty"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 399
+,"start-col": 1
+,"end-line": 399
+,"end-col": 27}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "hashValue"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "s"}
+,{"package": "hashable-1.2.6.0-3EXxoqeEgbfAKr6aGkye6x"
+,"module": "Data.Hashable.Class"
+,"name": "hashWithSalt"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "o"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldl'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "s"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "s"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "str"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "s"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "n"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "s"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "s"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 365
+,"start-col": 1
+,"end-line": 377
+,"end-col": 53}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "apP"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "d"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "e"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 317
+,"start-col": 1
+,"end-line": 320
+,"end-col": 15}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c9mWZVQppqzx7UcazEwzXMk"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkConstr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$t6uw7utFp36iFzeG6L6dZKz"}
+,{"package": "base"
+,"module": "Data.Data"
+,"name": "Prefix"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cJ5JlvBJQTf1AK6ddLq6zoi"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkConstr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$t6uw7utFp36iFzeG6L6dZKz"}
+,{"package": "base"
+,"module": "Data.Data"
+,"name": "Prefix"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cATBiu2P31DdHJScg9YGUau"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkConstr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$t6uw7utFp36iFzeG6L6dZKz"}
+,{"package": "base"
+,"module": "Data.Data"
+,"name": "Prefix"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cFc5jJrkLtSDFNdo2sMzbhe"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkConstr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$t6uw7utFp36iFzeG6L6dZKz"}
+,{"package": "base"
+,"module": "Data.Data"
+,"name": "Prefix"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cA4KqU53nVK09Y0aqq4qiaT"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkConstr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$t6uw7utFp36iFzeG6L6dZKz"}
+,{"package": "base"
+,"module": "Data.Data"
+,"name": "Prefix"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cI2dRApiYYM5CryIdikEzMn"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkConstr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$t6uw7utFp36iFzeG6L6dZKz"}
+,{"package": "base"
+,"module": "Data.Data"
+,"name": "Prefix"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$t6uw7utFp36iFzeG6L6dZKz"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "mkDataType"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cI2dRApiYYM5CryIdikEzMn"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cA4KqU53nVK09Y0aqq4qiaT"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cFc5jJrkLtSDFNdo2sMzbhe"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cATBiu2P31DdHJScg9YGUau"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cJ5JlvBJQTf1AK6ddLq6zoi"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c9mWZVQppqzx7UcazEwzXMk"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fieldLabelModifier"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fieldLabelModifier"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 507
+,"start-col": 7
+,"end-line": 507
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "constructorTagModifier"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "constructorTagModifier"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 510
+,"start-col": 7
+,"end-line": 510
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "allNullaryToStringTag"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "allNullaryToStringTag"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 513
+,"start-col": 7
+,"end-line": 513
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "omitNothingFields"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "omitNothingFields"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 518
+,"start-col": 7
+,"end-line": 518
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sumEncoding"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sumEncoding"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 522
+,"start-col": 7
+,"end-line": 522
+,"end-col": 18}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "unwrapUnaryRecords"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "unwrapUnaryRecords"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 524
+,"start-col": 7
+,"end-line": 524
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "tagFieldName"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "tagFieldName"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "recSelError"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 543
+,"start-col": 20
+,"end-line": 543
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "contentsFieldName"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "contentsFieldName"}
+,{"package": "base"
+,"module": "Control.Exception.Base"
+,"name": "recSelError"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 544
+,"start-col": 20
+,"end-line": 544
+,"end-col": 37}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fromDotNetTime"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fromDotNetTime"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 347
+,"start-col": 7
+,"end-line": 347
+,"end-col": 21}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 262
+,"start-col": 7
+,"end-line": 262
+,"end-col": 16}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 104
+,"start-col": 34
+,"end-line": 104
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "=="}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 104
+,"start-col": 34
+,"end-line": 104
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 104
+,"start-col": 34
+,"end-line": 104
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshow"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 104
+,"start-col": 38
+,"end-line": 104
+,"end-col": 42}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 104
+,"start-col": 38
+,"end-line": 104
+,"end-col": 42}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 104
+,"start-col": 38
+,"end-line": 104
+,"end-col": 42}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 110
+,"start-col": 26
+,"end-line": 110
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "=="}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a2"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b2"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 110
+,"start-col": 26
+,"end-line": 110
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 110
+,"start-col": 26
+,"end-line": 110
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshow"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 110
+,"start-col": 30
+,"end-line": 110
+,"end-col": 34}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showSpace"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b2"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 110
+,"start-col": 30
+,"end-line": 110
+,"end-col": 34}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 110
+,"start-col": 30
+,"end-line": 110
+,"end-col": 34}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 115
+,"start-col": 27
+,"end-line": 115
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "=="}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 115
+,"start-col": 27
+,"end-line": 115
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 115
+,"start-col": 27
+,"end-line": 115
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshow"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 115
+,"start-col": 31
+,"end-line": 115
+,"end-col": 35}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 115
+,"start-col": 31
+,"end-line": 115
+,"end-col": 35}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 115
+,"start-col": 31
+,"end-line": 115
+,"end-col": 35}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 24
+,"end-line": 336
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "=="}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 24
+,"end-line": 336
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 24
+,"end-line": 336
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creadsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creadList"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creadPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 28
+,"end-line": 336
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 28
+,"end-line": 336
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Ident"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Null"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "+++"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "prec"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "step"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WObject"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WArray"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WString"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WNumber"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WBool"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 28
+,"end-line": 336
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 28
+,"end-line": 336
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshow"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 34
+,"end-line": 336
+,"end-col": 38}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 34
+,"end-line": 336
+,"end-col": 38}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 34
+,"end-line": 336
+,"end-col": 38}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dData"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "C:Data"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Data"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgfoldl"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgunfold"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$ctoConstr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cdataTypeOf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cdataCast1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cdataCast2"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgmapT"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgmapQl"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgmapQr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgmapQ"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgmapQi"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgmapM"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgmapMp"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cgmapMo"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gfoldl"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WObject"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WArray"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WString"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WNumber"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WBool"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Null"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gunfold"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "constrIndex"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "c"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WObject"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WArray"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WString"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WNumber"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WBool"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Null"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "toConstr"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cI2dRApiYYM5CryIdikEzMn"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cA4KqU53nVK09Y0aqq4qiaT"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cFc5jJrkLtSDFNdo2sMzbhe"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cATBiu2P31DdHJScg9YGUau"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cJ5JlvBJQTf1AK6ddLq6zoi"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c9mWZVQppqzx7UcazEwzXMk"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "dataTypeOf"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$t6uw7utFp36iFzeG6L6dZKz"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 336
+,"start-col": 50
+,"end-line": 336
+,"end-col": 54}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "dataCast1"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmdataCast1"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "dataCast2"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmdataCast2"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gmapT"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapT"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gmapQl"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQl"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gmapQr"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQr"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gmapQ"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQ"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gmapQi"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapQi"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gmapM"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapM"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gmapMp"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapMp"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "gmapMo"}
+,"refs": [{"package": "base"
+,"module": "Data.Data"
+,"name": "$dmgmapMo"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 17
+,"end-line": 349
+,"end-col": 19}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "=="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 17
+,"end-line": 349
+,"end-col": 19}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "/="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 17
+,"end-line": 349
+,"end-col": 19}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dOrd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Ord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Ord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$ccompare"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c>="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmax"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmin"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 21
+,"end-line": 349
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "compare"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "compare"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 21
+,"end-line": 349
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 21
+,"end-line": 349
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "<="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 21
+,"end-line": 349
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": ">"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 21
+,"end-line": 349
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": ">="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 21
+,"end-line": 349
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "max"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "max"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 21
+,"end-line": 349
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "min"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "min"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 21
+,"end-line": 349
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dRead"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "C:Read"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creadsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creadList"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creadPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creadListPrec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 26
+,"end-line": 349
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "readsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "$dmreadsPrec"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "readList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListDefault"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 26
+,"end-line": 349
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "readPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "parens"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "prec"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "expectP"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Ident"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>"}
+,{"package": "base"
+,"module": "Text.Read.Lex"
+,"name": "Punc"}
+,{"package": "base"
+,"module": "Text.ParserCombinators.ReadPrec"
+,"name": "reset"}
+,{"package": "base"
+,"module": "GHC.Read"
+,"name": "readPrec"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": ">>="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "return"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "DotNetTime"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 26
+,"end-line": 349
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "readListPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Read"
+,"name": "readListPrecDefault"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 26
+,"end-line": 349
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshow"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 32
+,"end-line": 349
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 32
+,"end-line": 349
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 32
+,"end-line": 349
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dFormatTime"}
+,"refs": [{"package": "time-1.6.0.1"
+,"module": "Data.Time.Format"
+,"name": "C:FormatTime"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cformatCharacter"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 48
+,"end-line": 349
+,"end-col": 58}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "formatCharacter"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "coerce"}
+,{"package": "time-1.6.0.1"
+,"module": "Data.Time.Format"
+,"name": "formatCharacter"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 349
+,"start-col": 48
+,"end-line": 349
+,"end-col": 58}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dEq"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "C:Eq"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c/="}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 579
+,"start-col": 15
+,"end-line": 579
+,"end-col": 17}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "=="}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "&&"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a2"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b2"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 579
+,"start-col": 15
+,"end-line": 579
+,"end-col": 17}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "/="}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "not"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": "=="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 579
+,"start-col": 15
+,"end-line": 579
+,"end-col": 17}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshow"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 579
+,"start-col": 19
+,"end-line": 579
+,"end-col": 23}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showParen"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "ghc-prim"
+,"module": "GHC.Classes"
+,"name": ">="}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showString"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b2"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 579
+,"start-col": 19
+,"end-line": 579
+,"end-col": 23}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshow"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "showList__"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "showsPrec"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 579
+,"start-col": 19
+,"end-line": 579
+,"end-col": 23}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dShow"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "C:Show"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowsPrec"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshow"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cshowList"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 529
+,"start-col": 10
+,"end-line": 529
+,"end-col": 22}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showsPrec"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowsPrec"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "show"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "++"}
+,{"package": "base"
+,"module": "GHC.Show"
+,"name": "show"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fieldLabelModifier"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "constructorTagModifier"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "allNullaryToStringTag"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "omitNothingFields"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sumEncoding"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "unwrapUnaryRecords"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 530
+,"start-col": 3
+,"end-line": 539
+,"end-col": 8}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "showList"}
+,"refs": [{"package": "base"
+,"module": "GHC.Show"
+,"name": "$dmshowList"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dLift"}
+,"refs": [{"package": "template-haskell"
+,"module": "Language.Haskell.TH.Syntax"
+,"name": "C:Lift"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$clift"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 383
+,"start-col": 10
+,"end-line": 383
+,"end-col": 23}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "lift"}
+,"refs": [{"package": "template-haskell"
+,"module": "Language.Haskell.TH.Syntax"
+,"name": "lift"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "e"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "c"}
+,{"package": "scientific-0.3.4.12-J9HRl69dpDBBzAMKxlfkoh"
+,"module": "Data.Scientific"
+,"name": "base10Exponent"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "n"}
+,{"package": "scientific-0.3.4.12-J9HRl69dpDBBzAMKxlfkoh"
+,"module": "Data.Scientific"
+,"name": "coefficient"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "s"}
+,{"package": "text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR"
+,"module": "Data.Text.Show"
+,"name": "unpack"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "t"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a'"}
+,{"package": "vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG"
+,"module": "Data.Vector"
+,"name": "toList"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "o'"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "map"}
+,{"package": "base"
+,"module": "Control.Arrow"
+,"name": "first"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o"
+,"module": "Data.HashMap.Base"
+,"name": "toList"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "o"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 384
+,"start-col": 5
+,"end-line": 395
+,"end-col": 51}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dHashable"}
+,"refs": [{"package": "hashable-1.2.6.0-3EXxoqeEgbfAKr6aGkye6x"
+,"module": "Data.Hashable.Class"
+,"name": "C:Hashable"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$chashWithSalt"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$chash"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 379
+,"start-col": 10
+,"end-line": 379
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "hashWithSalt"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "hashValue"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 380
+,"start-col": 5
+,"end-line": 380
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "hash"}
+,"refs": [{"package": "hashable-1.2.6.0-3EXxoqeEgbfAKr6aGkye6x"
+,"module": "Data.Hashable.Class"
+,"name": "$dmhash"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dIsString"}
+,"refs": [{"package": "base"
+,"module": "Data.String"
+,"name": "C:IsString"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfromString"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 359
+,"start-col": 10
+,"end-line": 359
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fromString"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$WString"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "."}
+,{"package": "text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR"
+,"module": "Data.Text"
+,"name": "pack"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 360
+,"start-col": 5
+,"end-line": 360
+,"end-col": 31}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dNFData"}
+,"refs": [{"package": "deepseq-1.4.2.0"
+,"module": "Control.DeepSeq"
+,"name": "C:NFData"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$crnf"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 351
+,"start-col": 10
+,"end-line": 351
+,"end-col": 22}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "rnf"}
+,"refs": [{"package": "deepseq-1.4.2.0"
+,"module": "Control.DeepSeq"
+,"name": "rnf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "o"}
+,{"package": "base"
+,"module": "Data.Foldable"
+,"name": "foldl'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "y"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "x"}
+,{"package": "ghc-prim"
+,"module": "GHC.Tuple"
+,"name": "()"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "s"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "n"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 352
+,"start-col": 5
+,"end-line": 357
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmappend"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 310
+,"start-col": 10
+,"end-line": 310
+,"end-col": 27}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 311
+,"start-col": 5
+,"end-line": 311
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "<>"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 313
+,"start-col": 5
+,"end-line": 313
+,"end-col": 19}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dSemigroup"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "C:Semigroup"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csconcat"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cstimes"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 306
+,"start-col": 10
+,"end-line": 306
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 307
+,"start-col": 5
+,"end-line": 307
+,"end-col": 17}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sconcat"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "$dmsconcat"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "stimes"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "$dmstimes"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonadPlus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:MonadPlus"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1MonadPlus"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp2MonadPlus"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmzero"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmplus"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 299
+,"start-col": 10
+,"end-line": 299
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mzero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 300
+,"start-col": 5
+,"end-line": 300
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mplus"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Parser"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "kf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ks"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "kf'"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 302
+,"start-col": 5
+,"end-line": 303
+,"end-col": 68}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Alternative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<|>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csome"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmany"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 293
+,"start-col": 10
+,"end-line": 293
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "empty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 294
+,"start-col": 5
+,"end-line": 294
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 296
+,"start-col": 5
+,"end-line": 296
+,"end-col": 18}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Applicative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cpure"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<*>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c*>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<*"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 287
+,"start-col": 10
+,"end-line": 287
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "pure"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Parser"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ks"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 288
+,"start-col": 5
+,"end-line": 288
+,"end-col": 44}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<*>"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "apP"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 290
+,"start-col": 5
+,"end-line": 290
+,"end-col": 16}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfmap"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<$"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 282
+,"start-col": 10
+,"end-line": 282
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fmap"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Parser"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ks"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "m"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "kf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ks'"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 283
+,"start-col": 5
+,"end-line": 284
+,"end-col": 67}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonadFail"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "C:MonadFail"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1MonadFail"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 278
+,"start-col": 10
+,"end-line": 278
+,"end-col": 31}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fail"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Parser"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "kf"}
+,{"package": "base"
+,"module": "GHC.List"
+,"name": "reverse"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "msg"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 279
+,"start-col": 5
+,"end-line": 279
+,"end-col": 62}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Monad"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c>>="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c>>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creturn"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 269
+,"start-col": 10
+,"end-line": 269
+,"end-col": 22}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": ">>="}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Parser"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "runParser"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "g"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "kf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ks"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "m"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ks'"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 270
+,"start-col": 5
+,"end-line": 271
+,"end-col": 66}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm>>"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 273
+,"start-col": 5
+,"end-line": 273
+,"end-col": 18}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 275
+,"start-col": 5
+,"end-line": 275
+,"end-col": 21}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dTraversable"}
+,"refs": [{"package": "base"
+,"module": "Data.Traversable"
+,"name": "C:Traversable"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Traversable"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp2Traversable"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$ctraverse"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csequenceA"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmapM"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csequence"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 250
+,"start-col": 10
+,"end-line": 250
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "traverse"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Error"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Success"}
+,{"package": "base"
+,"module": "Data.Functor"
+,"name": "<$>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 251
+,"start-col": 5
+,"end-line": 252
+,"end-col": 45}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sequenceA"}
+,"refs": [{"package": "base"
+,"module": "Data.Traversable"
+,"name": "$dmsequenceA"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mapM"}
+,"refs": [{"package": "base"
+,"module": "Data.Traversable"
+,"name": "$dmmapM"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sequence"}
+,"refs": [{"package": "base"
+,"module": "Data.Traversable"
+,"name": "$dmsequence"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dTraversable"}
+,"refs": [{"package": "base"
+,"module": "Data.Traversable"
+,"name": "C:Traversable"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Traversable"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp2Traversable"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$ctraverse"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csequenceA"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmapM"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csequence"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 245
+,"start-col": 10
+,"end-line": 245
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "traverse"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "IError"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ISuccess"}
+,{"package": "base"
+,"module": "Data.Functor"
+,"name": "<$>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 246
+,"start-col": 5
+,"end-line": 247
+,"end-col": 52}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sequenceA"}
+,"refs": [{"package": "base"
+,"module": "Data.Traversable"
+,"name": "$dmsequenceA"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mapM"}
+,"refs": [{"package": "base"
+,"module": "Data.Traversable"
+,"name": "$dmmapM"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sequence"}
+,"refs": [{"package": "base"
+,"module": "Data.Traversable"
+,"name": "$dmsequence"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dFoldable"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "C:Foldable"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfold"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldMap"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldr'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldl"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldl'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldr1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldl1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$ctoList"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cnull"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$clength"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$celem"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmaximum"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cminimum"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csum"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cproduct"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 236
+,"start-col": 10
+,"end-line": 236
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fold"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfold"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldMap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "y"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 237
+,"start-col": 5
+,"end-line": 238
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldr"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "y"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 241
+,"start-col": 5
+,"end-line": 242
+,"end-col": 34}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldr'"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldr'"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldl"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldl"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldl'"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldl'"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldr1"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldr1"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldl1"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldl1"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "toList"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmtoList"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "null"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmnull"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "length"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmlength"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "elem"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmelem"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "maximum"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmmaximum"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "minimum"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmminimum"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sum"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmsum"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "product"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmproduct"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dFoldable"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "C:Foldable"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfold"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldMap"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldr"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldr'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldl"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldl'"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldr1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfoldl1"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$ctoList"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cnull"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$clength"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$celem"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmaximum"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cminimum"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csum"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cproduct"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 227
+,"start-col": 10
+,"end-line": 227
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fold"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfold"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldMap"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "y"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 228
+,"start-col": 5
+,"end-line": 229
+,"end-col": 33}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldr"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "y"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "z"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 232
+,"start-col": 5
+,"end-line": 233
+,"end-col": 35}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldr'"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldr'"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldl"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldl"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldl'"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldl'"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldr1"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldr1"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "foldl1"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmfoldl1"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "toList"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmtoList"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "null"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmnull"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "length"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmlength"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "elem"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmelem"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "maximum"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmmaximum"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "minimum"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmminimum"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sum"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmsum"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "product"}
+,"refs": [{"package": "base"
+,"module": "Data.Foldable"
+,"name": "$dmproduct"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmappend"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 221
+,"start-col": 10
+,"end-line": 221
+,"end-col": 27}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 222
+,"start-col": 5
+,"end-line": 222
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "<>"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 224
+,"start-col": 5
+,"end-line": 224
+,"end-col": 19}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dSemigroup"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "C:Semigroup"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csconcat"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cstimes"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 217
+,"start-col": 10
+,"end-line": 217
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 218
+,"start-col": 5
+,"end-line": 218
+,"end-col": 17}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sconcat"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "$dmsconcat"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "stimes"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "$dmstimes"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonoid"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monoid"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmappend"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmconcat"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 211
+,"start-col": 10
+,"end-line": 211
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mempty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 212
+,"start-col": 5
+,"end-line": 212
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mappend"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "<>"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 214
+,"start-col": 5
+,"end-line": 214
+,"end-col": 19}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mconcat"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmconcat"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dSemigroup"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "C:Semigroup"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csconcat"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cstimes"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 207
+,"start-col": 10
+,"end-line": 207
+,"end-col": 31}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 208
+,"start-col": 5
+,"end-line": 208
+,"end-col": 17}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "sconcat"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "$dmsconcat"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "stimes"}
+,"refs": [{"package": "base"
+,"module": "Data.Semigroup"
+,"name": "$dmstimes"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Alternative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<|>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csome"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmany"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 201
+,"start-col": 10
+,"end-line": 201
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "empty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mzero"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 202
+,"start-col": 5
+,"end-line": 202
+,"end-col": 18}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 204
+,"start-col": 5
+,"end-line": 204
+,"end-col": 18}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dAlternative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Alternative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Alternative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cempty"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<|>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$csome"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmany"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 195
+,"start-col": 10
+,"end-line": 195
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "empty"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mzero"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 196
+,"start-col": 5
+,"end-line": 196
+,"end-col": 18}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<|>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "mplus"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 198
+,"start-col": 5
+,"end-line": 198
+,"end-col": 18}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "some"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmsome"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "many"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dmmany"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonadPlus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:MonadPlus"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1MonadPlus"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp2MonadPlus"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmzero"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmplus"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 188
+,"start-col": 10
+,"end-line": 188
+,"end-col": 26}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mzero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 189
+,"start-col": 5
+,"end-line": 189
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mplus"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 191
+,"start-col": 5
+,"end-line": 192
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonadPlus"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:MonadPlus"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1MonadPlus"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp2MonadPlus"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmzero"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cmplus"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 181
+,"start-col": 10
+,"end-line": 181
+,"end-col": 27}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mzero"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 182
+,"start-col": 5
+,"end-line": 182
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "mplus"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "b"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 184
+,"start-col": 5
+,"end-line": 185
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Applicative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cpure"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<*>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c*>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<*"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 175
+,"start-col": 10
+,"end-line": 175
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "pure"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Success"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 176
+,"start-col": 5
+,"end-line": 176
+,"end-col": 20}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "ap"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 178
+,"start-col": 5
+,"end-line": 178
+,"end-col": 15}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dApplicative"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Applicative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Applicative"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cpure"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<*>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c*>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<*"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 169
+,"start-col": 10
+,"end-line": 169
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "pure"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ISuccess"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 170
+,"start-col": 5
+,"end-line": 170
+,"end-col": 21}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "ap"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 172
+,"start-col": 5
+,"end-line": 172
+,"end-col": 15}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "*>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm*>"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<*"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<*"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonadFail"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "C:MonadFail"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1MonadFail"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 165
+,"start-col": 10
+,"end-line": 165
+,"end-col": 31}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fail"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Error"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 166
+,"start-col": 5
+,"end-line": 166
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Monad"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c>>="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c>>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creturn"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 154
+,"start-col": 10
+,"end-line": 154
+,"end-col": 22}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": ">>="}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Error"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 158
+,"start-col": 5
+,"end-line": 159
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm>>"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 155
+,"start-col": 5
+,"end-line": 155
+,"end-col": 18}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 162
+,"start-col": 5
+,"end-line": 162
+,"end-col": 21}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonadFail"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "C:MonadFail"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1MonadFail"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 150
+,"start-col": 10
+,"end-line": 150
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fail"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "IError"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 151
+,"start-col": 5
+,"end-line": 151
+,"end-col": 29}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dMonad"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Monad"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cp1Monad"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c>>="}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c>>"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$creturn"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 139
+,"start-col": 10
+,"end-line": 139
+,"end-col": 23}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": ">>="}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "IError"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 143
+,"start-col": 5
+,"end-line": 144
+,"end-col": 44}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": ">>"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm>>"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "return"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "pure"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 140
+,"start-col": 5
+,"end-line": 140
+,"end-col": 18}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fail"}
+,"refs": [{"package": "base"
+,"module": "Control.Monad.Fail"
+,"name": "fail"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 147
+,"start-col": 5
+,"end-line": 147
+,"end-col": 21}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfmap"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<$"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 134
+,"start-col": 10
+,"end-line": 134
+,"end-col": 24}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fmap"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Success"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "Error"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 135
+,"start-col": 5
+,"end-line": 136
+,"end-col": 35}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dFunctor"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "C:Functor"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$cfmap"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$c<$"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 129
+,"start-col": 10
+,"end-line": 129
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "fmap"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "ISuccess"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "f"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "IError"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 130
+,"start-col": 5
+,"end-line": 131
+,"end-col": 47}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "<$"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "$dm<$"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dNFData"}
+,"refs": [{"package": "deepseq-1.4.2.0"
+,"module": "Control.DeepSeq"
+,"name": "C:NFData"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$crnf"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 125
+,"start-col": 10
+,"end-line": 125
+,"end-col": 41}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "rnf"}
+,"refs": [{"package": "deepseq-1.4.2.0"
+,"module": "Control.DeepSeq"
+,"name": "rnf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 126
+,"start-col": 5
+,"end-line": 127
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dNFData"}
+,"refs": [{"package": "deepseq-1.4.2.0"
+,"module": "Control.DeepSeq"
+,"name": "C:NFData"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$crnf"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 121
+,"start-col": 10
+,"end-line": 121
+,"end-col": 42}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "rnf"}
+,"refs": [{"package": "deepseq-1.4.2.0"
+,"module": "Control.DeepSeq"
+,"name": "rnf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "a"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "path"}
+,{"package": "ghc-prim"
+,"module": "GHC.Prim"
+,"name": "seq"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "err"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 122
+,"start-col": 5
+,"end-line": 123
+,"end-col": 51}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$dNFData"}
+,"refs": [{"package": "deepseq-1.4.2.0"
+,"module": "Control.DeepSeq"
+,"name": "C:NFData"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "$crnf"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 117
+,"start-col": 10
+,"end-line": 117
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "rnf"}
+,"refs": [{"package": "deepseq-1.4.2.0"
+,"module": "Control.DeepSeq"
+,"name": "rnf"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "t"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Internal"
+,"name": "i"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Internal.hs"
+,"start-line": 118
+,"start-col": 3
+,"end-line": 119
+,"end-col": 24}}]

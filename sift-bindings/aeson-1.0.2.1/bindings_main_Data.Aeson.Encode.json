@@ -1,0 +1,31 @@
+[{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encode"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encode"
+,"name": "encodeToTextBuilder"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Text"
+,"name": "encodeToTextBuilder"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encode.hs"
+,"start-line": 29
+,"start-col": 1
+,"end-line": 29
+,"end-col": 44}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encode"
+,"name": "encode"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson"
+,"name": "encode"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Encode.hs"
+,"start-line": 25
+,"start-col": 1
+,"end-line": 25
+,"end-col": 18}}]

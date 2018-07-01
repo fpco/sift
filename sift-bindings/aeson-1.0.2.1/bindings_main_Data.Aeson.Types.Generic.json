@@ -1,0 +1,575 @@
+[{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tcProductSize"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tc'C:ProductSize"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tcOne"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tcZero"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tcAnd"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tc'C:And"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tcFalse"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tcTrue"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tcTagged2"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tc'Tagged2"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tcAllNullary"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tc'C:AllNullary"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tcIsRecord"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$tc'C:IsRecord"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "unTagged2"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "unTagged2"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 82
+,"start-col": 44
+,"end-line": 82
+,"end-col": 53}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "isUnary"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "True"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 49
+,"start-col": 5
+,"end-line": 49
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dProductSize"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:ProductSize"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cproductSize"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 113
+,"start-col": 10
+,"end-line": 113
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "productSize"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "Tagged2"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 114
+,"start-col": 5
+,"end-line": 114
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dProductSize"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:ProductSize"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cproductSize"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 109
+,"start-col": 10
+,"end-line": 109
+,"end-col": 65}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "productSize"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "Tagged2"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "$"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "unTagged2"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "productSize"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "+"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 110
+,"start-col": 5
+,"end-line": 111
+,"end-col": 69}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAnd"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:And"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 94
+,"start-col": 10
+,"end-line": 94
+,"end-col": 31}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAnd"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:And"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 93
+,"start-col": 10
+,"end-line": 93
+,"end-col": 31}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAnd"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:And"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 92
+,"start-col": 10
+,"end-line": 92
+,"end-col": 31}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAnd"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:And"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 91
+,"start-col": 10
+,"end-line": 91
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAllNullary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:AllNullary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 80
+,"start-col": 10
+,"end-line": 80
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAllNullary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:AllNullary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 79
+,"start-col": 10
+,"end-line": 79
+,"end-col": 35}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAllNullary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:AllNullary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 78
+,"start-col": 10
+,"end-line": 78
+,"end-col": 31}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAllNullary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:AllNullary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 77
+,"start-col": 10
+,"end-line": 77
+,"end-col": 35}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAllNullary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:AllNullary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 76
+,"start-col": 10
+,"end-line": 76
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAllNullary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:AllNullary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 75
+,"start-col": 10
+,"end-line": 75
+,"end-col": 36}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAllNullary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:AllNullary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 74
+,"start-col": 10
+,"end-line": 74
+,"end-col": 69}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dAllNullary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:AllNullary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 70
+,"start-col": 10
+,"end-line": 73
+,"end-col": 46}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dIsRecord"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:IsRecord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cisUnary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 63
+,"start-col": 10
+,"end-line": 63
+,"end-col": 27}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "isUnary"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 64
+,"start-col": 9
+,"end-line": 64
+,"end-col": 30}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dIsRecord"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:IsRecord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cisUnary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 62
+,"start-col": 10
+,"end-line": 62
+,"end-col": 33}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "isUnary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dmisUnary"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dIsRecord"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:IsRecord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cisUnary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 61
+,"start-col": 10
+,"end-line": 61
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "isUnary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dmisUnary"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dIsRecord"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:IsRecord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cisUnary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 60
+,"start-col": 10
+,"end-line": 60
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "isUnary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dmisUnary"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dIsRecord"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:IsRecord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cisUnary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 59
+,"start-col": 10
+,"end-line": 59
+,"end-col": 32}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "isUnary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dmisUnary"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dIsRecord"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:IsRecord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cisUnary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 58
+,"start-col": 10
+,"end-line": 58
+,"end-col": 63}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "isUnary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dmisUnary"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dIsRecord"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:IsRecord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cisUnary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 54
+,"start-col": 30
+,"end-line": 54
+,"end-col": 81}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "isUnary"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dmisUnary"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$dIsRecord"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "C:IsRecord"}
+,{"package": "main"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "$cisUnary"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 51
+,"start-col": 10
+,"end-line": 51
+,"end-col": 62}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Types.Generic"
+,"name": "isUnary"}
+,"refs": [{"package": "base"
+,"module": "GHC.Base"
+,"name": "const"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "False"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Types/Generic.hs"
+,"start-line": 52
+,"start-col": 9
+,"end-line": 52
+,"end-col": 30}}]

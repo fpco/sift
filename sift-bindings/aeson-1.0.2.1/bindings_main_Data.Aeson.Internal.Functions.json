@@ -1,0 +1,84 @@
+[{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "mapKeyVal"}
+,"refs": [{"package": "unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o"
+,"module": "Data.HashMap.Base"
+,"name": "foldrWithKey"}
+,{"package": "unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o"
+,"module": "Data.HashMap.Strict"
+,"name": "insert"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "fk"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "kv"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "v"}
+,{"package": "unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o"
+,"module": "Data.HashMap.Base"
+,"name": "empty"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Internal/Functions.hs"
+,"start-line": 33
+,"start-col": 1
+,"end-line": 33
+,"end-col": 74}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "mapKey"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "mapKeyVal"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "fk"}
+,{"package": "base"
+,"module": "GHC.Base"
+,"name": "id"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Internal/Functions.hs"
+,"start-line": 38
+,"start-col": 1
+,"end-line": 38
+,"end-col": 28}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "mapHashKeyVal"}
+,"refs": [{"package": "containers-0.5.7.1"
+,"module": "Data.Map.Base"
+,"name": "foldrWithKey"}
+,{"package": "unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o"
+,"module": "Data.HashMap.Strict"
+,"name": "insert"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "fk"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "k"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "kv"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Functions"
+,"name": "v"}
+,{"package": "unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o"
+,"module": "Data.HashMap.Base"
+,"name": "empty"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Internal/Functions.hs"
+,"start-line": 27
+,"start-col": 1
+,"end-line": 27
+,"end-col": 78}}]

@@ -1,0 +1,122 @@
+[{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "$tcTimeOfDay64"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "$tc'TOD"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TyCon"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "$trModule"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "diffTimeOfDay64"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "$WTOD"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "h"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "m"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "s"}
+,{"package": "base"
+,"module": "Unsafe.Coerce"
+,"name": "unsafeCoerce"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "t"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "pico"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "quotRem"}
+,{"package": "base"
+,"module": "GHC.Num"
+,"name": "fromInteger"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "mp"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Internal/Time.hs"
+,"start-line": 54
+,"start-col": 1
+,"end-line": 57
+,"end-col": 43}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "fromPico"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "i"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Internal/Time.hs"
+,"start-line": 36
+,"start-col": 1
+,"end-line": 36
+,"end-col": 25}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "toTimeOfDay64"}
+,"refs": [{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "$WTOD"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "h"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "m"}
+,{"package": "base"
+,"module": "GHC.Real"
+,"name": "fromIntegral"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "fromPico"}
+,{"package": "main"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "s"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Internal/Time.hs"
+,"start-line": 60
+,"start-col": 1
+,"end-line": 60
+,"end-col": 70}}
+,{"id": {"package": "aeson"
+,"module": "Data.Aeson.Internal.Time"
+,"name": "toPico"}
+,"refs": [{"package": "base"
+,"module": "Data.Fixed"
+,"name": "MkFixed"}]
+,"src-span": {"file": "/home/chris/Work/cardano/aeson-1.0.2.1/Data/Aeson/Internal/Time.hs"
+,"start-line": 33
+,"start-col": 1
+,"end-line": 33
+,"end-col": 17}}]

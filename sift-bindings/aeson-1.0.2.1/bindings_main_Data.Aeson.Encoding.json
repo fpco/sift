@@ -1,0 +1,9 @@
+[{"id": {"package": "aeson"
+,"module": "Data.Aeson.Encoding"
+,"name": "$trModule"}
+,"refs": [{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "Module"}
+,{"package": "ghc-prim"
+,"module": "GHC.Types"
+,"name": "TrNameS"}]}]
