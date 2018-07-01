@@ -16,7 +16,7 @@ package. Now you can use the `sift trace` command and flag up direct
 or indirect uses of a given binding.
 
 ```
-$ stack exec -- sift trace sift-bindings/*/* --flag-binding "ghc-prim GHC.Prim raise#"
+$ sift trace sift-bindings/*/* --flag-binding "ghc-prim GHC.Prim raise#"
 Flagged binding: ghc-prim:GHC.Prim.raise#
   Used by aeson:Data.Aeson.Encoding.Builder.day
   Used by aeson:Data.Aeson.Encoding.Builder.digit
@@ -44,6 +44,16 @@ See
 [full gist](https://gist.github.com/chrisdone/143b7bcc1fe21a1cde5d5ce0051f0016)
 for full output.
 
+## Discovery
+
+If you're not sure what the proper location for a binding is, search
+by identifier:
+
+```
+$ sift find sift-bindings/base-4.9.0.0/*.json --ident "fork#"
+Binding id: ghc-prim:GHC.Prim.fork#
+```
+
 ## Generate bindings
 
 For e.g. the aeson package, use sift-compiler in the aeson package directory:
@@ -51,6 +61,8 @@ For e.g. the aeson package, use sift-compiler in the aeson package directory:
 ```
 $ SIFT_PACKAGE=aeson stack ghci --with-ghc sift-compiler aeson:lib
 ```
+
+(`cabal repl` should also work similarly!)
 
 That will generate a bunch of files in the current directory for each
 module:
