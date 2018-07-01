@@ -6,7 +6,7 @@
 
 -- | Frontend plugin for GHC.
 
-module Sift.FrontendPlugin (frontendPlugin) where
+module Sift.FrontendPlugin (frontendPlugin, dumpBindings) where
 
 import           Bag
 import           Control.Monad.IO.Class
