@@ -153,7 +153,7 @@ import           Text.Printf
 import           Text.Read ( readMaybe )
 
 #ifndef mingw32_HOST_OS
-import           System.Posix hiding ( getEnv )
+
 #else
 import qualified System.Win32
 #endif
@@ -267,7 +267,6 @@ ghciCommands = [
   ("intro",     keepGoing intro,                noCompletion),
 
   ("load",      keepGoingPaths loadModule_,     completeHomeModuleOrFile),
-  ("fill",      keepGoing' (lifted fillCmd),             noCompletion),
   ("list",      keepGoing' listCmd,             noCompletion),
   ("module",    keepGoing moduleCmd,            completeSetModule),
   ("move",      keepGoing' moveCommand,         completeFilename),
@@ -287,58 +286,16 @@ ghciCommands = [
 
   ("trace",     keepGoing traceCmd,             completeExpression),
   ("undef",     keepGoing undefineMacro,        completeMacro),
-  ("unset",     keepGoing unsetOptions,         completeSetOptions)
+  ("unset",     keepGoing unsetOptions,         completeSetOptions),
+  ("quit",      quit,                           noCompletion)
   ]
   where lifted m = \str -> lift (m stdout str)
 
-fillCmd :: Handle -> String -> GHCi ()
-#if __GLASGOW_HASKELL__ >= 802
-fillCmd h =
-  withFillInput
-    (\fp line col -> do
-       infos <- fmap mod_infos getGHCiState
-       mname <- guessModule infos fp
-       case mname of
-         Nothing ->
-           liftIO (hPutStrLn h "Couldn't guess that module name. Does it exist?")
-         Just name -> do
-           case M.lookup name infos of
-             Nothing ->
-               liftIO
-                 (hPutStrLn h
-                    "Couldn't guess the module name. Is this module loaded?")
-             Just module' -> do
-               completable <-
-                 Completion.getCompletableModule (modinfoSummary module')
-               case Completion.declarationByLine
-                      completable
-                      (Completion.LineNumber line) of
-                 Nothing -> liftIO (hPutStrLn h "Couldn't guess the declaration.")
-                 Just declaration -> do
-                   df <- GHC.getSessionDynFlags
-                   case find
-                          ((\rs ->
-                              srcSpanStartLine rs == line &&
-                              srcSpanStartCol rs == col) .
-                           Completion.holeRealSrcSpan)
-                          (Completion.declarationHoles df declaration) of
-                     Nothing -> pure ()
-                     Just hole -> do
-                       subs <- Completion.holeSubstitutions hole
-                       mapM_
-                         (\sub ->
-                            liftIO
-                              (hPutStrLn h (Completion.substitutionString sub)))
-                         subs)
-#else
-fillCmd _ = withFillInput (\_ _ _ -> pure ())
-#endif
+-----------------------------------------------------------------------------
+-- :quit
 
-withFillInput :: (FilePath -> Int -> Int -> GHCi ()) -> String -> GHCi ()
-withFillInput cont input =
-  case words input of
-    [read -> name, read -> line, read -> col] -> (cont name line col)
-    _ -> liftIO (putStrLn "Invalid :fill call. Should be :fill <filename> <line number> <column number>")
+quit :: String -> InputT GHCi Bool
+quit _ = return True
 
 readOnlyCommands :: [(String, Handle -> String -> GHCi ())]
 readOnlyCommands =
@@ -869,7 +826,7 @@ checkPerms :: String -> IO Bool
 #ifdef mingw32_HOST_OS
 checkPerms _ = return True
 #else
-checkPerms name =
+checkPerms _name =
     return True
 #endif
 
