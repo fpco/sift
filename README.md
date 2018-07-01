@@ -1,6 +1,14 @@
 # sift
 Sift through Haskell code for analysis purposes
 
+## Install
+
+Install so it's available for any projects using this version of GHC:
+
+```
+stack install --copy-compiler-tool
+```
+
 ## Example use
 
 Use the bindings in `sift-bindings/base-4.9.0.0/` to seed the base
