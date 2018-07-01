@@ -39,11 +39,11 @@ frontend _flags args = do
   targets <- mapM (uncurry GHC.guessTarget) args
   GHC.setTargets targets
   _ <- GHC.load GHC.LoadAllTargets
-  dumpBindings
+  dumpBindings id
 
 -- | Track through the module grpah.
-dumpBindings :: GHC.GhcMonad m => m ()
-dumpBindings = do
+dumpBindings :: GHC.GhcMonad m => (Binding -> Binding) -> m ()
+dumpBindings f = do
   mgraph <- GHC.getModuleGraph
   mapM_
     (\modSummary -> do
@@ -51,7 +51,7 @@ dumpBindings = do
        liftIO
          (L.writeFile
             (moduleToFilePath (GHC.ms_mod modSummary))
-            (L.toLazyByteString (buildDump bs))))
+            (L.toLazyByteString (buildDump (map f bs)))))
     mgraph
 
 buildDump :: [Binding] -> L.Builder

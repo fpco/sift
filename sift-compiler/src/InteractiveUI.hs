@@ -30,6 +30,8 @@ module InteractiveUI (
 -- Intero
 import Sift.Compat
 import Sift.FrontendPlugin (dumpBindings)
+import Sift.Types
+import qualified Data.ByteString.Char8 as S8
 #if __GLASGOW_HASKELL__ >= 800
 import           GHCi
 import           GHCi.RemoteTypes
@@ -1732,7 +1734,8 @@ doLoad retain_context howmuch = do
       afterLoad ok retain_context
       return ok
   case wasok of
-    Succeeded -> dumpBindings
+    Succeeded -> do pkg <- liftIO (getEnv "SIFT_PACKAGE")
+                    dumpBindings (\b -> b {bindingId= (bindingId b) {bindingIdPackage = S8.pack pkg}})
     _ -> return ()
   return wasok
 
