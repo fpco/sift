@@ -151,9 +151,31 @@ track shouldFlag modSummary = do
           ]
         GHC.AbsBinds {GHC.abs_binds = binds} -> getBindingsForAll df binds
         GHC.AbsBindsSig {GHC.abs_sig_bind = bind} -> getBinding df bind
-        GHC.PatBind {} -> []
+        GHC.PatBind {GHC.pat_lhs = lhs, GHC.pat_rhs = rhs} ->
+          [ Binding
+              { bindingFlagged =
+                  mconcat
+                    (map
+                       (shouldFlag module')
+                       (listify (not . Set.null . shouldFlag module') rhs))
+              , bindingId = idToBindingId module' id'
+              , bindingSrcSpan = locToSpan (GHC.getLoc located)
+              , bindingRefs =
+                  map
+                    (idToBindingId module' . GHC.unLoc)
+                    (referencedIds id' rhs)
+              }
+          | id' <- patIds lhs]
         GHC.PatSynBind {} -> []
     module' = (GHC.ms_mod modSummary)
+
+patIds :: GHC.LPat GHC.Id -> [GHC.Id]
+patIds =
+  mapMaybe
+    (\case
+       GHC.VarPat l -> Just (GHC.unLoc l)
+       _ -> Nothing) .
+  listify (const True)
 
 -- | Get all the referenced variable IDs listed in an AST.
 referencedIds :: Data ast => GHC.Id -> ast -> [GHC.Located GHC.Id]
