@@ -1,3 +1,4 @@
+{-# LANGUAGE ViewPatterns #-}
 {-# LANGUAGE TupleSections #-}
 {-# LANGUAGE BangPatterns #-}
 {-# LANGUAGE RecordWildCards #-}
@@ -8,6 +9,7 @@
 
 module Main where
 
+import           Control.Monad
 import           Data.Aeson
 import           Data.ByteString (ByteString)
 import qualified Data.ByteString as S
@@ -21,6 +23,7 @@ import           Data.Ord
 import           Data.Set (Set)
 import qualified Data.Set as Set
 import qualified Data.Text.Encoding as T
+import           Data.Tree
 import           Options.Applicative.Simple
 import           Sift.Types
 
@@ -115,16 +118,48 @@ trace opts = do
       !g = graphBindings bindings
       flagged = flaggedVertices g
   mapM_
-    (\(v, binding) -> do
+    (\(flagged, binding) -> do
        S.putStrLn ("Flagged binding: " <> prettyBindingId (bindingId binding))
-       let inferred = sortBy (comparing (\(_,y,_) -> y)) (reverseDependencies g v)
+       let inferred =
+             sortBy
+               (comparing ((\(_, y, _) -> y) . graphVertexToNode g))
+               (reverseDependencies g flagged)
        if null inferred
          then S.putStrLn "[no uses]"
          else mapM_
-                (\(_, bid, _) ->
-                   S.putStrLn ("  Used by " <> prettyBindingId bid))
+                (\start -> do
+                   let (_, bid, _) = graphVertexToNode g start
+                   S.putStrLn ("  Used by " <> prettyBindingId bid)
+                   when
+                     False
+                     (putStr
+                        (unlines
+                           (map
+                              ("  " ++)
+                              (["Call trace:"] ++
+                               lines
+                                 (drawForest
+                                    (fmap
+                                       (fmap
+                                          (\v' ->
+                                             let (_, bid', _) =
+                                                   graphVertexToNode g v'
+                                              in S8.unpack
+                                                   (prettyBindingId bid')))
+                                       (filterForest
+                                          (flip
+                                             (Graph.path (graphGraph g))
+                                             flagged)
+                                          (Graph.dfs (graphGraph g) [start])))))))))
                 inferred)
     flagged
+
+filterForest :: (t -> Bool) -> [Tree t] -> [Tree t]
+filterForest p xs =
+  if null xs'
+     then []
+     else filter (p . rootLabel) xs'
+  where xs' = map (\(Node l ys) -> Node l (filterForest p ys)) xs
 
 applyFlags :: [(BindingId, ByteString)] -> Set Binding -> Set Binding
 applyFlags flags bs0 =
@@ -189,11 +224,9 @@ flaggedVertices g =
        (Graph.topSort (graphGraph g)))
 
 -- | Get the reverse dependencies of this vertex.
-reverseDependencies :: Graph -> Graph.Vertex -> [(Binding, BindingId, [BindingId])]
+reverseDependencies :: Graph -> Graph.Vertex -> [Graph.Vertex]
 reverseDependencies g v =
-  map
-    (graphVertexToNode g)
-    (filter (/= v) (Graph.reachable (Graph.transposeG (graphGraph g)) v))
+  filter (/= v) (Graph.reachable (Graph.transposeG (graphGraph g)) v)
 
 parseBindingId :: String -> Either String BindingId
 parseBindingId s =
