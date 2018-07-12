@@ -4,6 +4,7 @@
 
 module Main where
 
+import           Control.Exception
 import qualified GHCHarness as GHC
 import qualified Sift.FrontendPlugin as Sift
 import           Sift.Types
@@ -174,8 +175,11 @@ filesShouldBe files expected = do
     withTempDirectory
       "."
       "sift-temp"
-      (\fp -> do
-         setCurrentDirectory fp
-         mapM_ (\(name, contents) -> writeFile name contents) files
-         GHC.compileWith (map fst files) Sift.getBindings)
+      (\dir ->
+         finally
+           (do setCurrentDirectory dir
+               mapM_ (\(name, contents) -> writeFile name contents) files
+               GHC.compileWith (map fst files) Sift.getBindings)
+           (do setCurrentDirectory ".."
+               removeDirectoryRecursive dir))
   shouldBe bindings expected
