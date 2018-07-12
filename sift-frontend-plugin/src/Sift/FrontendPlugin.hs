@@ -6,7 +6,11 @@
 
 -- | Frontend plugin for GHC.
 
-module Sift.FrontendPlugin (frontendPlugin, dumpBindings) where
+module Sift.FrontendPlugin
+  ( frontendPlugin
+  , dumpBindings
+  , getBindings
+  ) where
 
 import           Bag
 import           Control.Monad.IO.Class
@@ -53,6 +57,14 @@ dumpBindings f = do
             (moduleToFilePath (GHC.ms_mod modSummary))
             (L.toLazyByteString (buildDump (map f bs)))))
     mgraph
+
+-- | Track through the module grpah.
+getBindings :: GHC.GhcMonad m => m [Binding]
+getBindings = do
+  mgraph <- GHC.getModuleGraph
+  fmap
+    concat
+    (mapM (\modSummary -> track (const (const mempty)) modSummary) mgraph)
 
 buildDump :: [Binding] -> L.Builder
 buildDump bs = array (map buildBinding bs)
