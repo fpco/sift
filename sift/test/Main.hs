@@ -171,6 +171,7 @@ singleFile =
 
 filesShouldBe :: [(FilePath, String)] -> [Binding] -> IO ()
 filesShouldBe files expected = do
+  pwd <- getCurrentDirectory
   bindings <-
     withTempDirectory
       "."
@@ -180,6 +181,6 @@ filesShouldBe files expected = do
            (do setCurrentDirectory dir
                mapM_ (\(name, contents) -> writeFile name contents) files
                GHC.compileWith (map fst files) Sift.getBindings)
-           (do setCurrentDirectory ".."
+           (do setCurrentDirectory pwd
                removeDirectoryRecursive dir))
   shouldBe bindings expected
