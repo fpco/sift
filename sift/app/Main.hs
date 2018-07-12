@@ -16,15 +16,15 @@ import qualified Data.ByteString as S
 import qualified Data.ByteString.Char8 as S8
 import qualified Data.ByteString.Lazy as L
 import           Data.Generics
-import qualified Data.Graph as Graph
 import           Data.List
 import           Data.Monoid
-import           Data.Ord
+import           Data.OrdGraph
 import           Data.Set (Set)
 import qualified Data.Set as Set
 import qualified Data.Text.Encoding as T
 import           Data.Tree
 import           Options.Applicative.Simple
+import           Sift
 import           Sift.Types
 
 data TraceOpts = TraceOpts
@@ -63,12 +63,6 @@ instance FromJSON BindingId where
     bindingIdModule <- fmap T.encodeUtf8 (o .: "module")
     bindingIdName <- fmap T.encodeUtf8 (o .: "name")
     pure BindingId {..}
-
-data Graph = Graph {
-  graphGraph :: !Graph.Graph,
-  graphVertexToNode :: Graph.Vertex -> (Binding, BindingId, [BindingId]),
-  graphLookupVertexByKey :: BindingId -> Maybe Graph.Vertex
- }
 
 main :: IO ()
 main = do
@@ -118,17 +112,14 @@ trace opts = do
       !g = graphBindings bindings
       flagged = flaggedVertices g
   mapM_
-    (\(flagged, binding) -> do
+    (\(fl, binding) -> do
        S.putStrLn ("Flagged binding: " <> prettyBindingId (bindingId binding))
-       let inferred =
-             sortBy
-               (comparing ((\(_, y, _) -> y) . graphVertexToNode g))
-               (reverseDependencies g flagged)
+       let inferred = infer g fl
        if null inferred
          then S.putStrLn "[no uses]"
          else mapM_
                 (\start -> do
-                   let (_, bid, _) = graphVertexToNode g start
+                   let (_, bid, _) = ordGraphVertexToNode g start
                    S.putStrLn ("  Used by " <> prettyBindingId bid)
                    when
                      False
@@ -137,55 +128,9 @@ trace opts = do
                            (map
                               ("  " ++)
                               (["Call trace:"] ++
-                               lines
-                                 (drawForest
-                                    (fmap
-                                       (fmap
-                                          (\v' ->
-                                             let (_, bid', _) =
-                                                   graphVertexToNode g v'
-                                              in S8.unpack
-                                                   (prettyBindingId bid')))
-                                       (filterForest
-                                          (flip
-                                             (Graph.path (graphGraph g))
-                                             flagged)
-                                          (Graph.dfs (graphGraph g) [start])))))))))
+                               lines (drawForest (callTrace g start fl)))))))
                 inferred)
     flagged
-
-filterForest :: (t -> Bool) -> [Tree t] -> [Tree t]
-filterForest p xs =
-  if null xs'
-     then []
-     else filter (p . rootLabel) xs'
-  where xs' = map (\(Node l ys) -> Node l (filterForest p ys)) xs
-
-applyFlags :: [(BindingId, ByteString)] -> Set Binding -> Set Binding
-applyFlags flags bs0 =
-  foldl'
-    (\bs (bid, flagterm) ->
-       let binding =
-             Binding
-               { bindingId = bid
-               , bindingFlagged = Set.singleton flagterm
-               , bindingSrcSpan = Nothing
-               , bindingRefs = []
-               }
-        in if Set.member binding bs
-             then Set.map
-                    (\ebinding ->
-                       case lookup (bindingId ebinding) flags of
-                         Nothing -> ebinding
-                         Just fl ->
-                           ebinding
-                             { bindingFlagged =
-                                 Set.insert fl (bindingFlagged ebinding)
-                             })
-                    bs
-             else Set.insert binding bs)
-    bs0
-    flags
 
 readProfiles :: [FilePath] -> IO (Set Binding)
 readProfiles fps = do
@@ -199,35 +144,6 @@ readProfile fp = do
     Left e -> error e
     Right bs -> pure bs
 
--- | Graph all package bindings.
-graphBindings ::
-     Set Binding
-  -> Graph
-graphBindings bs =
-  let (g, v2n, vbk) =
-        Graph.graphFromEdges
-          (map
-             (\binding -> (binding, bindingId binding, bindingRefs binding))
-             (Set.toList bs))
-   in Graph
-        {graphGraph = g, graphVertexToNode = v2n, graphLookupVertexByKey = vbk}
-
--- | Get the bindings that have been flagged up manually.
-flaggedVertices :: Graph -> [(Graph.Vertex, Binding)]
-flaggedVertices g =
-  filter
-    (not . Set.null . bindingFlagged . snd)
-    (map
-       (\v ->
-          (let (b, _, _) = graphVertexToNode g v
-            in (v, b)))
-       (Graph.topSort (graphGraph g)))
-
--- | Get the reverse dependencies of this vertex.
-reverseDependencies :: Graph -> Graph.Vertex -> [Graph.Vertex]
-reverseDependencies g v =
-  filter (/= v) (Graph.reachable (Graph.transposeG (graphGraph g)) v)
-
 parseBindingId :: String -> Either String BindingId
 parseBindingId s =
   case words s of
@@ -238,6 +154,3 @@ parseBindingId s =
               , bindingIdName = S8.pack i
               })
     _ -> Left "format: package module ident (e.g. base Prelude fmap)"
-
-prettyBindingId :: BindingId -> ByteString
-prettyBindingId (BindingId pkg md name) = pkg <>  ":" <>  md <>  "." <>  name
