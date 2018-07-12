@@ -6,13 +6,13 @@ import GHC
 import GHC.Paths ( libdir )
 import DynFlags
 
-compileWith :: FilePath -> Ghc a -> IO a
-compileWith fp m =
+compileWith :: [FilePath] -> Ghc a -> IO a
+compileWith fps m =
   defaultErrorHandler defaultFatalMessager defaultFlushOut $ do
     runGhc (Just libdir) $ do
       dflags <- getSessionDynFlags
       _ <- setSessionDynFlags dflags
-      target <- guessTarget fp Nothing
-      setTargets [target]
+      targets <- mapM (\fp -> guessTarget fp Nothing) fps
+      setTargets targets
       _ <- load LoadAllTargets
       m
