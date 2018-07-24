@@ -4,3 +4,6 @@
 - package: ghc-prim
   module: GHC.Prim
   name: raise#
+- package: ghc-prim
+  module: GHC.Prim
+  name: unsafeCoerce#
