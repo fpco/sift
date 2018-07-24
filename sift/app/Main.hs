@@ -9,6 +9,7 @@
 
 module Main where
 
+import           Control.Exception
 import           Control.Monad
 import           Data.Aeson
 import           Data.ByteString (ByteString)
@@ -23,13 +24,23 @@ import           Data.Set (Set)
 import qualified Data.Set as Set
 import qualified Data.Text.Encoding as T
 import           Data.Tree
+import qualified Data.Yaml
 import           Options.Applicative.Simple
+import           Paths_sift
 import           Sift
 import           Sift.Types
 
 data TraceOpts = TraceOpts
   { traceOptsPiles :: [FilePath]
   , traceOptsFlaggedIdents :: [BindingId]
+  , traceOptsShowCallTrace :: Bool
+  }
+
+data AuditOpts = AuditOpts
+  { auditOptsPiles :: [FilePath]
+  , auditOptsFlagFile :: FilePath
+  , auditOptsPackage :: !(Maybe ByteString)
+  , auditOptsShowCallTrace :: Bool
   }
 
 data FindOpts = FindOpts
@@ -66,6 +77,7 @@ instance FromJSON BindingId where
 
 main :: IO ()
 main = do
+  flagfile <- getDataFileName "flag.yaml"
   (_opts, cmd) <-
     simpleOptions
       "0.0.0"
@@ -76,22 +88,39 @@ main = do
             "trace"
             "Trace"
             trace
-            (TraceOpts <$> many (strArgument (metavar "BINDINGS_FILE")) <*>
+            (TraceOpts <$> many (strArgument (metavar "BINDINGS_FILE.json")) <*>
              many
                (option
                   (eitherReader parseBindingId)
                   (long "flag-binding" <> metavar "PKG:MODULE.IDENT" <>
-                   help "Flag up this binding")))
+                   help "Flag up this binding")) <*>
+             flag
+               False
+               True
+               (help "Show call trace (output tends to be large)" <>
+                long "call-trace"))
           addCommand
             "find"
             "Find"
             findBinding
-            (FindOpts <$> many (strArgument (metavar "BINDINGS_FILE")) <*>
+            (FindOpts <$> many (strArgument (metavar "BINDINGS_FILE.json")) <*>
              (fmap
                 (S8.pack)
                 (strOption
                    (long "ident" <> metavar "IDENT" <>
-                    help "Find this identifier as a binding")))))
+                    help "Find this identifier as a binding"))))
+          addCommand
+            "audit"
+            "Produce a report of general checks for a codebase"
+            auditReport
+            (AuditOpts <$> many (strArgument (metavar "BINDINGS_FILE.json")) <*>
+             strArgument (metavar "FLAG_FILE.yaml" <> value flagfile) <*>
+             optional (fmap S8.pack (strOption (metavar "PACKAGE_NAME" <> long "package"))) <*>
+             flag
+               False
+               True
+               (help "Show call trace (output tends to be large)" <>
+                long "call-trace")))
   cmd
 
 findBinding :: FindOpts -> IO ()
@@ -122,13 +151,50 @@ trace opts = do
                    let (_, bid, _) = ordGraphVertexToNode g start
                    S.putStrLn ("  Used by " <> prettyBindingId bid)
                    when
-                     False
+                     (traceOptsShowCallTrace opts)
                      (putStr
                         (unlines
                            (map
                               ("  " ++)
                               (["Call trace:"] ++
                                lines (drawForest (callTrace g start fl)))))))
+                inferred)
+    flagged
+
+auditReport :: AuditOpts -> IO ()
+auditReport opts = do
+  bindings0 <- readProfiles (auditOptsPiles opts)
+  iffy <-
+    do r <- Data.Yaml.decodeFileEither (auditOptsFlagFile opts)
+       case r of
+         Left e -> throw e
+         Right k -> pure k
+  let !bindings = applyFlags (map (, "flag-binding") iffy) bindings0
+      !g = graphBindings bindings
+      flagged = flaggedVertices g
+  mapM_
+    (\(fl, binding) -> do
+       S.putStrLn ("Flagged binding: " <> prettyBindingId (bindingId binding))
+       let inferred = infer g fl
+       if null inferred
+         then S.putStrLn "[no uses]"
+         else mapM_
+                (\start -> do
+                   let (bind, bid, _) = ordGraphVertexToNode g start
+                   when
+                     (maybe
+                        True
+                        (bindingIdPackage (bindingId bind) ==)
+                        (auditOptsPackage opts))
+                     (do S.putStrLn ("  Used by " <> prettyBindingId bid)
+                         when
+                           (auditOptsShowCallTrace opts)
+                           (putStr
+                              (unlines
+                                 (map
+                                    ("  " ++)
+                                    (["Call trace:"] ++
+                                     lines (drawForest (callTrace g start fl))))))))
                 inferred)
     flagged
 
